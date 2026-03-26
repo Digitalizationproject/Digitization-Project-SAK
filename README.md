@@ -1,14 +1,10 @@
 [![DOI](https://zenodo.org/badge/471756787.svg)](https://zenodo.org/badge/latestdoi/471756787)
 
-# DCHM-template
+# Digitization Project SAK Art Catalogues
 
-This is a template that was specifically designed to help students of the Digitising Cultural Heritage Materials (DCHM) course at the University of Borås publish their digitisation projects online with GitHub Pages. 
-But it can be used by anyone who wants to try GitHub Pages to publishing a simple HTML-based website.
 
-🚀[Visit the Website](https://sslis.github.io/DCHM-template/) if you want to see what the published version of this repository looks like.
 
-An example of what the template can turn into can be found in Wout's [DIY-frankensTEIn](https://sslis.github.io/DIY-frankensTEIn/index.html) repository.
-For more information on the template and how to get started yourself, please refer to [the repository's wiki](https://github.com/SSLIS/DCHM-template/wiki).  
+🚀[Visit the Website](https://digitalizationproject.github.io/Digitization-Project-SAK/) 
 
 ## A Note on Using the Template
 This template contains a series of files that are important for archiving purposes, and for upholding community standards, such as our [license information](LICENSE), and [Zenodo JSON metadata](.zenodo.json). While these files are useful to contextualize this specific repository, they would be irrelevant (or even contain false information) when copied over into the user's own repository. (For example: the [license](LICENSE) would identify me as the copyright holder of your repository.)
