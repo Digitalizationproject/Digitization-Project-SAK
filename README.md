@@ -1,8 +1,11 @@
 [![DOI](https://zenodo.org/badge/471756787.svg)](https://zenodo.org/badge/latestdoi/471756787)
 
-# Digitization Project SAK Art Catalogues
+# About this project
 
+This project is a part of the course in Digitization for preservation and accessability at the University of Borås, in the spring term 2026.
+We are a group of four students interested in digitizing art catalogues by SAK (Svensk Allmän Konstförening). 
 
+We chose ... catalogues and we focus on the design and typographical development of the catalogues from 18XX to 19XX.
 
 🚀[Visit the Website](https://digitalizationproject.github.io/Digitization-Project-SAK/) 
 
@@ -15,7 +18,3 @@ This process takes some time, albeit usually less than a minute. You may need to
 
 I would recommend that you wait until this process is finished (which should not take long) before cloning your repository to your local machine, and starting to modify it. If you do not notice any changes after some time, remember to refresh your page. You can also always go and check if the process is still running (and if anything has gone wrong) by navigating to the `Actions` tab at the top of your repository's page.
 
-## Credits
-This repository was originally developed by [Wout Dillen](https://github.com/WoutDLN) as a teaching tool in the Digitising Cultural Heritage Materials course at the [University of Borås](https://www.hb.se/), where he currently works as a Senior Lecturer in Library and Information Science. Continued development of the template has in part been made possible by [Huminfra](https://www.huminfra.se), the Swedish national infrastructure project for Digital Humanities.
-
-Special thanks to [vincerubinetti](https://github.com/vincerubinetti), whose GitHub Action (mentioned in [this forum comment](https://github.com/orgs/community/discussions/22183#discussioncomment-4585507)) formed the basis of the template cleanup procedure mentioned above, and to [Andre601](https://github.com/Andre601), for helping me figure out how to update the `.yml` file to get it to work.
