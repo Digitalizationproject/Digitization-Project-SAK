@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- Jag behöver fortfarande skriva koden som visar typsnitt, hur stora bokstäverna är, när det finns streck osv, men jag laddar upp filen nu så att ni kan se vad som finns just nu :) -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Utställda Målningar af Äldre Svenska Mästare</title>
+                <author>Carmen Gogan, Daniel Hoflund, Miranda Rönngren, Zoe Bauer</author>
+                <principal>Carmen Gogan, Daniel Hoflund, Miranda Rönngren, Zoe Bauer</principal>
+                <meeting>(Vet inte om vi behöver detta?) Tex Digitization project for the course "Digitization for BLAH BLAH" course name? </meeting>
+                <respStmt>
+                    <resp>Encoding</resp>
+                    <name>Zoe Bauer</name>
+                </respStmt>
+                <respStmt>
+                    <resp>andra ansvar</resp>
+                    <name>Andra Person</name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure>
+            </extent>
+            <publicationStmt>
+                <publisher>Högskolan i Borås FIX THIS PART</publisher>
+                <pubPlace>
+                    <address>
+                        <orgName>HB IT services</orgName>
+                        <street>ADDRESS HÄR</street>
+                        <settlement>Borås</settlement>
+                        <postCode>POSTNUMMER HÄR</postCode>
+                        <country>Sweden</country>
+                    </address>
+                </pubPlace>
+                <distributor>IT services, Högskolan i Borås</distributor>
+                <authority>Zoe Bauer</authority>
+                <date when="2026-03-30">30 March 2026</date>
+                <idno>1870_01_a</idno>
+                <availability>
+                    <p>FIX THIS Licensed with a <ref target="http://creativecommons.org/licenses/by/3.0/"> Creative
+                            Commons Attribution</ref> licence.</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Sveriges Allmänna Konstföreningen exhibition catalogs</title>
+                <respStmt>
+                    <resp>catalogues chosen by</resp>
+                    <name>Carmen Cogan, Daniel Hoflund, Miranda Rönngren and Zoe Bauer</name>
+                </respStmt>
+            </seriesStmt>
+            <notesStmt>
+                <note>Transcribed for a digitization project.</note>
+            </notesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <title>Utställda Målningar af Äldre Svenska Mästare</title>
+                        <imprint>
+                            <publisher>Konstnärförbundet</publisher>
+                            <pubPlace>Stockholm</pubPlace>
+                            <date>1870</date>
+                            <biblScope unit="page" n="2">Two pages</biblScope>
+                            <note>Printed by Kongl. Boktryckare.</note>
+                        </imprint>
+                    </monogr>
+                    <note>Front and back of an exhibition catalogue.</note>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This project created digtizations of art exhibition catalogues for the preservation of cultural heritage.</p>
+            </projectDesc>
+            <samplingDecl>
+                <p>Catalogues were chosen both which exemplified common design choices for the time period, as well as unique or artistic designs which provided contrast to those standard designs.</p>
+            </samplingDecl>
+            <editorialDecl>
+                <correction>
+                    <p>DO THIS SECTION LATER.</p>
+                </correction>
+                <hyphenation>
+                    <p>Hyphens have been transcribed as they appear. ADD MORE SECTIONS AND DETAILS</p>
+                </hyphenation>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="sv">Swedish</language>
+            </langUsage>
+            <textDesc>
+                <channel mode="w">printed catalogue</channel>
+                <constitution type="frags">Front and back covers only.</constitution>
+                <derivation type="original"></derivation>
+                <domain></domain>
+                <factuality type="fact"></factuality>
+                <interaction></interaction>
+                <preparedness></preparedness>
+                <purpose type="inform" degree="high"></purpose>
+                <purpose type="persuade" degree="low"></purpose>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2026-04">
+                <persName>Zoe Bauer</persName> created the header. </change>
+            <change when="2026-04">
+                <persName>Miranda Rönngren</persName> transcribed the <title>Utställda Målningar af Äldre Svenska Mästare</title> document. </change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <surface xml:id="front1870">
+            <figure>
+                <label>Catalog front</label>
+                <figDesc>
+                    A photograph of the front of a catalog from 1870. 
+                </figDesc>
+                <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
+                <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            </figure>
+        </surface>
+        <surface xml:id="back1870">
+            <figure>
+                <label>Catalog back</label>
+                <figDesc>
+                    A photograph of the back of a catalog from 1870. 
+                </figDesc>
+                <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
+                <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
+            </figure>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            
+            <div type="page" facs="#front1870" rend="center">
+                <div type="title">
+                <l>FÖRTECKNING</l>
+                <l>Å</l>
+                <l>I KONSTFÖRENINGEN</l>
+                <l>UTSTÄLLDA MÅLNINGAR</l>
+                <l>AF</l>
+                <l>ÄLDRE SVENSKA MÄSTARE.</l>
+                <l>ANDRA AFDELNINGEN.</l>
+                <l>GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</l>
+                <l>(<date when="1770">1770</date>--<date when="1809">1809</date>).</l>
+                <l>FÖRSTA SERIEN.</l>
+                </div> 
+            
+            <!-- Here dateline is used to record the date and place -->
+            <!-- Ska vi katagorisera 1870 som datum för utställningen, eller för när katalogen trycktes? I så fall skulle allt under här vara tillsammans som biblStruct -->
+            <div type="date">
+            <dateline rend="center">
+                <placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date> <lb/>
+            </dateline>
+            </div>
+            
+            <div type="publication" rend="center">
+                <l>P.A. NORSTEDT &amp; SÖNER</l>
+                <l>KONGL. BOKTRYCKARE.</l>
+            </div>
+            </div>
+
+            <div type="page" facs="#back1870" rend="left">
+                <p>
+                    <l>12</l>
+                    <l>Åkerström, Jonas, f. 1759, Dekorationsmålare, reste <lb/> 
+                        ut till Italien, &#10013; i Rom 1795. Elev af Desprez <lb/> 
+                        och Masreliez. </l>
+                    <l>N:o 59. Meleager, vägrande att gå till striden, be- <lb/> 
+                        vekes af sin makas tårar; komposition <lb/> 
+                        med många figurer. Receptionsstycke <lb/> 
+                        1794.</l>
+                    <l>Tillhör Konst-Akademien.</l>
+                </p>
+            </div> 
+        </body>
+    </text>
+</TEI>
