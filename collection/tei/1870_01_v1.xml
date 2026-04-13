@@ -144,13 +144,14 @@
                 <l>UTSTÄLLDA MÅLNINGAR</l>
                 <l>AF</l>
                 <l>ÄLDRE SVENSKA MÄSTARE.</l>
+                    <l>&#8213;</l>
                 <l>ANDRA AFDELNINGEN.</l>
                 <l>GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</l>
-                <l>(<date when="1770">1770</date>--<date when="1809">1809</date>).</l>
+                <l>(<date when="1770">1770</date> &#8212; <date when="1809">1809</date>).</l>
                 <l>FÖRSTA SERIEN.</l>
+                    <l>&#8213;</l>
                 </div> 
             
-            <!-- Here dateline is used to record the date and place -->
             <!-- Ska vi katagorisera 1870 som datum för utställningen, eller för när katalogen trycktes? I så fall skulle allt under här vara tillsammans som biblStruct -->
             <div type="date">
             <dateline rend="center">
