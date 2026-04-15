@@ -13,7 +13,7 @@
                 <title>Utställda Målningar af Äldre Svenska Mästare</title>
                 <author>Carmen Gogan, Daniel Hoflund, Miranda Rönngren, Zoe Bauer</author>
                 <principal>Carmen Gogan, Daniel Hoflund, Miranda Rönngren, Zoe Bauer</principal>
-                <meeting>(Vet inte om vi behöver detta?) Tex Digitization project for the course "Digitization for BLAH BLAH" course name? </meeting>
+                <meeting>(Vet inte om vi behöver detta?) Tex Digitization project for the course "Digitalisering för bevarande och tillgänglighet"? </meeting>
                 <respStmt>
                     <resp>Encoding</resp>
                     <name>Zoe Bauer</name>
@@ -27,13 +27,13 @@
                 <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure>
             </extent>
             <publicationStmt>
-                <publisher>Högskolan i Borås FIX THIS PART</publisher>
+                <publisher>Högskolan i Borås(??)</publisher>
                 <pubPlace>
                     <address>
                         <orgName>HB IT services</orgName>
-                        <street>ADDRESS HÄR</street>
+                        <street>Allégatan 1</street>
                         <settlement>Borås</settlement>
-                        <postCode>POSTNUMMER HÄR</postCode>
+                        <postCode>50190</postCode>
                         <country>Sweden</country>
                     </address>
                 </pubPlace>
@@ -65,6 +65,7 @@
                             <pubPlace>Stockholm</pubPlace>
                             <date>1870</date>
                             <biblScope unit="page" n="2">Two pages</biblScope>
+                            <biblScope>Front and back covers.</biblScope>
                             <note>Printed by Kongl. Boktryckare.</note>
                         </imprint>
                     </monogr>
@@ -84,8 +85,11 @@
                     <p>DO THIS SECTION LATER.</p>
                 </correction>
                 <hyphenation>
-                    <p>Hyphens have been transcribed as they appear. ADD MORE SECTIONS AND DETAILS</p>
+                    <p>Hyphens have been transcribed as they appear.</p>
                 </hyphenation>
+                <segmentation>
+                    <p>Line breaks have been preserved.</p>
+                </segmentation>
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
@@ -112,12 +116,14 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
+        <!-- Ska uppdatera namn på surface här och under när jag vet vad de heter i XML-->
         <surface xml:id="front1870">
             <figure>
                 <label>Catalog front</label>
                 <figDesc>
                     A photograph of the front of a catalog from 1870. 
                 </figDesc>
+                <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
                 <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
                 <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
             </figure>
@@ -152,7 +158,7 @@
                     <l>&#8213;</l>
                 </div> 
             
-            <!-- Ska vi katagorisera 1870 som datum för utställningen, eller för när katalogen trycktes? I så fall skulle allt under här vara tillsammans som biblStruct -->
+            <!-- Ska vi katagorisera 1870 här som datum för utställningen, eller för när katalogen trycktes? I så fall skulle allt under här vara tillsammans som biblStruct -->
             <div type="date">
             <dateline rend="center">
                 <placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date> <lb/>
@@ -166,6 +172,7 @@
             </div>
 
             <div type="page" facs="#back1870" rend="left">
+                <!-- När vi gör HTML kan vi visa hur det ser ut på sidan med spacing osv-->
                 <p>
                     <l>12</l>
                     <l>Åkerström, Jonas, f. 1759, Dekorationsmålare, reste <lb/> 
