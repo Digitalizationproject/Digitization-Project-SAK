@@ -3,16 +3,17 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<!-- Jag behöver fortfarande skriva koden som visar typsnitt, hur stora bokstäverna är, när det finns streck osv, men jag laddar upp filen nu så att ni kan se vad som finns just nu :) -->
+<!-- Jag behöver fortfarande skriva koden som hur stora bokstäverna är, var det finns streck osv -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>    
+    <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Utställda Målningar af Äldre Svenska Mästare</title>
                 <author>Carmen Gogan, Daniel Hoflund, Miranda Rönngren, Zoe Bauer</author>
                 <principal>Carmen Gogan, Daniel Hoflund, Miranda Rönngren, Zoe Bauer</principal>
-                <meeting>(Vet inte om vi behöver detta?) Tex Digitization project for the course "Digitalisering för bevarande och tillgänglighet"? </meeting>
+                <meeting>(Vet inte om vi behöver detta?) Tex Digitization project for the course
+                    "Digitalisering för bevarande och tillgänglighet"? </meeting>
                 <respStmt>
                     <resp>Encoding</resp>
                     <name>Zoe Bauer</name>
@@ -41,8 +42,9 @@
                 <date when="2026-03-30">30 March 2026</date>
                 <idno>1870_01_a</idno>
                 <availability>
-                    <p>FIX THIS Licensed with a <ref target="http://creativecommons.org/licenses/by/3.0/"> Creative
-                            Commons Attribution</ref> licence.</p>
+                    <p>FIX THIS Licensed with a <ref
+                            target="http://creativecommons.org/licenses/by/3.0/"> Creative Commons
+                            Attribution</ref> licence.</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -64,10 +66,14 @@
                     </msIdentifier>
                     <physDesc>
                         <typeDesc>
-                            <typeNote>Contains both serif and sans-serif fonts. Front cover contains only uppercase letters, while the back cover is mixed case.</typeNote>
+                            <typeNote rend="serif; sans serif; uppercase; mixed case">Contains both serif and sans serif fonts. Front cover contains
+                                only uppercase letters, while the back cover is mixed
+                                case.</typeNote>
                         </typeDesc>
                         <decoDesc>
-                            <decoNote>Cover contains only text and two lines which delineate between parts of the cover. Text is centered and symmetrical and contains a clear hierarchy. No other decoration.</decoNote>
+                            <decoNote rend="text; horizontal lines; symmetical; hierarchical">Cover contains only text and two horizontal lines which delineate between
+                                parts of the cover. Text is centered and symmetrical and contains a
+                                clear hierarchy. No other decoration.</decoNote>
                         </decoDesc>
                     </physDesc>
                 </msDesc>
@@ -89,10 +95,13 @@
         </fileDesc>
         <encodingDesc>
             <projectDesc>
-                <p>This project created digtizations of art exhibition catalogues for the preservation of cultural heritage.</p>
+                <p>This project created digtizations of art exhibition catalogues for the
+                    preservation of cultural heritage.</p>
             </projectDesc>
             <samplingDecl>
-                <p>Catalogues were chosen both which exemplified common design choices for the time period, as well as unique or artistic designs which provided contrast to those standard designs.</p>
+                <p>Catalogues were chosen both which exemplified common design choices for the time
+                    period, as well as unique or artistic designs which provided contrast to those
+                    standard designs.</p>
             </samplingDecl>
             <editorialDecl>
                 <correction>
@@ -113,20 +122,21 @@
             <textDesc>
                 <channel mode="w">printed catalogue</channel>
                 <constitution type="frags">Front and back covers only.</constitution>
-                <derivation type="original"></derivation>
-                <domain></domain>
-                <factuality type="fact"></factuality>
-                <interaction></interaction>
-                <preparedness></preparedness>
-                <purpose type="inform" degree="high"></purpose>
-                <purpose type="persuade" degree="low"></purpose>
+                <derivation type="original"/>
+                <domain/>
+                <factuality type="fact"/>
+                <interaction/>
+                <preparedness/>
+                <purpose type="inform" degree="high"/>
+                <purpose type="persuade" degree="low"/>
             </textDesc>
         </profileDesc>
         <revisionDesc>
             <change when="2026-04">
                 <persName>Zoe Bauer</persName> created the header. </change>
             <change when="2026-04">
-                <persName>Miranda Rönngren</persName> transcribed the <title>Utställda Målningar af Äldre Svenska Mästare</title> document. </change>
+                <persName>Miranda Rönngren</persName> transcribed the <title>Utställda Målningar af
+                    Äldre Svenska Mästare</title> document. </change>
         </revisionDesc>
     </teiHeader>
     <facsimile>
@@ -134,9 +144,7 @@
         <surface xml:id="front1870">
             <figure>
                 <label>Catalog front</label>
-                <figDesc>
-                    A photograph of the front of a catalog from 1870. 
-                </figDesc>
+                <figDesc> A photograph of the front of a catalog from 1870. </figDesc>
                 <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
                 <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
                 <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
@@ -145,9 +153,7 @@
         <surface xml:id="back1870">
             <figure>
                 <label>Catalog back</label>
-                <figDesc>
-                    A photograph of the back of a catalog from 1870. 
-                </figDesc>
+                <figDesc> A photograph of the back of a catalog from 1870. </figDesc>
                 <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
                 <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
             </figure>
@@ -155,50 +161,49 @@
     </facsimile>
     <text>
         <body>
-            
-            <div type="page" facs="#front1870" rend="center">
+
+            <div type="page" facs="#front1870" rend="center; serif">
                 <div type="title">
-                <l>FÖRTECKNING</l>
-                <l>Å</l>
-                <l>I KONSTFÖRENINGEN</l>
-                <l>UTSTÄLLDA MÅLNINGAR</l>
-                <l>AF</l>
-                <l>ÄLDRE SVENSKA MÄSTARE.</l>
+                    <l>FÖRTECKNING</l>
+                    <l rend="case(small caps)">Å</l>
+                    <l>I KONSTFÖRENINGEN</l>
+                    <l>UTSTÄLLDA MÅLNINGAR</l>
+                    <l rend="case(small caps)">AF</l>
+                    <l>ÄLDRE SVENSKA MÄSTARE.</l>
                     <l>&#8213;</l>
-                <l>ANDRA AFDELNINGEN.</l>
-                <l>GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</l>
-                <l>(<date when="1770">1770</date> &#8212; <date when="1809">1809</date>).</l>
-                <l>FÖRSTA SERIEN.</l>
+                    <l>ANDRA AFDELNINGEN.</l>
+                    <l rend="sans serif">GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</l>
+                    <l>(<date when="1770">1770</date> &#8212; <date when="1809">1809</date>).</l>
+                    <l>FÖRSTA SERIEN.</l>
                     <l>&#8213;</l>
-                </div> 
-            
-            <!-- Ska vi katagorisera 1870 här som datum för utställningen, eller för när katalogen trycktes? I så fall skulle allt under här vara tillsammans som biblStruct -->
-            <div type="date">
-            <dateline rend="center">
-                <placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date> <lb/>
-            </dateline>
-            </div>
-            
-            <div type="publication" rend="center">
-                <l>P.A. NORSTEDT &amp; SÖNER</l>
-                <l>KONGL. BOKTRYCKARE.</l>
-            </div>
+                </div>
+
+                <!-- Ska vi katagorisera 1870 här som datum för utställningen, eller för när katalogen trycktes? I så fall skulle allt under här vara tillsammans som biblStruct -->
+                <div type="date" rend="center; serif">
+                    <dateline>
+                        <placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date>
+                        <lb/>
+                    </dateline>
+                </div>
+
+                <div type="publication" rend="center; serif">
+                    <l>P.A. NORSTEDT &amp; SÖNER</l>
+                    <l>KONGL. BOKTRYCKARE.</l>
+                </div>
             </div>
 
-            <div type="page" facs="#back1870" rend="left">
+            <div type="page" facs="#back1870" rend="left; serif">
                 <!-- När vi gör HTML kan vi visa hur det ser ut på sidan med spacing osv-->
                 <p>
                     <l>12</l>
-                    <l><name rend="bold">Åkerström,</name> <name rend="italics">Jonas</name>, f. 1759, Dekorationsmålare, reste <lb/> 
-                        ut till Italien, &#10013; i Rom 1795. Elev af Desprez <lb/> 
-                        och Masreliez. </l>
-                    <l>N:o 59. Meleager, vägrande att gå till striden, be- <lb/> 
-                        vekes af sin makas tårar; komposition <lb/> 
-                        med många figurer. Receptionsstycke <lb/> 
-                        1794.</l>
+                    <l><name rend="bold">Åkerström,</name>
+                        <name rend="italics">Jonas</name>, f. 1759, Dekorationsmålare, reste <lb/>
+                        ut till Italien, &#10013; i Rom 1795. Elev af Desprez <lb/> och Masreliez. </l>
+                    <l>N:o 59. Meleager, vägrande att gå till striden, be- <lb/> vekes af sin makas
+                        tårar; komposition <lb/> med många figurer. Receptionsstycke <lb/> 1794.</l>
                     <l>Tillhör Konst-Akademien.</l>
                 </p>
-            </div> 
+            </div>
         </body>
     </text>
 </TEI>
