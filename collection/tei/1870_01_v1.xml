@@ -6,8 +6,7 @@
 <!-- Jag behöver fortfarande skriva koden som visar typsnitt, hur stora bokstäverna är, när det finns streck osv, men jag laddar upp filen nu så att ni kan se vad som finns just nu :) -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        
+    <teiHeader>    
         <fileDesc>
             <titleStmt>
                 <title>Utställda Målningar af Äldre Svenska Mästare</title>
@@ -57,11 +56,26 @@
                 <note>Transcribed for a digitization project.</note>
             </notesStmt>
             <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Stockholm</settlement>
+                        <institution>City of Stockholm</institution>
+                        <repository>City Archives Liljeholmskajen</repository>
+                    </msIdentifier>
+                    <physDesc>
+                        <typeDesc>
+                            <typeNote>Contains both serif and sans-serif fonts. Front cover contains only uppercase letters, while the back cover is mixed case.</typeNote>
+                        </typeDesc>
+                        <decoDesc>
+                            <decoNote>Cover contains only text and two lines which delineate between parts of the cover. Text is centered and symmetrical and contains a clear hierarchy. No other decoration.</decoNote>
+                        </decoDesc>
+                    </physDesc>
+                </msDesc>
                 <biblStruct>
                     <monogr>
                         <title>Utställda Målningar af Äldre Svenska Mästare</title>
                         <imprint>
-                            <publisher>Konstnärförbundet</publisher>
+                            <publisher>Konstföreningen i Stockholm</publisher>
                             <pubPlace>Stockholm</pubPlace>
                             <date>1870</date>
                             <biblScope unit="page" n="2">Two pages</biblScope>
@@ -175,7 +189,7 @@
                 <!-- När vi gör HTML kan vi visa hur det ser ut på sidan med spacing osv-->
                 <p>
                     <l>12</l>
-                    <l>Åkerström, Jonas, f. 1759, Dekorationsmålare, reste <lb/> 
+                    <l><name rend="bold">Åkerström,</name> <name rend="italics">Jonas</name>, f. 1759, Dekorationsmålare, reste <lb/> 
                         ut till Italien, &#10013; i Rom 1795. Elev af Desprez <lb/> 
                         och Masreliez. </l>
                     <l>N:o 59. Meleager, vägrande att gå till striden, be- <lb/> 
