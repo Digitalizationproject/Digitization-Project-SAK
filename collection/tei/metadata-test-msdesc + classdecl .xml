@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            
+            <!-- Kolla upp om vi kan använda msDesc istället för (eller tillsammans med) biblDesc? Här kan vi få in mycket data om fysiska egenskaper, layout etc.
+            Vi borde kunna lägga till t. ex. condition och andra aspekter också? Dock är msDesc avsedd för manuskript. Jag tror att det är okej att använda till andra textobjekt, men är inte helt säker.-->
+            
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Stockholm</settlement>
+                  <repository>Riksarkivet?</repository>
+                  <idno>1870_01_a</idno>
+               </msIdentifier>         
+               <msContents>
+                  <msItem>
+                     <author>unknown</author>
+                     <title xml:lang="sv">Utställda Målningar af Äldre Svenska Mästare</title>
+                     <textLang mainLang="sv">svenska</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaflet">
+                     <supportDesc>
+                        <support ana="#uncoated #thin">           <!-- Detta är alltså termer som jag hämtat från taxonomierna som jag skapat längre ner -->
+                           <material>Paper</material>
+                        </support>
+                        <extent>
+                           <measure unit="pages">Antal sidor</measure>
+                           <dimensions scope="all" type="leaf" unit="millimeter">
+                              <height>Fyll i</height>
+                              <width>Fyll i</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <p>Här kan man få in antal kolummner - Gäller dock hela objektet.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="#glued">
+                <p>Glued</p>
+                     </binding>
+                  </bindingDesc>           
+               </physDesc>
+               <history>
+                  <origin>
+                     <note>Physical production corresponds to publication event.</note>
+                  </origin>
+               </history>
+            </msDesc>
+    </sourceDesc>
+      </fileDesc>
+     
+     <!-- Hömtat från Zoes kod för att dokumentet ska valideras-->
+     
+     <encodingDesc>
+        <projectDesc>
+           <p>This project created digtizations of art exhibition catalogues for the preservation of cultural heritage.</p>
+        </projectDesc>
+        <samplingDecl>
+           <p>Catalogues were chosen both which exemplified common design choices for the time period, as well as unique or artistic designs which provided contrast to those standard designs.</p>
+        </samplingDecl>
+        <editorialDecl>
+           <correction>
+              <p>DO THIS SECTION LATER.</p>
+           </correction>
+           <hyphenation>
+              <p>Hyphens have been transcribed as they appear.</p>
+           </hyphenation>
+           <segmentation>
+              <p>Line breaks have been preserved.</p>
+           </segmentation>
+        </editorialDecl>
+        
+        <!-- classDecl - ett sätt att göra en form av "kontrollerat vokabulär" för material, layout och typografi? Osäker på om detta är kan användas såhär? eller om jag har varit för kreativ?-->
+
+        <classDecl>
+           
+           <taxonomy xml:id="paperType">
+              <category xml:id="coated"><catDesc>Coated paper surface</catDesc></category>
+              <category xml:id="uncoated"><catDesc>Uncoated paper surface</catDesc></category>
+              <category xml:id="thin"><catDesc>Thin paper type</catDesc></category>
+              <category xml:id="thick"><catDesc>Thick paper type</catDesc></category>
+              <category xml:id="paperUnknown"><catDesc>Unknown paper type</catDesc></category>
+           </taxonomy>
+           
+           <taxonomy xml:id="printTechnique">
+              <category xml:id="letterpress"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="offset"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="printUnknown"><catDesc>Beskrivning</catDesc></category>
+           </taxonomy>
+           
+           <taxonomy xml:id="colorScheme">
+              <category xml:id="bw"><catDesc>Black and white print</catDesc></category>
+              <category xml:id="twoColor"><catDesc>Two-color print</catDesc></category>
+              <category xml:id="multiColor"><catDesc>Full color print</catDesc></category>
+           </taxonomy>
+           
+           <taxonomy xml:id="bindingType">
+              <category xml:id="stapled"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="glued"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="looseLeaf"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="bindingOther"><catDesc>Beskrivning</catDesc></category>
+           </taxonomy> 
+           
+           <taxonomy xml:id="typeClass">
+              <category xml:id="oldStyleSerif"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="sansSerif"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="didoneSerif"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="slabSerif"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="blackletter"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="script"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="mixedType"><catDesc>Beskrivning</catDesc></category>
+              <category xml:id="typeUnknown"><catDesc>Beskrivning</catDesc></category>
+           </taxonomy>         
+           
+        </classDecl>
+        
+        <!--  -->
+        
+     </encodingDesc>  
+  </teiHeader>
+   
+   
+   <!-- Här är också tanken att man ska kunna använda termerna från taxonomierna -->
+   
+   <facsimile>
+         <surface xml:id="front1870" ana="#bw #oldStyleSerif">              <!-- som på den här raden -->
+         <figure>
+            <label>Catalog front</label>
+            <figDesc>
+               A photograph of the front of a catalog from 1870. 
+            </figDesc>
+            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
+            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="back1870">
+         <figure>
+            <label>Catalog back</label>
+            <figDesc>
+               A photograph of the back of a catalog from 1870. 
+            </figDesc>
+            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
+            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
+         </figure>
+      </surface>
+   </facsimile>
+   
+   
+   
+   <!-- Eller i texten? Jag tror vi behöver fundera på vilken data vi vill ha med, och vilken data som ska vara med på vilken nivå: objektnivå, surface-nivå (sidnivå?), textnivå?-->
+   <text>
+      <body>
+         <div type="page"
+            facs="#front1870"
+            ana="#oldStyleSerif">      <!-- Här har jag exempelvis lagt till typsnitt -->
+            
+            <div type="title">
+               <l>FÖRTECKNING</l>
+               <l>Å</l>
+               <l>I KONSTFÖRENINGEN</l>
+               <l>UTSTÄLLDA MÅLNINGAR</l>
+               <l>AF</l>
+               <l>ÄLDRE SVENSKA MÄSTARE.</l>
+               <l>&#8213;</l>
+               <l>ANDRA AFDELNINGEN.</l>
+               <l>GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</l>
+               <l>(<date when="1770">1770</date> &#8212; <date when="1809">1809</date>).</l>
+               <l>FÖRSTA SERIEN.</l>
+               <l>&#8213;</l>
+            </div>
+            
+            <div type="date">
+               <dateline rend="center">
+                  <placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date> <lb/>
+               </dateline>
+            </div>
+            
+            <div type="publication" rend="center">
+               
+               <div type="publication" rend="center">
+                  <l>P.A. NORSTEDT &amp; SÖNER</l>
+                  <l>KONGL. BOKTRYCKARE.</l>
+               </div>
+            </div>
+            
+         </div>
+      </body>
+   </text>
+</TEI>
+
