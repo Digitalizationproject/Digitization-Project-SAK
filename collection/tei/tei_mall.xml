@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>    
+            <title>Utställda Målningar af Äldre Svenska Mästare</title>
+            <author>Carmen Gogan, Daniel Hoflund, Miranda Rönngren, Zoe Bauer</author>
+            <principal>Carmen Gogan, Daniel Hoflund, Miranda Rönngren, Zoe Bauer</principal>
+            <respStmt>
+               <resp>Encoding</resp>
+               <name>Zoe Bauer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding</resp>
+               <name>Miranda Rönngren</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>Högskolan i Borås</publisher>
+            <pubPlace>
+               <address>
+                  <orgName>HB IT services</orgName>
+                  <street>Allégatan 1</street>
+                  <settlement>Borås</settlement>
+                  <postCode>50190</postCode>
+                  <country>Sweden</country>
+               </address>
+            </pubPlace>
+            <distributor>IT services, Högskolan i Borås</distributor>
+            <authority>Zoe Bauer</authority>
+            <date when="2026-03-30">30 March 2026</date>
+            <idno>1870_01_a</idno>
+            <availability>
+               <p>FIX THIS Licensed with a <ref 
+                     target="http://creativecommons.org/licenses/by/3.0/"> Creative Commons
+                     Attribution</ref> licence.</p>   <!-- BEHÖVER VI FIXA NÅGOT HÄR? -->
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Sveriges Allmänna Konstföreningen exhibition catalogs</title>
+            <respStmt>
+               <resp>catalogues chosen by</resp>
+               <name>Carmen Cogan, Daniel Hoflund, Miranda Rönngren and Zoe Bauer</name>
+            </respStmt>
+         </seriesStmt>
+         <notesStmt>
+            <note>Transcribed for a digitization project.</note>
+         </notesStmt>
+         <sourceDesc>
+            
+            <!-- biblStruct -->
+            
+            <biblStruct>
+               <monogr>
+                  <title>Utställda Målningar af Äldre Svenska Mästare</title>
+                  <imprint>
+                     <publisher>Konstföreningen i Stockholm</publisher>
+                     <pubPlace>Stockholm</pubPlace>
+                     <date>1870</date>
+                     <biblScope unit="page" n="2">Two pages</biblScope>       <!-- sidantal finns både här och i msDesc -->
+                     <biblScope>Front and back covers.</biblScope>
+                     <note>Printed by Kongl. Boktryckare.</note>
+                  </imprint>
+               </monogr>
+               <note>Front and back of an exhibition catalogue.</note>
+            </biblStruct>
+            
+            <!-- msDesc -->
+            
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Stockholm</settlement>
+                  <repository>Riksarkivet</repository>
+                  <idno>1870_01_a</idno>
+               </msIdentifier>         
+               <msContents>
+                  <msItem>
+                     <author>unknown</author>
+                     <title xml:lang="sv">Utställda Målningar af Äldre Svenska Mästare</title>
+                     <textLang mainLang="sv">svenska</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaflet" ana="#letterpress #goodCondition"> <!-- osäker på var denna metadata bör finnas... -->
+                     <supportDesc>
+                        <support ana="#uncoated #thin #whiteCover"> <!-- Detta är termer som jag hämtat från taxonomierna som finns längre ner -->    
+                           <material>Paper</material>
+                        </support>
+                        <extent>
+                           <measure unit="pages">Antal sidor</measure>
+                           <dimensions scope="all" type="leaf" unit="millimeter">
+                              <height>Fyll i</height>
+                              <width>Fyll i</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2">In double columns.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <bindingDesc>
+                     <binding ana="#glued">
+                        <p>Glued</p>
+                     </binding>
+                  </bindingDesc>           
+               </physDesc>
+               <history>
+                  <origin>
+                     <note>Physical production corresponds to publication event.</note>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+          <encodingDesc>
+        <projectDesc>
+           <p>This project created digtizations of art exhibition catalogues for the
+              preservation of cultural heritage.</p>
+        </projectDesc>
+        <samplingDecl>
+           <p>Catalogues were chosen both which exemplified common design choices for the time
+              period, as well as unique or artistic designs which provided contrast to those
+              standard designs.</p>
+        </samplingDecl>
+        <editorialDecl>
+           <correction>
+              <p>DO THIS SECTION LATER.</p>
+           </correction>
+           <hyphenation>
+              <p>Hyphens have been transcribed as they appear.</p>
+           </hyphenation>
+           <segmentation>
+              <p>Line breaks have been preserved.</p>
+           </segmentation>
+        </editorialDecl>
+             
+             <!-- CLASSDECL -->
+             
+             <classDecl>
+                
+                <!-- MATERIAL-->
+                <taxonomy xml:id="materialType">
+                   <category xml:id="coated"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="uncoated"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="thin"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="thick"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="paperUnknown"><catDesc>Beskrivning</catDesc></category>
+                </taxonomy>
+                
+                
+                <!-- PRINTING -->
+                <taxonomy xml:id="printTechnique">
+                   <category xml:id="letterpress"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="offset"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="printUnknown"><catDesc>Beskrivning</catDesc></category>
+                </taxonomy>
+                
+                
+                <!-- COLOR -->
+                <taxonomy xml:id="colorScheme">
+                   <category xml:id="bw"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="twoColor"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="multiColor"><catDesc>Beskrivning</catDesc></category>
+                </taxonomy>
+                
+                
+                <!-- BINDING -->
+                <taxonomy xml:id="bindingType">
+                   <category xml:id="stapled"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="glued"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="folded"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="looseLeaf"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="bindingOther"><catDesc>Beskrivning</catDesc></category>
+                </taxonomy>
+                
+                
+                <!-- CONDITION -->
+                <taxonomy xml:id="condition">
+                   <category xml:id="goodCondition"><catDesc>Beskrivning</catDesc></category>
+               <!-- Utveckla här! -->
+                </taxonomy>
+                
+                
+                <!--  TYPOGRAPHY  -->
+                <taxonomy xml:id="typeClass">
+                   <category xml:id="oldStyleSerif"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="sansSerif"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="didoneSerif"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="slabSerif"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="blackletter"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="script"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="mixedType"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="typeUnknown"><catDesc>Beskrivning</catDesc></category>
+                </taxonomy>
+                
+                
+                <!--  LAYOUT  -->
+                <taxonomy xml:id="layoutType">
+                   <category xml:id="wideMargins"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="narrowMargins"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="asymmetricalMargins"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="centered"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="leftAligned"><catDesc>Beskrivning</catDesc></category>
+                </taxonomy>
+                
+                
+                <!--  IMAGES / ILLUSTRATIONS  -->
+                <taxonomy xml:id="pictureType">
+                   <category xml:id="photography"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="illustration"><catDesc>Beskrivning</catDesc></category>
+                </taxonomy>
+                
+                
+                <!--  GRAPHIC ELEMENTS  -->
+                <taxonomy xml:id="graphicElements">
+                   <category xml:id="line"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="fleuron"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="fleurDeLis"><catDesc>Beskrivning</catDesc></category>                   
+                   <category xml:id="emblem"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="signature"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="textFrame"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="figurativeGraphicElement"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="geometricGraphicElement"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="otherGraphicElement"><catDesc>Beskrivning</catDesc></category>
+                </taxonomy>
+                
+                
+                <!--  COVER COLOR  -->
+                <taxonomy xml:id="coverColor">
+                   <category xml:id="redCover"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="blueCover"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="whiteCover"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="beigeCover"><catDesc>Beskrivning</catDesc></category>
+                </taxonomy>
+                
+             </classDecl>
+             
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="sv">Swedish</language>
+        </langUsage>
+                        <!-- Bör lang vara engelska eller svenska här? Vi skriver ju på engelska i koden (förutom i body) -->
+     </profileDesc>
+                        <!-- Hur noga behöver vi dokumentera ändringar? -->
+     <revisionDesc>
+        <change when="2026-04">
+           <persName>Zoe Bauer</persName> created the header. </change>
+        <change when="2026-04">
+           <persName>Miranda Rönngren</persName> transcribed the <title>Utställda Målningar af
+              Äldre Svenska Mästare</title> document. </change>
+     </revisionDesc>    
+  </teiHeader>
+   <facsimile>
+      <surface xml:id="front1870">
+         <figure>
+            <label>Catalog front</label>
+            <figDesc> A photograph of the front of a catalog from 1870. </figDesc>
+            <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
+            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
+            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+         </figure>
+      </surface>
+      <surface xml:id="back1870">
+         <figure>
+            <label>Catalog back</label>
+            <figDesc> A photograph of the back of a catalog from 1870. </figDesc>
+            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
+            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
+         </figure>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         
+         <div type="page" facs="#front1870">
+            <div type="title" place="center">
+               <l ana="#oldStyleSerif">FÖRTECKNING</l>      <!-- Efter lite research tror jag att det är bra att använda ana="" för typsnitt, och annat som vi vill ska finnas som metadata. -->
+               <l rend="smallCaps">Å</l>                    <!-- så kanke vi kan använda rend="" för mindre variationer i texten, som italics, bold, etc? -->
+               <l>I KONSTFÖRENINGEN</l>
+               <l>UTSTÄLLDA MÅLNINGAR</l>
+               <l rend="smallCaps">AF</l>
+               <l>ÄLDRE SVENSKA MÄSTARE.</l>
+               
+               <metamark function="divider" ana="#line"/>      <!-- Här har jag testat att markera linjerna med <metamark> -->
+               
+               <l>ANDRA AFDELNINGEN.</l>
+               <l ana="#sansSerif">GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</l>           
+               <l>(<date when="1770">1770</date> &#8212; <date when="1809">1809</date>).</l>
+               <l>FÖRSTA SERIEN.</l>
+               
+               <metamark function="divider" ana="#line"/>
+            </div>
+         </div>
+     
+   
+            <div type="imprint" rend="center" ana="#oldStyleSerif">
+               <l>Stockholm, 1870.</l>
+               <l rend="smallCaps expandedTracking">P.A. NORSTEDT &amp; SÖNER</l>
+               <l rend="smallCaps">KONGL. BOKTRYCKARE.</l>
+            </div>
+       
+         
+         <div type="page" facs="#back1870" rend="left" ana="#oldStyleSerif">
+            
+               <metamark function="pagenumber" place="top-left"><num>12</num></metamark>
+            
+            <l><name><surname rend="bold">Åkerström</surname>, <forename rend="italics">Jonas</forename></name>, f. 1759, Dekorationsmålare, reste </l>
+            <l>ut till Italien, &#10013; i Rom 1795. Elev af Desprez</l> 
+            <l>och Masreliez.</l>
+            <l>N:o 59. Meleager, vägrande att gå till striden, be-</l> 
+            <l>vekes af sin makas tårar; komposition</l> 
+            <l>med många figurer. Receptionsstycke</l> 
+            <l>1794.</l>
+            <l>Tillhör Konst-Akademien.</l>
+         </div>          
+       
+      </body>
+   </text>
+</TEI>
+
+
+
+<!-- Metadata som jag är osäker på hur vi får in i TEI-headern: paginerat/opaginerat, samt hierarki (tydlig/otydlig) -->
+<!-- samt identifierbart typsnitt, variation (rubrik/brödtext), komposition (centrerad/asymetrisk), bildanvändning:placering (integrerad/separat) -->
+<!-- Vi kan ju fundera på vad som känns viktigt att ha med. En lösning är ju att få in information i en anmärkning/note i msDesc -->
+
+<!-- En annan fråga: hur gör vi med text som finns inuti emblem/logotyper. Ska den texten finnas i body? Om ja kanske man kan markera med ana att texten står inuti ett emblem? -->
+
+<!-- TEXTVARIATIONER SOM ANGES MED REND (BRA ATT HA GEMENSAMMA TERMER) -->
+
+<!--     italics
+         bold
+         smallCaps
+         expandedTracking
+         center/left/top/bottom
+         etc.  -->
+
+
+
+
+
+
+
+
+
+       
