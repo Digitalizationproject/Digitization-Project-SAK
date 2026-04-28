@@ -7,7 +7,7 @@ Vi är fyra studenter från Högskola i Borås som deltar till denna digitaliser
 Vårt digitaliserat material består av 30 kataloger utgivna av SAK (Svenska Allmänn Konstförening) mellan 1870 - 1920. Urvalet har gjorts för att kunna återspegla en relevant utveckling i katalogernas design och formgivning från ett historiskt perspektiv under cirka 50 år. 
 
 Besök projektets webbsida:
-🚀[Visit the Website](https://digitalizationproject.github.io/Digitization-Project-SAK/)
+🚀(https://digitalizationproject.github.io/Digitization-Project-SAK/)
 
 Vi som deltog i projektet heter: Carmen Gogan, Daniel, Miranda Ronngren och Zoe Bauer.
 
