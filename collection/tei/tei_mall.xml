@@ -64,8 +64,8 @@
                      <pubPlace>Stockholm</pubPlace>
                      <date>1870</date>
                      <biblScope unit="page" n="2">Two pages</biblScope>       <!-- sidantal finns både här och i msDesc -->
-                     <biblScope>Front and back covers.</biblScope>
-                     <note>Printed by Kongl. Boktryckare.</note>
+                     <biblScope>Front and back covers.</biblScope>            <!-- Är det ok att det är olika antal sidor här och i msDesc? /Z -->
+                     <note>Printed by Kongl. Boktryckare.</note>              <!-- Eftersom här är det antal sidor vi har encodat, och där är det antal sidor i själva katalogen? /Z -->
                   </imprint>
                </monogr>
                <note>Front and back of an exhibition catalogue.</note>
@@ -93,21 +93,21 @@
                            <material>Paper</material>
                         </support>
                         <extent>
-                           <measure unit="pages">Antal sidor</measure>
-                           <dimensions scope="all" type="leaf" unit="millimeter">
-                              <height>Fyll i</height>
-                              <width>Fyll i</width>
+                           <measure unit="pages" quantity="12">12</measure>
+                           <dimensions scope="all" type="leaf" unit="centimeter">
+                              <height unit="cm" quantity="19.5">19.5 cm</height>
+                              <width unit="cm" quantity="12.2">12.2 cm</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="2">In double columns.</layout>
+                        <layout columns="2">In double columns.</layout> <!-- Jag förstår inte riktigt den här linjen, vilka kolumnerna refererar detta till? /Z -->
                      </layoutDesc>
                   </objectDesc>
                   <bindingDesc>
                      <binding ana="#glued">
                         <p>Glued</p>
-                        <condition>Good condition.</condition>
+                        <decoNote>Binding is reinforced by a strip of blue paper glued to the outside of the spine.</decoNote>
                      </binding>
                   </bindingDesc>           
                </physDesc>
@@ -150,15 +150,6 @@
                    <category xml:id="thick"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="paperUnknown"><catDesc>Beskrivning</catDesc></category>
                 </taxonomy>
-                
-                
-                <!-- PRINTING -->
-                <taxonomy xml:id="printTechnique">
-                   <category xml:id="letterpress"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="offset"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="printUnknown"><catDesc>Beskrivning</catDesc></category>
-                </taxonomy>
-                
                 
                 <!-- COLOR -->
                 <taxonomy xml:id="colorScheme">
