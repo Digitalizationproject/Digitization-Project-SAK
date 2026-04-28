@@ -248,11 +248,13 @@
            <language ident="sv">Swedish</language>
         </langUsage>
                         <!-- Bör lang vara engelska eller svenska här? Vi skriver ju på engelska i koden (förutom i body) -->
+                        <!-- Eftersom profileDesc beskriver själva dokumentet (inte headern) då tror jag att det ska vara Svenska? /Z -->
      </profileDesc>
                         <!-- Hur noga behöver vi dokumentera ändringar? -->
+                        <!-- Inte så noga, tror jag? Tänker att det är mest användbart om man kommer tillbaka flera måndader/år senare och ändrar saker... Kanske vi kan radera hela revisionDesc, eftersom vi har publikationsinformation längre upp? Vad tycker du? /Z -->
      <revisionDesc>
         <change when="2026-04">
-           <persName>Zoe Bauer</persName> created the header. </change>
+           <persName>Miranda Rönngren</persName> and <persName>Zoe Bauer</persName> created the header. </change>
         <change when="2026-04">
            <persName>Miranda Rönngren</persName> transcribed the <title>Utställda Målningar af
               Äldre Svenska Mästare</title> document. </change>
@@ -284,7 +286,7 @@
             <div type="title" place="center">
                <l ana="#oldStyleSerif">FÖRTECKNING</l>      <!-- Är det bra att använda ana="" för typsnitt, och annat som vi vill ska finnas som metadata? -->
                <l rend="smallCaps">Å</l>                    <!-- så kanke vi kan använda rend="" för mindre variationer i texten, som italics, bold, etc? -->
-               <l>I KONSTFÖRENINGEN</l>
+               <l>I KONSTFÖRENINGEN</l>                     <!-- Jag tycker det låter bra! Kanske det är en bra fråga till Jacob? /Z -->
                <l>UTSTÄLLDA MÅLNINGAR</l>
                <l rend="smallCaps">AF</l>
                <l>ÄLDRE SVENSKA MÄSTARE.</l>
