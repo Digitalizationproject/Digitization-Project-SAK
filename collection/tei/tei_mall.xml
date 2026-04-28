@@ -108,6 +108,7 @@
                   <bindingDesc>
                      <binding ana="#glued">
                         <p>Glued</p>
+                        <condition>Good condition.</condition>
                      </binding>
                   </bindingDesc>           
                </physDesc>
