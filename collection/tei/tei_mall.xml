@@ -65,7 +65,7 @@
                      <date>1870</date>
                      <biblScope unit="page" n="2">Two pages</biblScope>       <!-- sidantal finns både här och i msDesc -->
                      <biblScope>Front and back covers.</biblScope>            <!-- Är det ok att det är olika antal sidor här och i msDesc? /Z -->
-                     <note>Printed by Kongl. Boktryckare.</note>              <!-- Eftersom här är det antal sidor vi har encodat, och där är det antal sidor i själva katalogen? /Z -->
+                     <note ana="#kongligaBoktryckare">Printed by Kongl. Boktryckare.</note>     <!-- Eftersom ^här är det antal sidor vi har encodat, och där är det antal sidor i själva katalogen? /Z -->
                   </imprint>
                </monogr>
                <note>Front and back of an exhibition catalogue.</note>
@@ -244,6 +244,14 @@
                    <category xml:id="beigeCover"><catDesc>Beskrivning</catDesc></category>
                 </taxonomy>
                 
+                
+                <!-- PRINTERS -->
+                <taxonomy xml:id="printer"> <!-- Har lagt till denna kategori eftersom många kataloger trycktes av samma tryckerier -->
+                   <category xml:id="norstedt"><catDesc>P.A. Norstedt &amp; Söner</catDesc></category>
+                   <category xml:id="kongligaBoktryckare"><catDesc>Kongliga Boktryckare</catDesc></category>
+                   <category xml:id="centralTryckeriet"><catDesc>Centraltryckeriet</catDesc></category>
+                </taxonomy>
+                
              </classDecl>
              
      </encodingDesc>
@@ -302,7 +310,7 @@
             <div type="imprint" rend="center" ana="#oldStyleSerif">
                <l><placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date></l>
                <l rend="smallCaps expandedTracking">P.A. NORSTEDT &amp; SÖNER</l>
-               <l rend="smallCaps">KONGL. BOKTRYCKARE.</l>
+               <l ana="#kongligaBoktryckare" rend="smallCaps">KONGL. BOKTRYCKARE.</l> <!-- Använder jag <ana> rätt här? /Z -->
             </div>
        
          
