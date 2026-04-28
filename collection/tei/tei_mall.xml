@@ -104,12 +104,24 @@
                         <layout columns="2">In double columns.</layout> <!-- Jag förstår inte riktigt den här linjen, vilka kolumnerna refererar detta till? /Z -->
                      </layoutDesc>
                   </objectDesc>
+                  
+                 <!-- Jag har lagt till de här, men behöver vi dem? Vi har ju samma information längre ner, i <body>... Så det går bra att radera den här delen! -->
+                  <typeDesc>
+                     <typeNote ana="#oldStyleSerif #sansSerif"> Contains both old style serif and sans serif fonts. Front cover contains
+                        only uppercase letters, while the back cover is mixed
+                        case.</typeNote>
+                  </typeDesc>
+                  <decoDesc>
+                     <decoNote ana="#line #centered #symmetricalMargins #clearHierarchy">Cover contains text and two horizontal lines. Text is centered with symmetrical margins and contains a
+                        clear hierarchy. No other decoration.</decoNote>
+                  </decoDesc>
+                  
                   <bindingDesc>
                      <binding ana="#glued">
                         <p>Glued</p>
                         <decoNote>Binding is reinforced by a strip of blue paper glued to the outside of the spine.</decoNote>
                      </binding>
-                  </bindingDesc>           
+                  </bindingDesc>
                </physDesc>
                <history>
                   <origin>
@@ -154,8 +166,8 @@
                 <!-- COLOR -->
                 <taxonomy xml:id="colorScheme">
                    <category xml:id="bw"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="oneColor"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="twoColor"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="multiColor"><catDesc>Beskrivning</catDesc></category>
                 </taxonomy>
                 
                 
@@ -164,6 +176,7 @@
                    <category xml:id="stapled"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="glued"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="folded"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="sewn"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="looseLeaf"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="bindingOther"><catDesc>Beskrivning</catDesc></category>
                 </taxonomy>
@@ -194,8 +207,11 @@
                    <category xml:id="wideMargins"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="narrowMargins"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="asymmetricalMargins"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="symmetricalMargins"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="centered"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="leftAligned"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="clearHierarchy"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="noClearHierarchy"><catDesc>Beskrivning</catDesc></category>
                 </taxonomy>
                 
                 
