@@ -282,7 +282,7 @@
          
          <div type="page" facs="#front1870">
             <div type="title" place="center">
-               <l ana="#oldStyleSerif">FÖRTECKNING</l>      <!-- Efter lite research tror jag att det är bra att använda ana="" för typsnitt, och annat som vi vill ska finnas som metadata. -->
+               <l ana="#oldStyleSerif">FÖRTECKNING</l>      <!-- Är det bra att använda ana="" för typsnitt, och annat som vi vill ska finnas som metadata? -->
                <l rend="smallCaps">Å</l>                    <!-- så kanke vi kan använda rend="" för mindre variationer i texten, som italics, bold, etc? -->
                <l>I KONSTFÖRENINGEN</l>
                <l>UTSTÄLLDA MÅLNINGAR</l>
@@ -332,7 +332,7 @@
 
 <!-- Metadata som jag är osäker på hur vi får in i TEI-headern: paginerat/opaginerat, samt hierarki (tydlig/otydlig) -->
 <!-- samt identifierbart typsnitt, variation (rubrik/brödtext), komposition (centrerad/asymetrisk), bildanvändning:placering (integrerad/separat) -->
-<!-- Vi kan ju fundera på vad som känns viktigt att ha med. En lösning är ju att få in information i en anmärkning/note i msDesc -->
+<!-- Vi kan ju fundera på vad som känns viktigt att ha med. En lösning är kanske att få in information i en anmärkning/note i msDesc -->
 
 <!-- En annan fråga: hur gör vi med text som finns inuti emblem/logotyper. Ska den texten finnas i body? Om ja kanske man kan markera med ana att texten står inuti ett emblem? -->
 
