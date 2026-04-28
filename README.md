@@ -1,15 +1,34 @@
 [![DOI](https://zenodo.org/badge/471756787.svg)](https://zenodo.org/badge/latestdoi/471756787)
 
-# About this project
+# Digitalisering för bevarande och tillgänglighet
 
-This project is a part of the course in Digitization for preservation and accessability at the University of Borås, in the spring term 2026.
-We are a group of four students interested in digitizing art catalogues by SAK (Svensk Allmän Konstförening). 
+Vi är fyra studenter från Högskola i Borås som deltar till denna digitaliseringsprojekt inom ramen för kursen Digitalisering för bevarande och tillgänglighet på masterprogrammet i biblioteks-och informationsvetenskap under våren 2026.
 
-We chose ... catalogues and we focus on the design and typographical development of the catalogues from 18XX to 19XX.
+Vårt digitaliserat material består av 30 kataloger utgivna av SAK (Svenska Allmänn Konstförening) mellan 1870 - 1920. Urvalet har gjorts för att kunna återspegla en relevant utveckling i katalogernas design och formgivning från ett historiskt perspektiv under cirka 50 år. 
 
+Besök projektets webbsida:
 🚀[Visit the Website](https://digitalizationproject.github.io/Digitization-Project-SAK/) 
 
-## A Note on Using the Template
+Vi som deltog i projektet heter: Carmen Gogan, Daniel Hoflund, Miranda Ronngren och Zoe Bauer.
+
+
+## Projekts översikt
+
+I vårt projekt ingår:
+ XX TIFF filer med tillhörande metadata
+ JPG filer
+ 
+
+ 1 rapport på engelska om detta projekts process
+
+ 1 READ.me fil
+
+ 
+
+
+Credits
+Vi vill tacka vår lärare Wout Dillan för att vi kunde utgå från hans mallar för att genomföra tillgängliggörande av detta projekt.
+
 This template contains a series of files that are important for archiving purposes, and for upholding community standards, such as our [license information](LICENSE), and [Zenodo JSON metadata](.zenodo.json). While these files are useful to contextualize this specific repository, they would be irrelevant (or even contain false information) when copied over into the user's own repository. (For example: the [license](LICENSE) would identify me as the copyright holder of your repository.)
 
 To resolve this issue, the template uses GitHub Actions to delete some irrelevant files (and modify others). This happens **after** the user creates their own copy of the repository, and results in a subsequent bot-made `commit`, that cleans up the template. Where, initially, your repository will look exactly like this one (including the [license](LICENSE) etc.), these superfluous files will disapear when the process is finished. 
