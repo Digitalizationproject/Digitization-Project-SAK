@@ -2,9 +2,9 @@
 
 # Digitalisering för bevarande och tillgänglighet
 
-Vi är fyra studenter från Högskola i Borås som deltar till detta digitaliseringsprojekt inom ramen för kursen Digitalisering för bevarande och tillgänglighet på masterprogrammet i biblioteks-och informationsvetenskap under våren 2026.
+Vi är fyra studenter från Högskola i Borås som deltar i detta digitaliseringsprojekt inom ramen för kursen Digitalisering för bevarande och tillgänglighet på masterprogrammet i biblioteks-och informationsvetenskap under våren 2026.
 
-Vårt digitaliserat material består av 30 kataloger utgivna av SAK (Svenska Allmänn Konstförening) mellan 1870 - 1920. Urvalet har gjorts för att kunna återspegla en relevant utveckling i katalogernas design och formgivning från ett historiskt perspektiv under cirka 50 år. 
+Vårt digitaliserade material består av 30 kataloger utgivna av SAK (Svenska Allmänn Konstförening) mellan 1870 - 1920. Urvalet har gjorts för att kunna återspegla en relevant utveckling i katalogernas design och formgivning från ett historiskt perspektiv under cirka 50 år. 
 
 Besök projektets webbsida:
 🚀(https://digitalizationproject.github.io/Digitization-Project-SAK/)
@@ -15,19 +15,17 @@ Vi som deltog i projektet heter: Carmen Gogan, Daniel, Miranda Ronngren och Zoe 
 ## Projekts översikt
 
 I vårt projekt ingår:
- XX TIFF filer med tillhörande metadata
- JPG filer
- 
 
- 1 rapport på engelska om detta projekts process
-
- 1 READ.me fil
+60 TIFF filer med tillhörande metadata
+60 JPG filer
+1 rapport på engelska 
+1 READ.me fil
 
  
 
 
 Credits
-Vi vill tacka vår lärare Wout Dillan för att vi kunde utgå från hans mallar för att genomföra tillgängliggörande av detta projekt.
+För att tillgänggligöra vårt material använde vi oss av Wout Dillans template. 
 
 This template contains a series of files that are important for archiving purposes, and for upholding community standards, such as our [license information](LICENSE), and [Zenodo JSON metadata](.zenodo.json). While these files are useful to contextualize this specific repository, they would be irrelevant (or even contain false information) when copied over into the user's own repository. (For example: the [license](LICENSE) would identify me as the copyright holder of your repository.)
 
