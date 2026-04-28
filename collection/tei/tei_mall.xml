@@ -270,7 +270,8 @@
          
          <div type="page" facs="#front1870">
             <div type="title" place="center">
-               <l ana="#oldStyleSerif">FÖRTECKNING</l>      <!-- Är det bra att använda ana="" för typsnitt, och annat som vi vill ska finnas som metadata? -->
+               <div ana="#oldStyleSerif"> 
+               <l>FÖRTECKNING</l>      <!-- Är det bra att använda ana="" för typsnitt, och annat som vi vill ska finnas som metadata? -->
                <l rend="smallCaps">Å</l>                    <!-- så kanke vi kan använda rend="" för mindre variationer i texten, som italics, bold, etc? -->
                <l>I KONSTFÖRENINGEN</l>                     <!-- Jag tycker det låter bra! Kanske det är en bra fråga till Jacob? /Z -->
                <l>UTSTÄLLDA MÅLNINGAR</l>
@@ -280,10 +281,12 @@
                <metamark function="divider" ana="#line"/>      <!-- Här har jag testat att markera linjerna med <metamark> -->
                
                <l>ANDRA AFDELNINGEN.</l>
+               </div>
+               <div>
                <l ana="#sansSerif">GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</l>           
-               <l>(<date when="1770">1770</date> &#8212; <date when="1809">1809</date>).</l>
-               <l>FÖRSTA SERIEN.</l>
-               
+               <l ana="#oldStyleSerif">(<date when="1770">1770</date> &#8212; <date when="1809">1809</date>).</l>
+               <l ana="#oldStyleSerif">FÖRSTA SERIEN.</l>
+               </div>
                <metamark function="divider" ana="#line"/>
             </div>
          </div>
