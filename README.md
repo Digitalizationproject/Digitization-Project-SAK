@@ -19,8 +19,11 @@ Projektet är skapat av: Carmen Gogan, Daniel, Miranda Ronngren och Zoe Bauer.
 I vårt projekt ingår:
 
 60 TIFF filer med tillhörande metadata
+
 60 JPG filer
+
 1 rapport på engelska 
+
 1 READ.me fil
 
 
