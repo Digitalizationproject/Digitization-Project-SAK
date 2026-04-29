@@ -26,6 +26,9 @@ I vårt projekt ingår:
 
 1 READ.me fil
 
+Fyra html filer som utgör projektets hemsida
+
+En Css fil
 
  
 
