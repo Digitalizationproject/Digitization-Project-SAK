@@ -34,7 +34,7 @@ En Css fil
 
 ## Credits
 
-Tillgängörandet av vårt material utgår från Wout Dillans template. 
+Tillgängörandet av vårt material utgår från template by [Wout Dillen](https://github.com/WoutDLN). 
 
 
 
