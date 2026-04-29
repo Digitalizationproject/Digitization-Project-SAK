@@ -4,7 +4,7 @@
 
 Vi är fyra studenter från Högskola i Borås som deltar i detta digitaliseringsprojekt inom ramen för kursen Digitalisering för bevarande och tillgänglighet på masterprogrammet i biblioteks-och informationsvetenskap under våren 2026.
 
-Vårt digitaliserade material består av 30 kataloger utgivna av SAK (Svenska Allmänn Konstförening) mellan 1870 - 1920. Urvalet har gjorts för att kunna återspegla en relevant utveckling i katalogernas design och formgivning från ett historiskt perspektiv under cirka 50 år. 
+Vårt digitaliserade material består av 30 kataloger utgivna av SAK (Svenska Allmänn Konstförening) https://www.konstforeningen.se mellan 1870 - 1920. Urvalet har gjorts för att kunna återspegla en relevant utveckling i katalogernas design och formgivning från ett historiskt perspektiv under cirka 50 år. 
 
 Vi vill tacka SAK för materialet. 
 
