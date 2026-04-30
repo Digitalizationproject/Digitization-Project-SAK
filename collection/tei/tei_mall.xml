@@ -183,7 +183,7 @@
                 <!-- CONDITION -->
                 <taxonomy xml:id="condition">
                    <category xml:id="goodCondition"><catDesc>Beskrivning</catDesc></category>
-               <!-- Utveckla här! -->
+               <!-- Utveckla här! Eller ta bort och få in någon annanstans - fritext i note?-->
                 </taxonomy>
                 
                 
@@ -231,15 +231,19 @@
                    <category xml:id="figurativeGraphicElement"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="geometricGraphicElement"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="otherGraphicElement"><catDesc>Beskrivning</catDesc></category>
+				   <category xml:id="decoratedInitial"><catDesc>Beskrivning</catDesc></category>
+
                 </taxonomy>
                 
                 
                 <!--  COVER COLOR  -->
                 <taxonomy xml:id="coverColor">
                    <category xml:id="redCover"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="blueCover"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="tealCover"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="whiteCover"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="beigeCover"><catDesc>Beskrivning</catDesc></category>
+					<category xml:id="greyCover"><catDesc>Beskrivning</catDesc></category>
+					<category xml:id="purpleCover"><catDesc>Beskrivning</catDesc></category>
                 </taxonomy>
                 
                 
