@@ -58,13 +58,14 @@
                <monogr>
                   <title>Utställda Målningar af Äldre Svenska Mästare</title>
                   <imprint>
-                     <publisher>Konstföreningen i Stockholm</publisher>
+                     <publisher>Konstföreningen i Stockholm</publisher>		  <!-- Osäker här på om det är Norstedt eller Konstföreningen som räknas som publisher?/M -->	
                      <pubPlace>Stockholm</pubPlace>
                      <date>1870</date>
                      <biblScope unit="page" n="2">Two pages</biblScope>       <!-- sidantal finns både här och i msDesc -->
                      <biblScope>Front and back covers.</biblScope>            <!-- Är det ok att det är olika antal sidor här och i msDesc? /Z -->
                      <note ana="#kongligaBoktryckare">Printed by Kongl. Boktryckare.</note>     <!-- Eftersom ^här är det antal sidor vi har encodat, och där är det antal sidor i själva katalogen? /Z -->
-                  </imprint>
+            				<!-- är "ana" här ovan lite märkligt, så vi inte gör någon ananlys om tryckeriet? Det är snarare fakta? Alternativ? /M -->
+				  </imprint>
                </monogr>
                <note>Front and back of an exhibition catalogue.</note>
             </biblStruct>
@@ -85,7 +86,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="leaflet" ana="#letterpress #goodCondition"> <!-- osäker på var denna metadata bör finnas... -->
+                  <objectDesc form="leaflet" #goodCondition"> <!-- osäker på var denna metadata bör finnas... -->
                      <supportDesc>
                         <support ana="#uncoated #thin #whiteCover"> <!-- Detta är termer som jag hämtat från taxonomierna som finns längre ner -->    
                            <material>Paper</material>
@@ -99,7 +100,7 @@
                         </extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="2">In double columns.</layout> <!-- Jag förstår inte riktigt den här linjen, vilka kolumnerna refererar detta till? /Z -->
+                        <layout columns="2">In double columns.</layout> <!-- Jag förstår inte riktigt den här linjen, vilka kolumnerna refererar detta till? /Z --> <!-- Håller med. Ta bort? -->
                      </layoutDesc>
                   </objectDesc>
                   
@@ -111,13 +112,14 @@
                   </typeDesc>
                   <decoDesc>
                      <decoNote ana="#line #centered #symmetricalMargins #clearHierarchy">Cover contains text and two horizontal lines. Text is centered with symmetrical margins and contains a
-                        clear hierarchy. No other decoration.</decoNote>
+                        clear hierarchy. No other decoration.</decoNote>		<!-- Bra! Frågan är om centrering, marginaler och hierarki ska vara här eller typ i layout?-->
                   </decoDesc>
                   
                   <bindingDesc>
                      <binding ana="#glued">
                         <p>Glued</p>
                         <decoNote>Binding is reinforced by a strip of blue paper glued to the outside of the spine.</decoNote>
+						<condition>Good condition.</condition>		<!-- Kunde kondition vara här? -->
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -148,35 +150,35 @@
            </segmentation>
         </editorialDecl>
              
-             <!-- CLASSDECL -->
+             <!-- CLASSDECL 			Jag har fyllt på med beskrivningar. Läs och ändra /M-->
              
              <classDecl>
                 
                 <!-- MATERIAL-->
                 <taxonomy xml:id="materialType">
-                   <category xml:id="coated"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="uncoated"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="thin"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="thick"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="paperUnknown"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="coated"><catDesc>Paper coated on one or both sides with a mixture of materials (e.g., binder and pigment) or a polymer (Source: Conservation and Art Materials Encyclopedia Online (CAMEO) <ref target="https://cameo.mfa.org/wiki/Coated_paper"></ref></catDesc></category>
+                   <category xml:id="uncoated"><catDesc>No coating was added during manufacturing</catDesc></category>
+                   <category xml:id="thin"><catDesc>Paper with low physical thickness, typically perceived as lightweight</catDesc></category>    <!-- thin och thick är nog fortfarande för subjektiva kategorier, men kanske är okej för oss i detta projekt? -->
+                   <category xml:id="thick"><catDesc> Paper with high physical thickness, typically perceived as rigid</catDesc></category>
+                   <category xml:id="paperUnknown"><catDesc>Paper type not identified</catDesc></category>
                 </taxonomy>
                 
                 <!-- COLOR -->
                 <taxonomy xml:id="colorScheme">
-                   <category xml:id="bw"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="oneColor"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="twoColor"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="bw"><catDesc>Printing using black ink only</catDesc></category>
+                   <category xml:id="oneColor"><catDesc>Printing using a single colored ink other than black</catDesc></category>
+                   <category xml:id="twoColor"><catDesc>Printing combining two ink colors</catDesc></category>
+                   <category xml:id="multiColor"><catDesc>Printing using three or more ink colors</catDesc></category>
                 </taxonomy>
                 
                 
                 <!-- BINDING -->
                 <taxonomy xml:id="bindingType">
-                   <category xml:id="stapled"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="glued"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="folded"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="sewn"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="looseLeaf"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="bindingOther"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="unbound"><catDesc>Pages are folded but not bound</catDesc></category> <!-- Folded är ingen bindningsteknik? Har bytt till unbound -->
+                   <category xml:id="stapled"><catDesc>Pages are stapled through the spine using wire staples</catDesc></category>
+                   <category xml:id="glued"><catDesc>Pages are glued together along the spine</catDesc></category>
+                   <category xml:id="sewn"><catDesc>Pages are sewn together through the spine</catDesc></category>
+                   <category xml:id="bindingOther"><catDesc>Binding technique not identified</catDesc></category>
                 </taxonomy>
                 
                 
@@ -189,14 +191,15 @@
                 
                 <!--  TYPOGRAPHY  -->
                 <taxonomy xml:id="typeClass">
-                   <category xml:id="oldStyleSerif"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="sansSerif"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="didoneSerif"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="slabSerif"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="blackletter"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="script"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="mixedType"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="typeUnknown"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="oldStyleSerif"><catDesc>Typeface design from the early period of printing characterized by variations in stroke and width, bracketed serifs, and diagonal strokes,  e.g. Garamond and Caslon. <ref target="https://printwiki.org/Old_Style">PrintWiki</ref></catDesc></category> 
+                   <category xml:id="sansSerif"><catDesc>Typeface without serifs, also called grotesk. <ref target="https://printwiki.org/Sans_Serif">PrintWiki</ref></catDesc></category>
+                   <category xml:id="modernSerif"><catDesc>Early nineteenth century serif typeface with high contrast between thick and thin strokes and thin, straight serifs. Also called didone. <ref target="https://printwiki.org/Modern">PrintWiki</ref></catDesc></category>
+                   <category xml:id="transitionalSerif"><catDesc>Typeface combining features of Old Style and Modern, e.g. Baskerville. <ref target="https://printwiki.org/Transitional">PrintWiki</ref></catDesc></category>
+                   <category xml:id="squareSerif"><catDesc>Serif typeface with heavy, unbracheted serifs, also known as slab serif. <ref target="https://printwiki.org/Square_Serif">PrintWiki</ref></catDesc></category>
+                   <category xml:id="blackLetter"><catDesc>Typeface based on medieval script with dark, angular characters comprising thick and thin lines. <ref target="https://printwiki.org/Black_Letter">PrintWiki</ref></catDesc></category>
+                   <category xml:id="script"><catDesc>Typeface with connecting characters imitating handwriting. <ref target="https://printwiki.org/Script">PrintWiki</ref></catDesc></category>
+                   <category xml:id="mixedType"><catDesc>More than one typeface category is used.</catDesc></category>
+                   <category xml:id="typeUnknown"><catDesc>Typeface not identified.</catDesc></category>
                 </taxonomy>
                 
                 
@@ -206,51 +209,53 @@
                    <category xml:id="narrowMargins"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="asymmetricalMargins"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="symmetricalMargins"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="centered"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="leftAligned"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="centered"><catDesc>The text is aligning midway between the left and right margins. <ref target="https://printwiki.org/Centering">PrintWiki</ref></catDesc></category>
+                   <category xml:id="justified"><catDesc>The text aligns on both the left and the right. <ref target="https://printwiki.org/Justified">PrintWiki</ref></catDesc></category>
+                   <category xml:id="leftAligned"><catDesc>The text aligns on the left margin, also known as left justified or flush left. <ref target="https://printwiki.org/Left_Justified">PrintWiki</ref></catDesc></category>
+                   <category xml:id="rightAligned"><catDesc>The text aligns on the right margin, also known as right justified or flush right. <ref target="https://printwiki.org/Right_Justified">PrintWiki</ref></catDesc></category>
                    <category xml:id="clearHierarchy"><catDesc>Beskrivning</catDesc></category>
                    <category xml:id="noClearHierarchy"><catDesc>Beskrivning</catDesc></category>
                 </taxonomy>
                 
+                <!-- Känns info om marginaler relevant? Känns info om hierarki relevant? Vad betyder det? Hur avgör vi? -->
+                
                 
                 <!--  IMAGES / ILLUSTRATIONS  -->
                 <taxonomy xml:id="pictureType">
-                   <category xml:id="photography"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="illustration"><catDesc>Beskrivning</catDesc></category>
-                </taxonomy>
+                   <category xml:id="photography"><catDesc>Contains one or more photogarphic image (black &amp; white)</catDesc></category>
+                   <category xml:id="illustration"><catDesc>Contains one or more non-photographic illustration, such as drawings and printed graphic images. </catDesc></category>
+                </taxonomy> 
                 
                 
                 <!--  GRAPHIC ELEMENTS  -->
-                <taxonomy xml:id="graphicElements">
-                   <category xml:id="line"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="fleuron"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="fleurDeLis"><catDesc>Beskrivning</catDesc></category>                   
-                   <category xml:id="emblem"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="signature"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="textFrame"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="figurativeGraphicElement"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="geometricGraphicElement"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="otherGraphicElement"><catDesc>Beskrivning</catDesc></category>
-				   <category xml:id="decoratedInitial"><catDesc>Beskrivning</catDesc></category>
-
+                <taxonomy xml:id="graphicElements">                   
+                   <category xml:id="decoratedInitial"><catDesc>A typographically emphasized initial letter at the beginning of a word or paragraph, often larger or ornamented.</catDesc></category>                   
+                   <category xml:id="line"><catDesc>Horizontal line used to separate or structure text, and/or for decorative purpose. May be decorated in different ways.</catDesc></category>
+                   <category xml:id="fleuron"><catDesc>Any ornament used to mark the beginning of a paragraph, or for some other strictly decorative purpose. <ref target="https://printwiki.org/fleuron">PrintWiki</ref></catDesc></category>
+                   <category xml:id="emblem"><catDesc>A logotype, symbol or mark representing an organization, company, group or individual.</catDesc></category>
+                   <category xml:id="signature"><catDesc>A reproduced and printed handwritten signature.</catDesc></category>
+                   <category xml:id="textFrame"><catDesc>A decorative or structural frame surrounding a block of text. May be decorated in different ways.</catDesc></category>
+                   <category xml:id="figurativeGraphicElement"><catDesc>A graphic element depicting recognizable objects or figures.</catDesc></category>
+                   <category xml:id="geometricGraphicElement"><catDesc>A graphic element composed of geometric shapes such as circles, squares, or triangles.</catDesc></category>
+                   <category xml:id="otherGraphicElement"><catDesc>Graphic element not identified.</catDesc></category>
                 </taxonomy>
                 
                 
                 <!--  COVER COLOR  -->
                 <taxonomy xml:id="coverColor">
-                   <category xml:id="redCover"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="tealCover"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="whiteCover"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="beigeCover"><catDesc>Beskrivning</catDesc></category>
-					<category xml:id="greyCover"><catDesc>Beskrivning</catDesc></category>
-					<category xml:id="purpleCover"><catDesc>Beskrivning</catDesc></category>
+                   <category xml:id="redCover"><catDesc>Cover made of red colored paper</catDesc></category>
+                   <category xml:id="tealCover"><catDesc>Cover made of teal colored paper</catDesc></category>
+                   <category xml:id="whiteCover"><catDesc>Cover made of white colored paper</catDesc></category>
+                   <category xml:id="beigeCover"><catDesc>Cover made of beige colored paper</catDesc></category>
+                   <category xml:id="greyCover"><catDesc>Cover made of grey colored paper</catDesc></category>
+                   <category xml:id="purpleCover"><catDesc>Cover made of purple colored paper</catDesc></category>
                 </taxonomy>
                 
                 
                 <!-- PRINTERS -->
                 <taxonomy xml:id="printer"> <!-- Har lagt till denna kategori eftersom många kataloger trycktes av samma tryckerier -->
                    <category xml:id="norstedt"><catDesc>P.A. Norstedt &amp; Söner</catDesc></category>
-                   <category xml:id="kongligaBoktryckare"><catDesc>Kongliga Boktryckare</catDesc></category>
+                   <category xml:id="kongligaBoktryckare"><catDesc>Kongliga Boktryckare</catDesc></category>	<!-- Jag tror att detta är en titel snarare än ett namn på ett tryckeri /M --> 
                    <category xml:id="centralTryckeriet"><catDesc>Centraltryckeriet</catDesc></category>
                 </taxonomy>
                 
