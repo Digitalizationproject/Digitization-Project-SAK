@@ -195,9 +195,10 @@
                    <category xml:id="sansSerif"><catDesc>Typeface without serifs, also called grotesk. <ref target="https://printwiki.org/Sans_Serif">PrintWiki</ref></catDesc></category>
                    <category xml:id="modernSerif"><catDesc>Early nineteenth century serif typeface with high contrast between thick and thin strokes and thin, straight serifs. Also called didone. <ref target="https://printwiki.org/Modern">PrintWiki</ref></catDesc></category>
                    <category xml:id="transitionalSerif"><catDesc>Typeface combining features of Old Style and Modern, e.g. Baskerville. <ref target="https://printwiki.org/Transitional">PrintWiki</ref></catDesc></category>
-                   <category xml:id="squareSerif"><catDesc>Serif typeface with heavy, unbracheted serifs, also known as slab serif. <ref target="https://printwiki.org/Square_Serif">PrintWiki</ref></catDesc></category>
+                   <category xml:id="slabSerif"><catDesc>Serif typeface with heavy, unbracheted serifs, also known as square serif. <ref target="https://printwiki.org/Square_Serif">PrintWiki</ref></catDesc></category>
                    <category xml:id="blackLetter"><catDesc>Typeface based on medieval script with dark, angular characters comprising thick and thin lines. <ref target="https://printwiki.org/Black_Letter">PrintWiki</ref></catDesc></category>
-                   <category xml:id="script"><catDesc>Typeface with connecting characters imitating handwriting. <ref target="https://printwiki.org/Script">PrintWiki</ref></catDesc></category>
+                   <category xml:id="script"><catDesc>Typeface with connecting characters imitating cursive handwriting. <ref target="https://printwiki.org/Script">PrintWiki</ref></catDesc></category>
+				   <category xml:id="glyphic"><catDesc>Typefaces which are chiselled rather than calligraphic in form.<ref target="https://luc.devroye.org/britishstandards.html">British Standards for Type Classification</ref></catDesc></category>
                    <category xml:id="mixedType"><catDesc>More than one typeface category is used.</catDesc></category>
                    <category xml:id="typeUnknown"><catDesc>Typeface not identified.</catDesc></category>
                 </taxonomy>
