@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Vereschagin-Utställningen</title>
+            <title>Den Gustavianska Utställningen</title>
             <author>Unknown</author>
             <principal>Carmen Gogan, D.H., Miranda Rönngren, Zoe Bauer</principal>
             <respStmt>
@@ -21,6 +21,7 @@
          </titleStmt>
          <extent>
             <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure>
+            <!-- ändra -->
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -35,13 +36,13 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1887_01</idno>
+            <idno>1891_01</idno>
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
-            <title>Sveriges Allmänna Konstföreningen exhibition catalogs</title>
+            <title>Sveriges Allmänna Konstförening exhibition catalogs</title>
             <respStmt>
                <resp>catalogues chosen by</resp>
                <name>Carmen Cogan, D.H., Miranda Rönngren and Zoe Bauer</name>
@@ -56,12 +57,12 @@
 
             <biblStruct>
                <monogr>
-                  <title>Vereschagin-Utställningen</title>
+                  <title>Den Gustavianska Utställingen</title>
                   <imprint>
-                     <publisher>P. A. Norstedt &amp; Söner </publisher>
-                     <note>Printed by <name>Kongl. Boktryckariet</name>.</note>
+                     <publisher>Unknown </publisher>
+                     <note>Printed by <name>Gernandts Boktryckeri-Aktiebolag</name>.</note>
                      <pubPlace>Stockholm</pubPlace>
-                     <date>1877</date>
+                     <date>1891</date>
                      <biblScope unit="page" n="2">Two pages</biblScope>
                      <biblScope>Front and back covers.</biblScope>
                   </imprint>
@@ -75,44 +76,41 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1887_01</idno>
+                  <idno>1891_01</idno>
                </msIdentifier>
                <msContents>
                   <msItem>
                      <author>unknown</author>
-                     <title xml:lang="sv">Vereschagin-Utställningen</title>
+                     <title xml:lang="sv">Den Gustavianska Utställingen</title>
                      <textLang mainLang="sv">svenska</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="#leaflet">
                      <supportDesc>
-                        <support ana="#coated #thin #whiteCover">
+                        <support ana="#coated #thin #tealCover">
                            <material>Paper</material>
                         </support>
                         <extent>
-                           <measure unit="pages" quantity="41">41</measure>
+                           <measure unit="pages" quantity="28">28</measure>
                            <dimensions scope="all" type="leaf" unit="centimeter">
-                              <height unit="cm" quantity="19.5">19.5 cm</height>
-                              <width unit="cm" quantity="13.2">13.2 cm</width>
+                              <height unit="cm" quantity="18.8">18.8 cm</height>
+                              <width unit="cm" quantity="12.5">12.5 cm</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout ana="#centered">The text on the front cover is to the right of
-                           center. The text on the back cover is centered. </layout>
+                        <layout ana="#centered">Text on the cover is centered. </layout>
                      </layoutDesc>
                   </objectDesc>
 
                   <typeDesc>
-                     <typeNote ana="#mixedType #handmadeVariation"> Contains mixed fonts, as well as
-                        handmade variations of fonts.</typeNote>
+                     <typeNote ana="#transitionalSerif #sansSerif #mixedType"> Contains both
+                        transitional serif and sans serif fonts.</typeNote>
                   </typeDesc>
                   <decoDesc>
-                     <decoNote ana="#figurativeGraphicElement #decoratedInitial #line">Front cover
-                        contains text and figurative graphic elements, including a lute and a skull
-                        and an illustration of the artist. Back cover contains text, decorated
-                        initials, and a line. </decoNote>
+                     <decoNote ana="#line">Contains three horizontal lines. No other decoration.
+                     </decoNote>
                   </decoDesc>
 
                   <bindingDesc>
@@ -261,8 +259,9 @@
                <category xml:id="typeUnknown">
                   <catDesc>Typeface not identified.</catDesc>
                </category>
-               <category xml:id="handmadeVariation">
-                  <catDesc>An artistic, handmade variation of a font.</catDesc>
+               <category xml:id="decorative">
+                  <catDesc>Handmade or decorative typeface with non-standard design
+                     characteristics.</catDesc>
                </category>
             </taxonomy>
 
@@ -373,10 +372,10 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="front1887_01">
+      <surface xml:id="front1891_01">
          <figure>
             <label>Catalog front</label>
-            <figDesc> A photograph of the front of a catalog from 1887. </figDesc>
+            <figDesc> A photograph of the front of a catalog from 1891. </figDesc>
             <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
             <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
             <!-- ändra -->
@@ -384,10 +383,11 @@
             <!-- ändra -->
          </figure>
       </surface>
-      <surface xml:id="back1887_01">
+      <surface xml:id="back1891_01">
          <figure>
             <label>Catalog back</label>
-            <figDesc> A photograph of the back of a catalog from 1887. </figDesc>
+            <figDesc> A photograph of the back of a catalog from 1891. </figDesc>
+            <!-- ändra -->
             <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
             <!-- ändra -->
             <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
@@ -398,40 +398,32 @@
    <text>
       <body>
 
-         <div type="page" facs="#front1877_01">
-            <figure ana="#illustration">
-               <figDesc>Illustration of a banner containing the title of the exhibtion and a portrait of the artist 
-                  <name>Vasily Vereschagin</name> within an ovular frame decorated with diamond shapes. There is a 
-                  skull wearing a headdress adorned with peacock feathers above the portrait, and a lute
-                  and palm fronts below the portrait.</figDesc>
-            </figure>
-            <div type="title" place="withinIllustration">
-               <l ana="#typeUnknown"><seg rend="diagonal" n="rotated 45 degrees clockwise">
-                     <name>VERESCHAGIN</name></seg>-</l>
-               <l ana="#typeUnknown">>UTSTÄLLNINGEN</l>
-               <l ana="#typeUnknown">>I</l>
-               <l ana="#typeUnknown">><placeName>STOCKHOLM</placeName></l>
-               <l ana="#typeUnknown"><date when="1887">1887</date>.</l>
+         <div type="page" facs="#front1891_01">
+            <div type="title" place="center" ana="mixedType">
+                  
+                  <l ana="#oldStyleSerif">VÄGLEDNING</l>
+                  <l ana="#oldStyleSerif" rend="smallCaps">I</l>
+                  <l ana="sansSerif">DEN GUSTAVIANSKA UTSTÄLLNINGEN</l>
+               <div ana="#oldStyleSerif">
+                  <l rend="smallCaps">I</l>
+                  <l ana="#oldStyleSerif">KONSTFÖRENINGENS FÖRRA LOKAL</l>
+                  <l rend="smallCaps">I KUNGSTRÄDGÅRDEN</l>
+                  
+                  <metamark function="divider" ana="#line"/>
+                  
+                  <l rend="smallCaps">MED ETT PORTRÄTT AF KONUNG GUSTAF III</l>
+                  
+                  <metamark function="divider" ana="#line"/>
+                  
+                  <l rend="smallCaps"><placeName>STOCKHOLM</placeName><date when="1891"
+                     >1891</date></l>
+
+                  <metamark function="divider" ana="#line"/>
+
+                  <l>Pris: <measure quantity="0.40" unit="SEK">40 öre.</measure></l>
+               </div>
             </div>
-            <div rend="center" ana="#sansSerif">
-               <l>Pris <measure quantity="0.40" unit="SEK">40 öre.</measure></l>
-            </div>
-         </div>
-
-         <div type="page" facs="#back1887" rend="center">
-            <l ana="#typeUnknown">Vereschagin-Uställningen</l>
-            <l ana="#typeUnknown">i</l>
-            <l ana="#sansSerif">Sveriges Allmänna Konstförenings lokal</l>
-            <l ana="#script">hålles öppen</l>
-            <l rend="#italics" ana="#typeUnknown"> hvardagar kl. 10 f. m. – 6 e. m.</l>
-            <l rend="#italics" ana="#typeUnknown">sön- och helgedagar kl. 1 – 5 e. m.</l>
-            <l ana="#typeUnknown">Inträdesafgift <measure quantity="1.0" unit="SEK">1
-                  krona.</measure></l>
-
-            <metamark function="divider" ana="#line"/>
-
          </div>
       </body>
-
    </text>
 </TEI>
