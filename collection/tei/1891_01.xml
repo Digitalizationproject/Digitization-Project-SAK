@@ -399,6 +399,12 @@
       <body>
 
          <div type="page" facs="#front1891_01">
+            
+            <l>
+               <add place="top margin, right of center" type="pencil">dublett</add>
+               <note>Presumably written after the catalog was printed, in an archival context.</note>
+            </l>
+            
             <div type="title" place="center" ana="mixedType">
                   
                   <l ana="#oldStyleSerif">VÄGLEDNING</l>

@@ -7,7 +7,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>    
-            <title>Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+            <title>Konstnärsförbundets Åttonde Utställning</title> 
             <author>Unknown</author>
             <principal>Carmen Gogan, D.H., Miranda Rönngren, Zoe Bauer</principal> 
             <respStmt>
@@ -35,7 +35,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1870_01</idno> <!-- ändra -->
+            <idno>1894_01</idno> 
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -56,12 +56,12 @@
             
             <biblStruct>
                <monogr>
-                  <title>Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+                  <title>Konstnärsförbundets Åttonde Utställning</title> 
                   <imprint>
-                     <publisher>P. A. Norstedt &amp; Söner </publisher>		  <!-- ändra --> 
-                     <note>Printed by <name>Kongl. Boktryckare</name>.</note>  <!-- ändra --> 
-                     <pubPlace>Stockholm</pubPlace>                            <!-- ändra -->
-                     <date>1870</date>                                         <!-- ändra -->
+                     <publisher>Unknown </publisher>	
+                     <note>Printed by <name>Central-Tryckeriet</name>.</note> 
+                     <pubPlace>Stockholm</pubPlace>                           
+                     <date>1894</date>                                 
                      <biblScope unit="page" n="2">Two pages</biblScope>       
                      <biblScope>Front and back covers.</biblScope>            
 				  </imprint>
@@ -75,48 +75,46 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1870_01</idno>                                     <!-- ändra --> 
+                  <idno>1894_01</idno>                                
                </msIdentifier>         
                <msContents>
                   <msItem>
                      <author>unknown</author>
-                     <title xml:lang="sv">Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+                     <title xml:lang="sv">Konstnärsförbundets Åttonde Utställning</title> 
                      <textLang mainLang="sv">svenska</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="#leaflet"> 
                      <supportDesc>
-                        <support ana="#uncoated #thin #whiteCover">              <!-- ändra -->   
+                        <support ana="#coated #thin #whiteCover">    
                            <material>Paper</material>
                         </support>
                         <extent>
-                           <measure unit="pages" quantity="12">12</measure>         <!-- ändra --> 
+                           <measure unit="pages" quantity="8">8</measure>     
                            <dimensions scope="all" type="leaf" unit="centimeter"> 
-                              <height unit="cm" quantity="19.5">19.5 cm</height>    <!-- ändra --> 
-                              <width unit="cm" quantity="12.2">12.2 cm</width>      <!-- ändra --> 
+                              <height unit="cm" quantity="22.5">22.5 cm</height>
+                              <width unit="cm" quantity="14">14 cm</width>   
                            </dimensions>
                         </extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout ana="#centered">Text on the cover is centered.      <!-- ändra --> 
+                        <layout ana="#centered">Text on the cover is centered. 
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   
                   <typeDesc>
-                     <typeNote ana="#oldStyleSerif #sansSerif"> Contains both old style serif and sans serif fonts. Front cover contains        <!-- ändra -->
-                        only uppercase letters, while the back cover is mixed.</typeNote>
+                     <typeNote ana="#mixedType"> Contains a mix of old style serif and sans serif.</typeNote>
                   </typeDesc>
                   <decoDesc>
-                     <decoNote ana="#line">[beskrivning av dekoration här]</decoNote>		<!-- ändra/radera från denna dokument innan publicering!!!-->
+                     <decoNote ana="#line">Decorative lines on both the front and back.</decoNote>	
                   </decoDesc>
                         
                   <bindingDesc>
-                     <binding ana="#glued">        <!-- ändra -->
-                        <p>Glued</p>               <!-- ändra -->
-                        <decoNote>Binding is reinforced by a strip of blue paper glued to the outside of the spine.</decoNote>      <!-- ändra -->
-                        <condition>Good condition.</condition>		<!-- ändra -->
+                     <binding ana="#glued">  
+                        <p>Glued</p>      
+                        <condition>Holes punched in the side, folds in the paper, and some wear along the edges.</condition>	
                      </binding>
                   </bindingDesc>
 
@@ -246,19 +244,19 @@
      </profileDesc>   
   </teiHeader>
    <facsimile>
-      <surface xml:id="front1870_01">              <!-- ändra -->
+      <surface xml:id="front1894_01">            
          <figure>
             <label>Catalog front</label>
-            <figDesc> A photograph of the front of a catalog from 1870. </figDesc>        <!-- ändra -->
+            <figDesc> A photograph of the front of a catalog from 1894. </figDesc>      
             <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
             <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>              <!-- ändra -->
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
          </figure>
       </surface>  
-      <surface xml:id="back1870_01">         <!-- ändra -->
+      <surface xml:id="back1894_01">  
          <figure>
             <label>Catalog back</label>
-            <figDesc> A photograph of the back of a catalog from 1870. </figDesc>               <!-- ändra -->
+            <figDesc> A photograph of the back of a catalog from 1894. </figDesc>   
             <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>           <!-- ändra -->
             <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>    <!-- ändra -->
          </figure>
@@ -267,52 +265,72 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1870">
-            <div type="title" place="center">
-               <div ana="#oldStyleSerif"> 
-               <l>FÖRTECKNING</l>      
-               <l rend="smallCaps">Å</l>                    
-               <l>I KONSTFÖRENINGEN</l>                     
-               <l>UTSTÄLLDA MÅLNINGAR</l>
-               <l rend="smallCaps">AF</l>
-               <l>ÄLDRE SVENSKA MÄSTARE.</l>
+         <div type="page" facs="#front1894">
+            <div type="title" place="center" ana="#typeUnknown #mixedType">
                
-               <metamark function="divider" ana="#line"/>      
-               
-               <l>ANDRA AFDELNINGEN.</l>
-               </div>
-               <div>
-               <l ana="#sansSerif">GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</l>           
-               <l ana="#oldStyleSerif">(<date when="1770">1770</date> &#8212; <date when="1809">1809</date>).</l>
-               <l ana="#oldStyleSerif">FÖRSTA SERIEN.</l>
-               </div>
+               <l>katalog</l>  
                <metamark function="divider" ana="#line"/>
+               <l>Konstnärsförbundets</l>  
+               <l>Åttonde Utställning</l>  
+               <l><date when="1894">1894</date></l>
+               
+               <metamark function="divider" ana="#line"/>
+               <l>Pris: <measure quantity="0.15" unit="SEK">15 öre</measure></l>
+               <metamark function="divider" ana="#line"/>
+               
+               
+               <div type="imprint" rend="center" ana="#oldStyleSerif">
+                  <l rend="smallCaps"><placeName>STOCKHOLM</placeName>, </l>
+                     <l rend="smallCaps expandedTracking">TRYCKT I CENTRAL-TRYCKERIET</l>
+                     <l><date when="1894">1894</date></l>
+               </div>
             </div>
          </div>
-     
-   
-            <div type="imprint" rend="center" ana="#oldStyleSerif">
-               <l><placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date></l>
-               <l rend="smallCaps expandedTracking">P.A. NORSTEDT &amp; SÖNER</l>
-               <l ana="#kongligaBoktryckare" rend="smallCaps">KONGL. BOKTRYCKARE.</l> 
-            </div>
-       
+               
+               <div type="page" facs="#back1894" rend="left" ana="#oldStyleSerif">
+                  
+                  <metamark function="pagenumber" place="top-left"><num>8</num></metamark>
+                  
+                  <head ana="#sansSerif" rend="expandedTracking center">Bildhuggare.</head>
+                  
+                  <list>
+                     <head rend="bold"><name>Christian Eriksson</name>.</head>
+                     <item>118. Porträtt (gips): tillhör M. Faure.</item>
+                     <item>119. Bretagneska (gips).</item>
+                     <item>120. Bretagne (basrelief).</item>
+                     <item>121. Lampfot (smidjern).</item>
+                     <item>122. Lifvet (modellafgjutning i gips till drifvet silfver).</item>
+                  </list>
+                  
+                  <list>
+                     <head rend="bold"><name>Pehr Hasselberg</name>.</head>
+                     <item>123. Neckrosen (staty i gips).</item>
+                     <item>124. Louis de Geer (byst i marmor): tillhör Nationalmuseum.</item>
+                     <item>125. Viktor Rydberg (byst i gips).</item>
+                     <item>126. Olof Wijk (statyett i bronz).</item>
+                     <item  rend="hangingIndent">127. G. Fredriksson (medaljong i bronz): tillhör Herr G. <lb/>
+                        Fredriksson.</item>
+                     <item>128. Prins Eugén (medaljong i bronz): tillhör Prins Eugén.</item>
+                     <item>129. Esquisse till fontän (terra cotta).</item>
+                     <item>130. Mignon (esquisse).</item>
+                     <item>131. Skogsnymf (esquisse).</item>
+                     <item>132. A. Bonnier (byst i gips): tillhör Herr A. Bonnier.	</item>
+                  </list>
+                  
+                  <list>
+                     <head rend="bold"><name>Gusten Lindberg</name>.</head>
+                     <item>133. Dimman (statyett i bronz). </item>
+                     <item>134. Johannes (statyett i bronz).</item>
+                  </list>
+                  
+                  <list>
+                     <head>Fröken <name rend="bold">Ida Matton</name>.</head>
+                     <item>135.Porträttbyst af E. M. (gips): tillhör Herr E. Matton.</item>
+                  </list>
          
-         <div type="page" facs="#back1870" rend="left" ana="#oldStyleSerif">
-            
-               <metamark function="pagenumber" place="top-left"><num>12</num></metamark>
-            
-            <l><name><surname rend="bold">Åkerström</surname>, <forename rend="italics">Jonas</forename></name>, f. 1759, Dekorationsmålare, reste </l>
-            <l>ut till Italien, &#10013; i Rom 1795. Elev af Desprez</l> 
-            <l>och Masreliez.</l>
-            <l>N:o 59. Meleager, vägrande att gå till striden, be-</l> 
-            <l>vekes af sin makas tårar; komposition</l> 
-            <l>med många figurer. Receptionsstycke</l> 
-            <l>1794.</l>
-            <l>Tillhör Konst-Akademien.</l>
-			 
-			 <metamark function="divider" ana="#line"/> 
-         </div>          
+                  <metamark function="divider" ana="#line"/>
+                  
+               </div>
        
       </body>
    </text>
