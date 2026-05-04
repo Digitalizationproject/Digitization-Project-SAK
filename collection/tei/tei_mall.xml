@@ -99,9 +99,8 @@
                         </extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout ana="#line #centered #symmetricalMargins">Cover contains text and two horizontal lines.          <!-- ändra --> 
-                           Text is centered with symmetrical margins and contains a
-                           clear hierarchy. No other decoration. 
+                        <layout ana="#line #centered">Cover contains text and two horizontal lines.          <!-- ändra --> 
+                           Text is centered. No other decoration. 
                         </layout>
                      </layoutDesc>
                   </objectDesc>

@@ -7,7 +7,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>    
-            <title>Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+            <title>Utställda Målningar af Äldre Svenska Mästare</title> 
             <author>Unknown</author>
             <principal>Carmen Gogan, D.H., Miranda Rönngren, Zoe Bauer</principal> 
             <respStmt>
@@ -20,7 +20,7 @@
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> <!-- ändra -->
+            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> 
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -35,7 +35,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1870_01</idno> <!-- ändra -->
+            <idno>1870_01</idno> 
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -56,12 +56,12 @@
             
             <biblStruct>
                <monogr>
-                  <title>Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+                  <title>Utställda Målningar af Äldre Svenska Mästare</title> 
                   <imprint>
-                     <publisher>P. A. Norstedt &amp; Söner </publisher>		  <!-- ändra --> 
-                     <note>Printed by <name>Kongl. Boktryckare</name>.</note>  <!-- ändra --> 
-                     <pubPlace>Stockholm</pubPlace>                            <!-- ändra -->
-                     <date>1870</date>                                         <!-- ändra -->
+                     <publisher>P. A. Norstedt &amp; Söner </publisher>		   
+                     <note>Printed by <name>Kongl. Boktryckare</name>.</note>  
+                     <pubPlace>Stockholm</pubPlace>                            
+                     <date>1870</date>                                         
                      <biblScope unit="page" n="2">Two pages</biblScope>       
                      <biblScope>Front and back covers.</biblScope>            
 				  </imprint>
@@ -75,12 +75,12 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1870_01</idno>                                     <!-- ändra --> 
+                  <idno>1870_01</idno>                                     
                </msIdentifier>         
                <msContents>
                   <msItem>
                      <author>unknown</author>
-                     <title xml:lang="sv">Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+                     <title xml:lang="sv">Utställda Målningar af Äldre Svenska Mästare</title> 
                      <textLang mainLang="sv">svenska</textLang>
                   </msItem>
                </msContents>
