@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Utställda Målningar af Äldre Svenska Mästare</title>
+            <title>Vereschagin-Utställningen</title>
             <author>Unknown</author>
             <principal>Carmen Gogan, D.H., Miranda Rönngren, Zoe Bauer</principal>
             <respStmt>
@@ -35,7 +35,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1870_01</idno>
+            <idno>1887_01</idno>
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -56,12 +56,12 @@
 
             <biblStruct>
                <monogr>
-                  <title>Utställda Målningar af Äldre Svenska Mästare</title>
+                  <title>Vereschagin-Utställningen</title>
                   <imprint>
                      <publisher>P. A. Norstedt &amp; Söner </publisher>
-                     <note>Printed by <name>Kongl. Boktryckare</name>.</note>
+                     <note>Printed by <name>Kongl. Boktryckariet</name>.</note>
                      <pubPlace>Stockholm</pubPlace>
-                     <date>1870</date>
+                     <date>1877</date>
                      <biblScope unit="page" n="2">Two pages</biblScope>
                      <biblScope>Front and back covers.</biblScope>
                   </imprint>
@@ -75,12 +75,12 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1870_01</idno>
+                  <idno>1887_01</idno>
                </msIdentifier>
                <msContents>
                   <msItem>
                      <author>unknown</author>
-                     <title xml:lang="sv">Utställda Målningar af Äldre Svenska Mästare</title>
+                     <title xml:lang="sv">Vereschagin-Utställningen</title>
                      <textLang mainLang="sv">svenska</textLang>
                   </msItem>
                </msContents>
@@ -91,30 +91,33 @@
                            <material>Paper</material>
                         </support>
                         <extent>
-                           <measure unit="pages" quantity="12">12</measure>
+                           <measure unit="pages" quantity="41">41</measure>
                            <dimensions scope="all" type="leaf" unit="centimeter">
                               <height unit="cm" quantity="19.5">19.5 cm</height>
-                              <width unit="cm" quantity="12.2">12.2 cm</width>
+                              <width unit="cm" quantity="13.2">13.2 cm</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout ana="#line #centered">Cover contains text and two horizontal lines.
-                           Text is centered. No other decoration. </layout>
+                        <layout ana="#centered">The text on the front cover is to the right of
+                           center. The text on the back cover is centered. </layout>
                      </layoutDesc>
                   </objectDesc>
 
                   <typeDesc>
-                     <typeNote ana="#oldStyleSerif #sansSerif #transitionalSerif"> Contains both old style serif and
-                        sans serif fonts. The back cover also contains transitional serif. Front cover contains only uppercase letters, while the
-                        back cover is mixed. </typeNote>
+                     <typeNote ana="#mixedType #handmadeVariation"> Contains mixed fonts, as well as
+                        handmade variations of fonts.</typeNote>
                   </typeDesc>
+                  <decoDesc>
+                     <decoNote ana="#figurativeGraphicElement #decoratedInitial #line">Front cover
+                        contains text and figurative graphic elements, including a lute and a skull
+                        and an illustration of the artist. Back cover contains text, decorated
+                        initials, and a line. </decoNote>
+                  </decoDesc>
 
                   <bindingDesc>
                      <binding ana="#glued">
                         <p>Glued</p>
-                        <decoNote>Binding is reinforced by a strip of blue paper glued to the
-                           outside of the spine.</decoNote>
                         <condition>Good condition.</condition>
                      </binding>
                   </bindingDesc>
@@ -157,7 +160,7 @@
                   <catDesc>Paper coated on one or both sides with a mixture of materials (e.g.,
                      binder and pigment) or a polymer (Source: Conservation and Art Materials
                      Encyclopedia Online (CAMEO) <ref
-                        target="https://cameo.mfa.org/wiki/Coated_paper"> </ref></catDesc>
+                        target="https://cameo.mfa.org/wiki/Coated_paper"/></catDesc>
                </category>
                <category xml:id="uncoated">
                   <catDesc>No coating was added during manufacturing</catDesc>
@@ -370,10 +373,10 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="front1870_01">
+      <surface xml:id="front1887_01">
          <figure>
             <label>Catalog front</label>
-            <figDesc> A photograph of the front of a catalog from 1870. </figDesc>
+            <figDesc> A photograph of the front of a catalog from 1887. </figDesc>
             <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
             <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
             <!-- ändra -->
@@ -381,10 +384,10 @@
             <!-- ändra -->
          </figure>
       </surface>
-      <surface xml:id="back1870_01">
+      <surface xml:id="back1887_01">
          <figure>
             <label>Catalog back</label>
-            <figDesc> A photograph of the back of a catalog from 1870. </figDesc>
+            <figDesc> A photograph of the back of a catalog from 1887. </figDesc>
             <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
             <!-- ändra -->
             <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
@@ -395,55 +398,39 @@
    <text>
       <body>
 
-         <div type="page" facs="#front1870_01">
-            <div type="title" place="center">
-               <div ana="#oldStyleSerif">
-                  <l>FÖRTECKNING</l>
-                  <l rend="smallCaps">Å</l>
-                  <l>I KONSTFÖRENINGEN</l>
-                  <l>UTSTÄLLDA MÅLNINGAR</l>
-                  <l rend="smallCaps">AF</l>
-                  <l>ÄLDRE SVENSKA MÄSTARE.</l>
-
-                  <metamark function="divider" ana="#line"/>
-
-                  <l>ANDRA AFDELNINGEN.</l>
-               </div>
-               <div>
-                  <l ana="#sansSerif">GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</l>
-                  <l ana="#oldStyleSerif">(<date when="1770">1770</date> &#8212; <date when="1809"
-                        >1809</date>).</l>
-                  <l ana="#oldStyleSerif">FÖRSTA SERIEN.</l>
-               </div>
-               <metamark function="divider" ana="#line"/>
+         <div type="page" facs="#front1877_01">
+            <figure ana="#illustration">
+               <figDesc>Illustration of a banner containing the title and a portrait of the artist.
+                  The banner is surrounded by greenery and other objects.</figDesc>
+            </figure>
+            <div type="title" place="withinIllustration" ana="#illustration">
+               <l ana="#typeUnknown"><seg rend="diagonal" n="rotated 45 degrees clockwise">
+                     <name>VERESCHAGIN</name></seg>-</l>
+               <l ana="#typeUnknown">>UTSTÄLLNINGEN</l>
+               <l ana="#typeUnknown">>I</l>
+               <l ana="#typeUnknown">><placeName>STOCKHOLM</placeName></l>
+               <l ana="#typeUnknown"><date when="1887">1887</date>.</l>
+            </div>
+            <div rend="center" ana="#sansSerif">
+               <l>Pris <measure quantity="0.40" unit="SEK">40 öre.</measure></l>
             </div>
          </div>
 
 
-         <div type="imprint" rend="center" ana="#oldStyleSerif">
-            <l><placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date></l>
-            <l rend="smallCaps expandedTracking">P.A. NORSTEDT &amp; SÖNER</l>
-            <l rend="smallCaps">KONGL. BOKTRYCKARE.</l>
-         </div>
-
-
-         <div type="page" facs="#back1870_01" rend="left" ana="#oldStyleSerif">
-
-            <metamark function="pagenumber" place="top-left"><num>12</num></metamark>
-
-            <l><name><surname rend="bold">Åkerström</surname>, <forename rend="italics"
-                     >Jonas</forename></name>, f. 1759, Dekorationsmålare, reste </l>
-            <l>ut till Italien, &#10013; i Rom 1795. Elev af Desprez</l>
-            <l>och Masreliez.</l>
-            <l>N:o 59. Meleager, vägrande att gå till striden, be-</l>
-            <l>vekes af sin makas tårar; komposition</l>
-            <l>med många figurer. Receptionsstycke</l>
-            <l>1794.</l>
-            <l>Tillhör Konst-Akademien.</l>
+         <div type="page" facs="#back1887" rend="center">
+            <l ana="#typeUnknown">Vereschagin-Uställningen</l>
+            <l ana="#typeUnknown">i</l>
+            <l ana="#sansSerif">Sveriges Allmänna Konstförenings lokal</l>
+            <l ana="#script">hålles öppen</l>
+            <l rend="#italics" ana="#typeUnknown"> hvardagar kl. 10 f. m. – 6 e. m.</l>
+            <l rend="#italics" ana="#typeUnknown">sön- och helgedagar kl. 1 – 5 e. m.</l>
+            <l ana="#typeUnknown">Inträdesafgift <measure quantity="1.0" unit="SEK">1
+                  krona.</measure></l>
 
             <metamark function="divider" ana="#line"/>
-         </div>
 
+         </div>
       </body>
+
    </text>
 </TEI>

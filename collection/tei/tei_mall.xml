@@ -99,19 +99,17 @@
                         </extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout ana="#line #centered">Cover contains text and two horizontal lines.          <!-- ändra --> 
-                           Text is centered. No other decoration. 
+                        <layout ana="#centered">Text on the cover is centered.      <!-- ändra --> 
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   
                   <typeDesc>
                      <typeNote ana="#oldStyleSerif #sansSerif"> Contains both old style serif and sans serif fonts. Front cover contains        <!-- ändra -->
-                        only uppercase letters, while the back cover is mixed.
-                        case.</typeNote>
+                        only uppercase letters, while the back cover is mixed.</typeNote>
                   </typeDesc>
                   <decoDesc>
-                     <decoNote ana="#line #centered #symmetricalMargins">[beskrivning av dekoration här]</decoNote>		<!-- ändra/radera från denna dokument innan publicering!!!-->
+                     <decoNote ana="#line">[beskrivning av dekoration här]</decoNote>		<!-- ändra/radera från denna dokument innan publicering!!!-->
                   </decoDesc>
                         
                   <bindingDesc>
@@ -248,7 +246,7 @@
      </profileDesc>   
   </teiHeader>
    <facsimile>
-      <surface xml:id="front1870">              <!-- ändra -->
+      <surface xml:id="front1870_01">              <!-- ändra -->
          <figure>
             <label>Catalog front</label>
             <figDesc> A photograph of the front of a catalog from 1870. </figDesc>        <!-- ändra -->
@@ -257,7 +255,7 @@
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
          </figure>
       </surface>  
-      <surface xml:id="back1870">         <!-- ändra -->
+      <surface xml:id="back1870_01">         <!-- ändra -->
          <figure>
             <label>Catalog back</label>
             <figDesc> A photograph of the back of a catalog from 1870. </figDesc>               <!-- ändra -->
