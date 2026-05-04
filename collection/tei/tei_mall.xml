@@ -107,7 +107,7 @@
                   </objectDesc>
                   
                   <typeDesc>
-                     <typeNote ana="#oldStyleSerif #sansSerif"> Contains both old style serif and sans serif fonts. Front cover contains
+                     <typeNote ana="#oldStyleSerif #sansSerif"> Contains both old style serif and sans serif fonts. Front cover contains        <!-- ändra -->
                         only uppercase letters, while the back cover is mixed.
                         case.</typeNote>
                   </typeDesc>
