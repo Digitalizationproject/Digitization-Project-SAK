@@ -191,6 +191,10 @@
                     <l>KONGL. BOKTRYCKARE.</l>
                 </div>
             </div>
+            
+            <div type="list">
+                <l>dfsdf</l>
+            </div>
 
             <div type="page" facs="#back1870" rend="left; serif">
                 <!-- När vi gör HTML kan vi visa hur det ser ut på sidan med spacing osv-->
@@ -202,8 +206,25 @@
                     <l>N:o 59. Meleager, vägrande att gå till striden, be- <lb/> vekes af sin makas
                         tårar; komposition <lb/> med många figurer. Receptionsstycke <lb/> 1794.</l>
                     <l>Tillhör Konst-Akademien.</l>
+                    <l>&#183;<name><forename>GUNNAR</forename>&#183;<surname>HALLSTRÖM</surname></name>&#183; &#183;
+                        <forename>OSKAR</forename>&#183;<surname>HULLGREN</surname>&#183;</l> 
+                    <l rend="indent">97–98. Teckn. till Strindbergs romaner <lb/>Hemsöborna och Skärkarlslif.</l>
                 </p>
             </div>
+            
+            
+            
+       <div>
+           <l ana="#signature">C.L..</l>
+           <l><date when="1906">1906</date></l>
+           <note>The initials C.L. are enclosed in a circle, with the bottom line of the L continuing outside the circle, over the date 1906. The top half of the 1 of 1906 reaches into the circle. </note>
+       </div>
+            
+    
+                    
+
+                
+            
         </body>
     </text>
 </TEI>

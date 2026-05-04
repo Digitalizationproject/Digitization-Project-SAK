@@ -7,9 +7,9 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>    
-            <title>Utställda Målningar af Äldre Svenska Mästare</title>
-            <author>Carmen Gogan, Daniel Hoflund, Miranda Rönngren, Zoe Bauer</author>
-            <principal>Carmen Gogan, Daniel Hoflund, Miranda Rönngren, Zoe Bauer</principal>
+            <title>Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+            <author>Unknown</author>
+            <principal>Carmen Gogan, D.H., Miranda Rönngren, Zoe Bauer</principal> 
             <respStmt>
                <resp>Encoding</resp>
                <name>Zoe Bauer</name>
@@ -20,7 +20,7 @@
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure>
+            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> <!-- ändra -->
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -35,7 +35,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1870_01_a</idno>
+            <idno>1870_01</idno> <!-- ändra -->
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -44,7 +44,7 @@
             <title>Sveriges Allmänna Konstföreningen exhibition catalogs</title>
             <respStmt>
                <resp>catalogues chosen by</resp>
-               <name>Carmen Cogan, Daniel Hoflund, Miranda Rönngren and Zoe Bauer</name>
+               <name>Carmen Cogan, D.H., Miranda Rönngren and Zoe Bauer</name>
             </respStmt>
          </seriesStmt>
          <notesStmt>
@@ -56,15 +56,14 @@
             
             <biblStruct>
                <monogr>
-                  <title>Utställda Målningar af Äldre Svenska Mästare</title>
+                  <title>Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
                   <imprint>
-                     <publisher>Konstföreningen i Stockholm</publisher>		  <!-- Osäker här på om det är Norstedt eller Konstföreningen som räknas som publisher?/M -->	
-                     <pubPlace>Stockholm</pubPlace>
-                     <date>1870</date>
-                     <biblScope unit="page" n="2">Two pages</biblScope>       <!-- sidantal finns både här och i msDesc -->
-                     <biblScope>Front and back covers.</biblScope>            <!-- Är det ok att det är olika antal sidor här och i msDesc? /Z -->
-                     <note ana="#kongligaBoktryckare">Printed by Kongl. Boktryckare.</note>     <!-- Eftersom ^här är det antal sidor vi har encodat, och där är det antal sidor i själva katalogen? /Z -->
-            				<!-- är "ana" här ovan lite märkligt, så vi inte gör någon ananlys om tryckeriet? Det är snarare fakta? Alternativ? /M -->
+                     <publisher>P. A. Norstedt &amp; Söner </publisher>		  <!-- ändra --> 
+                     <note>Printed by <name>Kongl. Boktryckare</name>.</note>  <!-- ändra --> 
+                     <pubPlace>Stockholm</pubPlace>                            <!-- ändra -->
+                     <date>1870</date>                                         <!-- ändra -->
+                     <biblScope unit="page" n="2">Two pages</biblScope>       
+                     <biblScope>Front and back covers.</biblScope>            
 				  </imprint>
                </monogr>
                <note>Front and back of an exhibition catalogue.</note>
@@ -76,52 +75,54 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1870_01_a</idno>
+                  <idno>1870_01</idno>                                     <!-- ändra --> 
                </msIdentifier>         
                <msContents>
                   <msItem>
                      <author>unknown</author>
-                     <title xml:lang="sv">Utställda Målningar af Äldre Svenska Mästare</title>
+                     <title xml:lang="sv">Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
                      <textLang mainLang="sv">svenska</textLang>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="leaflet" #goodCondition"> <!-- osäker på var denna metadata bör finnas... -->
+                  <objectDesc form="#leaflet"> 
                      <supportDesc>
-                        <support ana="#uncoated #thin #whiteCover"> <!-- Detta är termer som jag hämtat från taxonomierna som finns längre ner -->    
+                        <support ana="#uncoated #thin #whiteCover">              <!-- ändra -->   
                            <material>Paper</material>
                         </support>
                         <extent>
-                           <measure unit="pages" quantity="12">12</measure>
-                           <dimensions scope="all" type="leaf" unit="centimeter">
-                              <height unit="cm" quantity="19.5">19.5 cm</height>
-                              <width unit="cm" quantity="12.2">12.2 cm</width>
+                           <measure unit="pages" quantity="12">12</measure>         <!-- ändra --> 
+                           <dimensions scope="all" type="leaf" unit="centimeter">   <!-- ändra --> 
+                              <height unit="cm" quantity="19.5">19.5 cm</height>    <!-- ändra --> 
+                              <width unit="cm" quantity="12.2">12.2 cm</width>      <!-- ändra --> 
                            </dimensions>
                         </extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout columns="2">In double columns.</layout> <!-- Jag förstår inte riktigt den här linjen, vilka kolumnerna refererar detta till? /Z --> <!-- Håller med. Ta bort? -->
+                        <layout ana="#line #centered #symmetricalMargins">Cover contains text and two horizontal lines.          <!-- ändra --> 
+                           Text is centered with symmetrical margins and contains a
+                           clear hierarchy. No other decoration. 
+                        </layout>
                      </layoutDesc>
                   </objectDesc>
                   
-                 <!-- Jag har lagt till de här, men behöver vi dem? Vi har ju samma information längre ner, i <body>... Så det går bra att radera den här delen! -->
                   <typeDesc>
                      <typeNote ana="#oldStyleSerif #sansSerif"> Contains both old style serif and sans serif fonts. Front cover contains
-                        only uppercase letters, while the back cover is mixed
+                        only uppercase letters, while the back cover is mixed.
                         case.</typeNote>
                   </typeDesc>
                   <decoDesc>
-                     <decoNote ana="#line #centered #symmetricalMargins #clearHierarchy">Cover contains text and two horizontal lines. Text is centered with symmetrical margins and contains a
-                        clear hierarchy. No other decoration.</decoNote>		<!-- Bra! Frågan är om centrering, marginaler och hierarki ska vara här eller typ i layout?-->
+                     <decoNote ana="#line #centered #symmetricalMargins">[beskrivning av dekoration här]</decoNote>		<!-- ändra/radera från denna dokument innan publicering!!!-->
                   </decoDesc>
-                  
+                        
                   <bindingDesc>
-                     <binding ana="#glued">
-                        <p>Glued</p>
-                        <decoNote>Binding is reinforced by a strip of blue paper glued to the outside of the spine.</decoNote>
-						<condition>Good condition.</condition>		<!-- Kunde kondition vara här? -->
+                     <binding ana="#glued">        <!-- ändra -->
+                        <p>Glued</p>               <!-- ändra -->
+                        <decoNote>Binding is reinforced by a strip of blue paper glued to the outside of the spine.</decoNote>      <!-- ändra -->
+                        <condition>Good condition.</condition>		<!-- ändra -->
                      </binding>
                   </bindingDesc>
+
                </physDesc>
                <history>
                   <origin>
@@ -158,7 +159,7 @@
                 <taxonomy xml:id="materialType">
                    <category xml:id="coated"><catDesc>Paper coated on one or both sides with a mixture of materials (e.g., binder and pigment) or a polymer (Source: Conservation and Art Materials Encyclopedia Online (CAMEO) <ref target="https://cameo.mfa.org/wiki/Coated_paper"></ref></catDesc></category>
                    <category xml:id="uncoated"><catDesc>No coating was added during manufacturing</catDesc></category>
-                   <category xml:id="thin"><catDesc>Paper with low physical thickness, typically perceived as lightweight</catDesc></category>    <!-- thin och thick är nog fortfarande för subjektiva kategorier, men kanske är okej för oss i detta projekt? -->
+                   <category xml:id="thin"><catDesc>Paper with low physical thickness, typically perceived as lightweight</catDesc></category>    
                    <category xml:id="thick"><catDesc> Paper with high physical thickness, typically perceived as rigid</catDesc></category>
                    <category xml:id="paperUnknown"><catDesc>Paper type not identified</catDesc></category>
                 </taxonomy>
@@ -174,18 +175,11 @@
                 
                 <!-- BINDING -->
                 <taxonomy xml:id="bindingType">
-                   <category xml:id="unbound"><catDesc>Pages are folded but not bound</catDesc></category> <!-- Folded är ingen bindningsteknik? Har bytt till unbound -->
+                   <category xml:id="unbound"><catDesc>Pages are folded but not bound</catDesc></category> 
                    <category xml:id="stapled"><catDesc>Pages are stapled through the spine using wire staples</catDesc></category>
                    <category xml:id="glued"><catDesc>Pages are glued together along the spine</catDesc></category>
                    <category xml:id="sewn"><catDesc>Pages are sewn together through the spine</catDesc></category>
                    <category xml:id="bindingOther"><catDesc>Binding technique not identified</catDesc></category>
-                </taxonomy>
-                
-                
-                <!-- CONDITION -->
-                <taxonomy xml:id="condition">
-                   <category xml:id="goodCondition"><catDesc>Beskrivning</catDesc></category>
-               <!-- Utveckla här! Eller ta bort och få in någon annanstans - fritext i note?-->
                 </taxonomy>
                 
                 
@@ -198,27 +192,20 @@
                    <category xml:id="slabSerif"><catDesc>Serif typeface with heavy, unbracheted serifs, also known as square serif. <ref target="https://printwiki.org/Square_Serif">PrintWiki</ref></catDesc></category>
                    <category xml:id="blackLetter"><catDesc>Typeface based on medieval script with dark, angular characters comprising thick and thin lines. <ref target="https://printwiki.org/Black_Letter">PrintWiki</ref></catDesc></category>
                    <category xml:id="script"><catDesc>Typeface with connecting characters imitating cursive handwriting. <ref target="https://printwiki.org/Script">PrintWiki</ref></catDesc></category>
-				   <category xml:id="glyphic"><catDesc>Typefaces which are chiselled rather than calligraphic in form.<ref target="https://luc.devroye.org/britishstandards.html">British Standards for Type Classification</ref></catDesc></category>
+				       <category xml:id="glyphic"><catDesc>Typefaces which are chiselled rather than calligraphic in form.<ref target="https://luc.devroye.org/britishstandards.html">British Standards for Type Classification</ref></catDesc></category>
                    <category xml:id="mixedType"><catDesc>More than one typeface category is used.</catDesc></category>
                    <category xml:id="typeUnknown"><catDesc>Typeface not identified.</catDesc></category>
+                   <category xml:id="handmadeVariation"><catDesc>An artistic, handmade variation of a font.</catDesc></category>
                 </taxonomy>
                 
                 
                 <!--  LAYOUT  -->
                 <taxonomy xml:id="layoutType">
-                   <category xml:id="wideMargins"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="narrowMargins"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="asymmetricalMargins"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="symmetricalMargins"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="centered"><catDesc>The text is aligning midway between the left and right margins. <ref target="https://printwiki.org/Centering">PrintWiki</ref></catDesc></category>
+                   <category xml:id="centered"><catDesc>The text is aligned midway between the left and right margins. <ref target="https://printwiki.org/Centering">PrintWiki</ref></catDesc></category>
                    <category xml:id="justified"><catDesc>The text aligns on both the left and the right. <ref target="https://printwiki.org/Justified">PrintWiki</ref></catDesc></category>
                    <category xml:id="leftAligned"><catDesc>The text aligns on the left margin, also known as left justified or flush left. <ref target="https://printwiki.org/Left_Justified">PrintWiki</ref></catDesc></category>
                    <category xml:id="rightAligned"><catDesc>The text aligns on the right margin, also known as right justified or flush right. <ref target="https://printwiki.org/Right_Justified">PrintWiki</ref></catDesc></category>
-                   <category xml:id="clearHierarchy"><catDesc>Beskrivning</catDesc></category>
-                   <category xml:id="noClearHierarchy"><catDesc>Beskrivning</catDesc></category>
                 </taxonomy>
-                
-                <!-- Känns info om marginaler relevant? Känns info om hierarki relevant? Vad betyder det? Hur avgör vi? -->
                 
                 
                 <!--  IMAGES / ILLUSTRATIONS  -->
@@ -252,14 +239,6 @@
                    <category xml:id="purpleCover"><catDesc>Cover made of purple colored paper</catDesc></category>
                 </taxonomy>
                 
-                
-                <!-- PRINTERS -->
-                <taxonomy xml:id="printer"> <!-- Har lagt till denna kategori eftersom många kataloger trycktes av samma tryckerier -->
-                   <category xml:id="norstedt"><catDesc>P.A. Norstedt &amp; Söner</catDesc></category>
-                   <category xml:id="kongligaBoktryckare"><catDesc>Kongliga Boktryckare</catDesc></category>	<!-- Jag tror att detta är en titel snarare än ett namn på ett tryckeri /M --> 
-                   <category xml:id="centralTryckeriet"><catDesc>Centraltryckeriet</catDesc></category>
-                </taxonomy>
-                
              </classDecl>
              
      </encodingDesc>
@@ -270,21 +249,21 @@
      </profileDesc>   
   </teiHeader>
    <facsimile>
-      <surface xml:id="front1870">
+      <surface xml:id="front1870">              <!-- ändra -->
          <figure>
             <label>Catalog front</label>
-            <figDesc> A photograph of the front of a catalog from 1870. </figDesc>
+            <figDesc> A photograph of the front of a catalog from 1870. </figDesc>        <!-- ändra -->
             <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>              <!-- ändra -->
+            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
          </figure>
-      </surface>
-      <surface xml:id="back1870">
+      </surface>  
+      <surface xml:id="back1870">         <!-- ändra -->
          <figure>
             <label>Catalog back</label>
-            <figDesc> A photograph of the back of a catalog from 1870. </figDesc>
-            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>
-            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>
+            <figDesc> A photograph of the back of a catalog from 1870. </figDesc>               <!-- ändra -->
+            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>           <!-- ändra -->
+            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>    <!-- ändra -->
          </figure>
       </surface>
    </facsimile>
@@ -294,14 +273,14 @@
          <div type="page" facs="#front1870">
             <div type="title" place="center">
                <div ana="#oldStyleSerif"> 
-               <l>FÖRTECKNING</l>      <!-- Är det bra att använda ana="" för typsnitt, och annat som vi vill ska finnas som metadata? -->
-               <l rend="smallCaps">Å</l>                    <!-- så kanke vi kan använda rend="" för mindre variationer i texten, som italics, bold, etc? -->
-               <l>I KONSTFÖRENINGEN</l>                     <!-- Jag tycker det låter bra! Kanske det är en bra fråga till Jacob? /Z -->
+               <l>FÖRTECKNING</l>      
+               <l rend="smallCaps">Å</l>                    
+               <l>I KONSTFÖRENINGEN</l>                     
                <l>UTSTÄLLDA MÅLNINGAR</l>
                <l rend="smallCaps">AF</l>
                <l>ÄLDRE SVENSKA MÄSTARE.</l>
                
-               <metamark function="divider" ana="#line"/>      <!-- Här har jag testat att markera linjerna med <metamark> -->
+               <metamark function="divider" ana="#line"/>      
                
                <l>ANDRA AFDELNINGEN.</l>
                </div>
@@ -318,7 +297,7 @@
             <div type="imprint" rend="center" ana="#oldStyleSerif">
                <l><placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date></l>
                <l rend="smallCaps expandedTracking">P.A. NORSTEDT &amp; SÖNER</l>
-               <l ana="#kongligaBoktryckare" rend="smallCaps">KONGL. BOKTRYCKARE.</l> <!-- Använder jag <ana> rätt här? /Z -->
+               <l ana="#kongligaBoktryckare" rend="smallCaps">KONGL. BOKTRYCKARE.</l> 
             </div>
        
          
@@ -341,24 +320,6 @@
       </body>
    </text>
 </TEI>
-
-
-
-<!-- Metadata som jag är osäker på hur vi får in i TEI-headern: paginerat/opaginerat, samt hierarki (tydlig/otydlig) -->
-<!-- samt identifierbart typsnitt, variation (rubrik/brödtext), komposition (centrerad/asymetrisk), bildanvändning:placering (integrerad/separat) -->
-<!-- Vi kan ju fundera på vad som känns viktigt att ha med. En lösning är kanske att få in information i en anmärkning/note i msDesc -->
-
-<!-- En annan fråga: hur gör vi med text som finns inuti emblem/logotyper. Ska den texten finnas i body? Om ja kanske man kan markera med ana att texten står inuti ett emblem? -->
-
-<!-- TEXTVARIATIONER SOM ANGES MED REND (BRA ATT HA GEMENSAMMA TERMER) -->
-
-<!--     italics
-         bold
-         smallCaps
-         expandedTracking
-         center/left/top/bottom
-         etc.  -->
-
 
 
 
