@@ -11,7 +11,7 @@ Vi vill tacka SAK för materialet.
 Besök projektets webbsida:
 🚀(https://digitalizationproject.github.io/Digitization-Project-SAK/)
 
-Projektet är skapat av: Carmen Gogan, Daniel, Miranda Ronngren och Zoe Bauer.
+Projektet är skapat av: Carmen Gogan, Daniel, Miranda Rönngren och Zoe Bauer.
 
 
 ## Projekts översikt
