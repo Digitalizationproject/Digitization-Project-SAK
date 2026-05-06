@@ -105,9 +105,9 @@
                   </objectDesc>
 
                   <typeDesc>
-                     <typeNote ana="#oldStyleSerif #sansSerif #transitionalSerif"> Contains both old style serif and
+                     <typeNote ana="#oldStyleSerif #sansSerif #transitionalSerif #bw"> Contains both old style serif and
                         sans serif fonts. The back cover also contains transitional serif. Front cover contains only uppercase letters, while the
-                        back cover is mixed. </typeNote>
+                        back cover is mixed. All text is printed with black ink.</typeNote>
                   </typeDesc>
 
                   <bindingDesc>

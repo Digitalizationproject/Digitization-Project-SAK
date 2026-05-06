@@ -105,8 +105,8 @@
                   </objectDesc>
 
                   <typeDesc>
-                     <typeNote ana="#transitionalSerif #sansSerif #mixedType"> Contains both
-                        transitional serif and sans serif fonts.</typeNote>
+                     <typeNote ana="#transitionalSerif #sansSerif #mixedType #bw"> Contains both
+                        transitional serif and sans serif fonts. All text is printed in black ink.</typeNote>
                   </typeDesc>
                   <decoDesc>
                      <decoNote ana="#line">Contains three horizontal lines. No other decoration.
@@ -116,7 +116,7 @@
                   <bindingDesc>
                      <binding ana="#glued">
                         <p>Glued</p>
-                        <condition>Good condition.</condition>
+                        <condition>Two holes punched in the margin, otherwise good condition.</condition>
                      </binding>
                   </bindingDesc>
 
@@ -369,6 +369,10 @@
          <langUsage>
             <language ident="sv">Swedish</language>
          </langUsage>
+         <handNotes>
+            <handNote xml:id="unknown1" scribe="unknown" medium="pencil" script="cursive">Handwritten 
+               note written in pencil in the top margin.</handNote>
+         </handNotes>
       </profileDesc>
    </teiHeader>
    <facsimile>
@@ -401,7 +405,7 @@
          <div type="page" facs="#front1891_01">
             
             <l>
-               <add place="top margin, right of center" type="pencil">dublett</add>
+               <add place="top margin, right of center" type="pencil" hand="#unknown1">dublett</add>
                <note>Presumably written after the catalog was printed, in an archival context.</note>
             </l>
             

@@ -56,7 +56,7 @@
             
             <biblStruct>
                <monogr>
-                  <title>"De frie"</title> <!-- ändra -->
+                  <title>"De frie"</title> 
                   <imprint>
                      <publisher>Unknown</publisher>		
                      <note>Printed by <name>Zetterlund &amp; Thelanders Boktr.</name>.</note>  
@@ -106,7 +106,7 @@
                   </objectDesc>
                   
                   <typeDesc>
-                     <typeNote ana="#blackLetter"> Contains a blackletter font.</typeNote>
+                     <typeNote ana="#blackLetter #bw"> Contains a blackletter font and is printed using black ink only.</typeNote>
                   </typeDesc>
                   <decoDesc>
                      <decoNote ana="#line #geometricGraphicElement">Contains a graphic element consisting of 
@@ -116,7 +116,7 @@
                   <bindingDesc>
                      <binding ana="#stapled">       
                         <p>Stapled</p>            
-                        <condition>Good condition.</condition>	
+                        <condition>Four holes punched in the left margin, otherwise good condition.</condition>	
                      </binding>
                   </bindingDesc>
 
@@ -243,6 +243,10 @@
         <langUsage>
            <language ident="sv">Swedish</language>
         </langUsage>
+        <handNotes>
+           <handNote xml:id="unknown1" scribe="unknown" medium="pencil">Handwritten
+              note written in pencil in the top margin.</handNote>
+        </handNotes>
      </profileDesc>   
   </teiHeader>
    <facsimile>
@@ -269,11 +273,11 @@
          
          <div type="page" facs="#front1903_01">
             
-            <l><add place="top margin, right of center" type="pencil">1903</add>
+            <l><add place="top margin, right of center" type="pencil" hand="#unknown1">1903</add>
                <note>Presumably written after the catalog was printed, in an archival context.</note></l>
             
             
-            <div type="title" place="left" ana="#typsnitt">
+            <div type="title" place="left" ana="#blackletter">
                
                <l>”De frie”</l>                    
             </div>
@@ -282,7 +286,7 @@
                <figDesc>Four interlocking circles</figDesc>
             </figure>
             
-            <div rend="right">
+            <div rend="right" ana="#blackletter">
                <l>Utställning af Målning,</l>
                <l>Teckning och Skulptur</l>
                

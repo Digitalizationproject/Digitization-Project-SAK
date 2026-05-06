@@ -105,8 +105,8 @@
                   </objectDesc>
 
                   <typeDesc>
-                     <typeNote ana="#mixedType #handmadeVariation"> Contains mixed fonts, as well as
-                        handmade variations of fonts.</typeNote>
+                     <typeNote ana="#mixedType #handmadeVariation #bw"> Contains mixed fonts, as well as
+                        handmade variations of fonts. Printed in black ink.</typeNote>
                   </typeDesc>
                   <decoDesc>
                      <decoNote ana="#figurativeGraphicElement #decoratedInitial #line">Front cover
@@ -118,7 +118,7 @@
                   <bindingDesc>
                      <binding ana="#glued">
                         <p>Glued</p>
-                        <condition>Good condition.</condition>
+                        <condition>Two holes punched in the margin, otherwise good condition.</condition>
                      </binding>
                   </bindingDesc>
 
@@ -370,6 +370,10 @@
          <langUsage>
             <language ident="sv">Swedish</language>
          </langUsage>
+         <handNotes>
+            <handNote xml:id="unknown1" scribe="unknown" medium="blue-pencil" script="cursive">Handwritten 
+               note written in blue colored pencil in the top margin.</handNote>
+         </handNotes>
       </profileDesc>
    </teiHeader>
    <facsimile>
@@ -399,6 +403,9 @@
       <body>
 
          <div type="page" facs="#front1877_01">
+            <l><add place="top, right of center" type="pencil" hand="#unknown1">dublett</add>
+               <note>Presumably written after the catalog was printed in an archival context.</note></l>
+            
             <figure ana="#illustration">
                <figDesc>Illustration of a banner containing the title of the exhibtion and a portrait of the artist 
                   <name>Vasily Vereschagin</name> within an ovular frame decorated with diamond shapes. There is a 

@@ -101,7 +101,7 @@
                   </objectDesc>
                   
                   <decoDesc>
-                     <decoNote ana="#emblem">Image of a crown.</decoNote>	
+                     <decoNote ana="#emblem #oneColor">Image of a crown, which is printed in gold.</decoNote>	
                   </decoDesc>
                         
                   <bindingDesc>
@@ -234,6 +234,11 @@
         <langUsage>
            <language ident="sv">Swedish</language>
         </langUsage>
+        <handNotes>
+           <handNote xml:id="unknown1" scribe="unknown" medium="pencil">Handwritten
+              note written in pencil in the center of the cover.</handNote>
+        </handNotes>
+        
      </profileDesc>   
   </teiHeader>
    <facsimile>
@@ -263,7 +268,7 @@
                <figDesc>Emblem of a crown, printed in gold ink.</figDesc>
             </figure>
             
-            <l><add place="center" type="pencil">1896</add>
+            <l><add place="center" type="pencil" hand="#unknown1">1896</add>
                <note>Presumably written after the catalog was printed, in an archival context.</note></l>
          </div>
      

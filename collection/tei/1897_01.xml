@@ -104,7 +104,7 @@
                   </objectDesc>
                   
                   <typeDesc>
-                     <typeNote ana="#mixedType"> Contains multiple fonts.</typeNote>
+                     <typeNote ana="#mixedType #bw"> Contains multiple fonts that are all printed in black ink.</typeNote>
                   </typeDesc>
                   <decoDesc>
                      <decoNote ana="#line #figurativeGraphicElement #fleuron">Contains decorative lines, fleurons and a figurative decorative 
