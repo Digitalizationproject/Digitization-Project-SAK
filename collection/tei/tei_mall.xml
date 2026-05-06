@@ -19,8 +19,13 @@
                <name>Miranda Rönngren</name>
             </respStmt>
          </titleStmt>
-         <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> <!-- ändra -->
+        <extent>											<!-- ändra -->
+            <measure type="master" unit="MiB" quantity="?">
+               Master file (TIFF): ? MiB
+            </measure>    
+            <measure type="derivative" unit="MiB" quantity="?">
+               Derivative file (JPEG): ? MiB
+            </measure>  
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -58,7 +63,7 @@
                <monogr>
                   <title>Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
                   <imprint>
-                     <publisher>P. A. Norstedt &amp; Söner </publisher>		  <!-- ändra --> 
+                     <publisher>Sveriges Allmänna Konstförening</publisher>		  
                      <note>Printed by <name>Kongl. Boktryckare</name>.</note>  <!-- ändra --> 
                      <pubPlace>Stockholm</pubPlace>                            <!-- ändra -->
                      <date>1870</date>                                         <!-- ändra -->
