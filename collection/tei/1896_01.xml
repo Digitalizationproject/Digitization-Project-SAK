@@ -263,7 +263,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1896">
+         <div type="page" facs="#front1896_01">
             <figure ana="#emblem">
                <figDesc>Emblem of a crown, printed in gold ink.</figDesc>
             </figure>
@@ -272,6 +272,7 @@
                <note>Presumably written after the catalog was printed, in an archival context.</note></l>
          </div>
      
+         <div type="page" facs="#back1896_01"><gap reason="blank"/></div>
       </body>
    </text>
 </TEI>

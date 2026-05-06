@@ -265,7 +265,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1897">
+         <div type="page" facs="#front1897_01">
             <div type="title" rend="center" ana="#mixedType">
                
                <l>Sveriges Allm. Konstförening</l>
@@ -291,6 +291,7 @@
             </div>
          </div>
        
+         <div type="page" facs="#back1897_01"><gap reason="blank"/></div>
       </body>
    </text>
 </TEI>

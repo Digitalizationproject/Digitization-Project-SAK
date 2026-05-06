@@ -265,7 +265,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1894">
+         <div type="page" facs="#front1894_01">
             <div type="title" place="center" ana="#typeUnknown #mixedType">
                
                <l>katalog</l>  
@@ -287,7 +287,7 @@
             </div>
          </div>
                
-               <div type="page" facs="#back1894" rend="left" ana="#oldStyleSerif">
+               <div type="page" facs="#back1894_01" rend="left" ana="#oldStyleSerif">
                   
                   <metamark function="pagenumber" place="top-left"><num>8</num></metamark>
                   

@@ -264,7 +264,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1906">
+         <div type="page" facs="#front1906_03">
             <div type="title" place="right"  ana="#decorative #sansSerif #textFrame">
                
                <l>KATALOG</l> 
@@ -280,7 +280,7 @@
             </div>
          </div>
          
-         <div type="page" facs="#back1906" ana="#oldStyleSerif">
+         <div type="page" facs="#back1906_03" ana="#oldStyleSerif">
             <head rend="bold">Hilding Nyman.</head>
                
                <div>

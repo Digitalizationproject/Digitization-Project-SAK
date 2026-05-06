@@ -269,7 +269,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1906">
+         <div type="page" facs="#front1906_04">
             <div type="title" place="center" ana="#blackletter">
                
                <l><name>Harald Sörensen-Ringi</name></l>                    
@@ -290,7 +290,7 @@
          </div>
          
          
-         <div type="page" facs="#back1870" ana="#oldStyleSerif">
+         <div type="page" facs="#back1906_04" ana="#oldStyleSerif">
             
             <figure ana="#emblem" rend="center"><figDesc>Zetterlund &amp; Thelander's logotype</figDesc>
                   <ab type="inscription">Z &amp; T</ab></figure>	

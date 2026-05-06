@@ -24,7 +24,7 @@
                 </respStmt>
             </titleStmt>
             <extent>
-                <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure>
+                <measure unit="MiB" quantity="14.9">About fifteen megabytes Masterfiler (TIFF): ???MB; Derivat (JPEG): ????MB</measure>
             </extent>
             <publicationStmt>
                 <publisher>Högskolan i Borås(??)</publisher>
@@ -164,9 +164,9 @@
 
             <div type="page" facs="#front1870" rend="center; serif">
                 <div type="title">
-                    <l>FÖRTECKNING</l>
-                    <l rend="case(small caps)">Å</l>
-                    <l>I KONSTFÖRENINGEN</l>
+                    <p>FÖRTECKNING</p>
+                    <p rend="case(small caps)">Å</p>
+                    <p>I KONSTFÖRENINGEN</p>
                     <l>UTSTÄLLDA MÅLNINGAR</l>
                     <l rend="case(small caps)">AF</l>
                     <l>ÄLDRE SVENSKA MÄSTARE.</l>
@@ -187,8 +187,8 @@
                 </div>
 
                 <div type="publication" rend="center; serif">
-                    <l>P.A. NORSTEDT &amp; SÖNER</l>
-                    <l>KONGL. BOKTRYCKARE.</l>
+                    <l>P.A. NORSTEDT &amp; SÖNER<lb/>KONGL. BOKTRYCKARE.</l>
+
                 </div>
             </div>
             
