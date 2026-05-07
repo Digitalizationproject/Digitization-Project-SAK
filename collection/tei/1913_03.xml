@@ -112,7 +112,7 @@
                   </objectDesc>
                   
                   <typeDesc>
-                     <typeNote ana="#modernSerif #transitionalSerif">The front uses a modern serif typeface set entirely in uppercase, while the back uses a transitional serif typeface in mixed case.</typeNote>
+                     <typeNote ana="#modernSerif #transitionalSerif #mixedType">The front uses a modern serif typeface set entirely in uppercase, while the back uses a transitional serif typeface in mixed case.</typeNote>
                   </typeDesc>
                   <decoDesc>
                      <decoNote ana="#centered #illustration">Monochrome ink or charcoal-style drawing of a tulip by A.L. Koster.</decoNote>		
