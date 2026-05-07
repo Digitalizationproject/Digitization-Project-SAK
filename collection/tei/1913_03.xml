@@ -275,17 +275,14 @@
          <div type="page" facs="#front1913_03">
             
             <div type="title" rend="center" ana="#modernSerif">
-            <p>
+            <head>
                UTSTÄLLNING<lb/>
                <hi rend="smallCaps">AV</hi><lb/>
                HOLLÄNDSKA KONSTNÄRERS<lb/>
                ARBETEN<lb/>
-               <hi rend="smallCaps">
-                  <date from="1913-11-01" to="1913-11-30">
-                     1 NOV.—30 NOV. 1913
-                  </date>
-               </hi>
-            </p>
+               
+               <date rend="smallCaps" from="1913-11-01" to="1913-11-30">1 NOV.—30 NOV. 1913</date>
+            </head>
             </div>
             
             <figure ana="#illustration" rend="center">
