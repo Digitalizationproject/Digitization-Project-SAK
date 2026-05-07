@@ -7,7 +7,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>    
-            <title>Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+            <title>De Frie</title> 
             <author>Unknown</author>
             <principal>Carmen Gogan, D.H., Miranda Rönngren, Zoe Bauer</principal> 
             <respStmt>
@@ -61,12 +61,12 @@
             
             <biblStruct>
                <monogr>
-                  <title>Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+                  <title>De Frie</title> 
                   <imprint>
                      <publisher>Sveriges Allmänna Konstförening</publisher>		  
-                     <note>Printed by <name>Kongl. Boktryckare</name>.</note>  <!-- ändra --> 
-                     <pubPlace>Stockholm</pubPlace>                            <!-- ändra -->
-                     <date>1870</date>                                         <!-- ändra -->
+                     <note>Printed by <name>Zetterlunds Boktr.</name>.</note> 
+                     <pubPlace>Stockholm</pubPlace>                        
+                     <date>1913</date>                                 
                      <biblScope unit="page" n="2">Two pages</biblScope>       
                      <biblScope>Front and back covers.</biblScope>            
 				  </imprint>
@@ -85,43 +85,42 @@
                <msContents>
                   <msItem>
                      <author>unknown</author>
-                     <title xml:lang="sv">Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+                     <title xml:lang="sv">De Frie</title> 
                      <textLang mainLang="sv">svenska</textLang>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc form="leaflet"> 
                      <supportDesc>
-                        <support ana="#uncoated #thin #whiteCover">              <!-- ändra -->   
+                        <support ana="#uncoated #thick #redCover">              <!-- ändra -->   
                            <material>Paper</material>
                         </support>
                         <extent>
-                           <dimensions scope="all" type="leaf" unit="centimeter"> 
-                              <height unit="cm" quantity="19.5">19.5 cm</height>    <!-- ändra --> 
-                              <width unit="cm" quantity="12.2">12.2 cm</width>      <!-- ändra --> 
-                              <depth unit="mm" quantity="2">2 mm></depth>           <!-- ändra -->
+                           <dimensions scope="all" type="leaf"> 
+                              <height unit="cm" quantity="14">14 cm</height>    
+                              <width unit="cm" quantity="11">11 cm</width>     
+                              <depth unit="mm" quantity="1">1 mm></depth>          
                            </dimensions>
                         </extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout ana="#centered">Text on the cover is centered.      <!-- ändra --> 
+                        <layout ana="#centered">Text and images on both front and back covers are centered.    
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   
                   <typeDesc>
-                     <typeNote ana="#oldStyleSerif #sansSerif #bw"> Contains both old style serif and sans serif fonts. Front cover contains        <!-- ändra -->
-                        only uppercase letters, while the back cover is mixed.</typeNote>
+                     <typeNote ana="#decorative #sansSerif #transitionalSerif #mixedType #black"> Contains a decorative sans serif font on the 
+                        front cover and a transitional serif on the back cover. Printed with black ink.</typeNote>
                   </typeDesc>
                   <decoDesc>
-                     <decoNote ana="#line">[beskrivning av dekoration här]</decoNote>		<!-- ändra/radera från denna dokument innan publicering!!!-->
+                     <decoNote ana="#emblem">The front cover contains a circular emblem containing the name De Frie. </decoNote>		
                   </decoDesc>
                         
                   <bindingDesc>
-                     <binding ana="#glued">        <!-- ändra -->
-                        <p>Glued</p>               <!-- ändra -->
-                        <decoNote>Binding is reinforced by a strip of blue paper glued to the outside of the spine.</decoNote>      <!-- ändra -->
-                        <condition>Good condition.</condition>		<!-- ändra -->
+                     <binding ana="#stapled">        
+                        <p>Stapled</p>             
+                        <condition>Four holes punched in the left margin, otherwise good condition.</condition>	
                      </binding>
                   </bindingDesc>
 
@@ -254,7 +253,7 @@
       <surface xml:id="front1870_01">              <!-- ändra -->
          <figure>
             <label>Catalog front</label>
-            <figDesc> A photograph of the front of a catalog from 1870. </figDesc>        <!-- ändra -->
+            <figDesc> A photograph of the front of a catalog from 1913. </figDesc>     
             <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
             <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>              <!-- ändra -->
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
@@ -263,7 +262,7 @@
       <surface xml:id="back1870_01">         <!-- ändra -->
          <figure>
             <label>Catalog back</label>
-            <figDesc> A photograph of the back of a catalog from 1870. </figDesc>               <!-- ändra -->
+            <figDesc> A photograph of the back of a catalog from 1913. </figDesc>     
             <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>           <!-- ändra -->
             <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>    <!-- ändra -->
          </figure>
@@ -272,23 +271,23 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1913">
-            <div type="title" place="center" ana="#typsnitt">
+         <div type="page" facs="#front1913"> <!-- ändra -->
+            <div type="title" place="center" ana="#decorative #sansSerif">
                
                <figure ana="#emblem"><figDesc>Typographic symbol for the artist collective De Frie</figDesc>
                   <ab type="inscription" rend="bold">DE FRiE</ab></figure>
                         
             </div>
-            <div place="center" ana="#typsnitt">
+            <div place="center" ana="#decorative #sansSerif">
                
-               <l rend="bold"><date when="1913-10">OKTOBER 1913</date></l>
+               <head rend="bold"><date when="1913-10">OKTOBER 1913</date></head>
             </div>
             
             
-            <div type="page" facs="#back1913">
+            <div type="page" facs="#back1913"> <!-- ändra -->
                
-               <div type="imprint" rend="center" ana="#typsnitt">
-                  <l>Zetterlunds Boktr., L. Nyg. 17, <placeName>Sthlm.</placeName></l>
+               <div type="imprint" rend="center" ana="#transitionalSerif">
+                  <p>Zetterlunds Boktr., L. Nyg. 17, <placeName>Sthlm.</placeName></p>
                </div>
                
             </div>         
