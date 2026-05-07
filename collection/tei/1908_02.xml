@@ -19,8 +19,13 @@
                <name>Miranda Rönngren</name>
             </respStmt>
          </titleStmt>
-         <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> <!-- ändra -->
+         <extent>											<!-- ändra -->
+            <measure type="master" unit="MiB" quantity="1">   <!-- jag la till 1:an här bara så att koden ska valideras -->
+               Master file (TIFF): ? MiB
+            </measure>    
+            <measure type="derivative" unit="MiB" quantity="1">
+               Derivative file (JPEG): ? MiB
+            </measure>  
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -35,7 +40,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1908_02</idno> 
+            <idno>SAK_1908_02</idno> 
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -58,7 +63,7 @@
                <monogr>
                   <title>Marinmålaren Arvid Johanson</title> 
                   <imprint>
-                     <publisher>Unknown</publisher>		
+                     <publisher>Sveriges Allmänna Konstförening</publisher>		
                      <note>Printed by <name>Centraltryckeriet</name>.</note>
                      <pubPlace>Stockholm</pubPlace>                        
                      <date>1908</date>                                   
@@ -75,7 +80,7 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1908_02</idno>                           
+                  <idno>SAK_1908_02</idno>                           
                </msIdentifier>         
                <msContents>
                   <msItem>
@@ -85,16 +90,16 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="#leaflet"> 
+                  <objectDesc form="leaflet"> 
                      <supportDesc>
                         <support ana="#uncoated #thin #whiteCover">         
                            <material>Paper</material>
                         </support>
-                        <extent>
-                           <measure unit="pages" quantity="6">6</measure>        
-                           <dimensions scope="all" type="leaf" unit="centimeter"> 
+                        <extent>      
+                           <dimensions scope="all" type="leaf"> 
                               <height unit="cm" quantity="18.5">18.5 cm</height>  
                               <width unit="cm" quantity="13">13 cm</width>  
+                              <depth unit="mm" quantity="1">1 mm</depth>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -129,7 +134,7 @@
       </fileDesc>
           <encodingDesc>
         <projectDesc>
-           <p>This project created digtizations of art exhibition catalogues for the
+           <p>This project created digitalisations of art exhibition catalogues for the
               preservation of cultural heritage.</p>
         </projectDesc>
         <samplingDecl>
@@ -161,7 +166,7 @@
                 
                 <!-- COLOR -->
                 <taxonomy xml:id="colorScheme">
-                   <category xml:id="bw"><catDesc>Printing using black ink only</catDesc></category>
+                   <category xml:id="black"><catDesc>Printing using black ink only</catDesc></category>
                    <category xml:id="oneColor"><catDesc>Printing using a single colored ink other than black</catDesc></category>
                    <category xml:id="twoColor"><catDesc>Printing combining two ink colors</catDesc></category>
                    <category xml:id="multiColor"><catDesc>Printing using three or more ink colors</catDesc></category>
@@ -244,7 +249,7 @@
      </profileDesc>   
   </teiHeader>
    <facsimile>
-      <surface xml:id="front1908_02">         
+      <surface xml:id="SAK_1908_02_a">         
          <figure>
             <label>Catalog front</label>
             <figDesc> A photograph of the front of a catalog from 1908. </figDesc>     
@@ -253,7 +258,7 @@
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
          </figure>
       </surface>  
-      <surface xml:id="back1908_02">         
+      <surface xml:id="SAK_1908_02_b">         
          <figure>
             <label>Catalog back</label>
             <figDesc> A photograph of the back of a catalog from 1908. </figDesc>         
@@ -265,7 +270,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1908_02" rend="color(orange)">
+         <div type="page" facs="#SAK_1908_02_a" rend="color(orange)">
             <div type="title" place="left" ana="#sansSerif">
                <l>MARINMÅLAREN</l>                
                <l><name>ARVID JOHANSON</name></l>
@@ -274,7 +279,7 @@
             </div>
          </div>
          
-         <div type="page" facs="#back1908_02"><gap reason="blank"/></div>
+         <div type="page" facs="#SAK_1908_02_b"><gap reason="blank"/></div>
       </body>
    </text>
 </TEI>

@@ -19,8 +19,13 @@
                <name>Miranda Rönngren</name>
             </respStmt>
          </titleStmt>
-         <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> <!-- ändra -->
+         <extent>											<!-- ändra -->
+            <measure type="master" unit="MiB" quantity="1">   <!-- jag la till 1:an här bara så att koden ska valideras -->
+               Master file (TIFF): ? MiB
+            </measure>    
+            <measure type="derivative" unit="MiB" quantity="1">
+               Derivative file (JPEG): ? MiB
+            </measure>  
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -35,7 +40,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1903_01</idno> 
+            <idno>SAK_1903_01</idno> 
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -58,9 +63,10 @@
                <monogr>
                   <title>"De frie"</title> 
                   <imprint>
-                     <publisher>Unknown</publisher>		
+                     <publisher>Sveriges Allmänna Konstförening</publisher>		
                      <note>Printed by <name>Zetterlund &amp; Thelanders Boktr.</name>.</note>  
-                     <pubPlace>Unknown</pubPlace>                        
+                     <pubPlace>Stockholm</pubPlace>
+                     <note>Place of publication inferred to be Stockholm from the location of the printing.</note>
                      <date>1903</date>                                   
                      <biblScope unit="page" n="2">Two pages</biblScope>       
                      <biblScope>Front and back covers.</biblScope>            
@@ -75,7 +81,7 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1903_01</idno>                                 
+                  <idno>SAK_1903_01</idno>                                 
                </msIdentifier>         
                <msContents>
                   <msItem>
@@ -85,16 +91,16 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="#leaflet"> 
+                  <objectDesc form="leaflet"> 
                      <supportDesc>
                         <support ana="#uncoated #thick #redCover">              
                            <material>Paper</material>
                         </support>
-                        <extent>
-                           <measure unit="pages" quantity="10">10</measure>       
-                           <dimensions scope="all" type="leaf" unit="centimeter"> 
+                        <extent>      
+                           <dimensions scope="all" type="leaf"> 
                               <height unit="cm" quantity="14.8">14.8 cm</height>    
-                              <width unit="cm" quantity="11.5">11.5 cm</width>   
+                              <width unit="cm" quantity="11.5">11.5 cm</width> 
+                              <depth unit="mm" quantity="1">1 mm</depth>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -106,7 +112,7 @@
                   </objectDesc>
                   
                   <typeDesc>
-                     <typeNote ana="#blackLetter #bw"> Contains a blackletter font and is printed using black ink only.</typeNote>
+                     <typeNote ana="#blackLetter #black"> Contains a blackletter font and is printed using black ink only.</typeNote>
                   </typeDesc>
                   <decoDesc>
                      <decoNote ana="#line #geometricGraphicElement">Contains a graphic element consisting of 
@@ -163,7 +169,7 @@
                 
                 <!-- COLOR -->
                 <taxonomy xml:id="colorScheme">
-                   <category xml:id="bw"><catDesc>Printing using black ink only</catDesc></category>
+                   <category xml:id="black"><catDesc>Printing using black ink only</catDesc></category>
                    <category xml:id="oneColor"><catDesc>Printing using a single colored ink other than black</catDesc></category>
                    <category xml:id="twoColor"><catDesc>Printing combining two ink colors</catDesc></category>
                    <category xml:id="multiColor"><catDesc>Printing using three or more ink colors</catDesc></category>
@@ -250,7 +256,7 @@
      </profileDesc>   
   </teiHeader>
    <facsimile>
-      <surface xml:id="front1903_01">    
+      <surface xml:id="SAK_1903_01_a">    
          <figure>
             <label>Catalog front</label>
             <figDesc> A photograph of the front of a catalog from 1903. </figDesc>      
@@ -259,7 +265,7 @@
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
          </figure>
       </surface>  
-      <surface xml:id="back1903_01">    
+      <surface xml:id="SAK_1903_01_b">    
          <figure>
             <label>Catalog back</label>
             <figDesc> A photograph of the back of a catalog from 1903. </figDesc>    
@@ -271,7 +277,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1903_01">
+         <div type="page" facs="#SAK_1903_01_a">
             
             <l><add place="top margin, right of center" type="pencil" hand="#unknown1">1903</add>
                <note>Presumably written after the catalog was printed, in an archival context.</note></l>
@@ -295,7 +301,7 @@
                </figure>
             </div>
          </div>
-         <div type="page" facs="#back1903_01"><gap reason="blank"/></div>
+         <div type="page" facs="#SAK_1903_01_b"><gap reason="blank"/></div>
       </body>
    </text>
 </TEI>

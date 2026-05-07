@@ -19,8 +19,13 @@
                <name>Miranda Rönngren</name>
             </respStmt>
          </titleStmt>
-         <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> <!-- ändra -->
+         <extent>											<!-- ändra -->
+            <measure type="master" unit="MiB" quantity="1">   <!-- jag la till 1:an här bara så att koden ska valideras -->
+               Master file (TIFF): ? MiB
+            </measure>    
+            <measure type="derivative" unit="MiB" quantity="1">
+               Derivative file (JPEG): ? MiB
+            </measure>  
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -35,7 +40,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1908_01</idno> 
+            <idno>SAK_1908_01</idno> 
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -58,7 +63,7 @@
                <monogr>
                   <title>Utställning af Målning Teckning Skulptur</title> 
                   <imprint>
-                     <publisher>Unknown</publisher>		  <!-- ändra --> 
+                     <publisher>Sveriges Allmänna Konstförening</publisher>	
                      <note>Printed by <name>Almquist &amp; Wiksells Boktryckeri A.B.</name>.</note>  
                      <pubPlace>Uppsala</pubPlace>          
                      <date>1908</date>                             
@@ -75,7 +80,7 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1908_01</idno>                     
+                  <idno>SAK_1908_01</idno>                     
                </msIdentifier>         
                <msContents>
                   <msItem>
@@ -85,16 +90,16 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="#leaflet"> 
+                  <objectDesc form="leaflet"> 
                      <supportDesc>
                         <support ana="#uncoated #thin #whiteCover">     
                            <material>Paper</material>
                         </support>
-                        <extent>
-                           <measure unit="pages" quantity="10">10</measure>      
-                           <dimensions scope="all" type="leaf" unit="centimeter"> 
+                        <extent>     
+                           <dimensions scope="all" type="leaf"> 
                               <height unit="cm" quantity="18.5">18.5 cm</height>   
-                              <width unit="cm" quantity="13.5">13.5 cm</width>    
+                              <width unit="cm" quantity="13.5">13.5 cm</width> 
+                              <depth unit="mm" quantity="1">1 mm</depth>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -129,7 +134,7 @@
       </fileDesc>
           <encodingDesc>
         <projectDesc>
-           <p>This project created digtizations of art exhibition catalogues for the
+           <p>This project created digitalisations of art exhibition catalogues for the
               preservation of cultural heritage.</p>
         </projectDesc>
         <samplingDecl>
@@ -161,7 +166,7 @@
                 
                 <!-- COLOR -->
                 <taxonomy xml:id="colorScheme">
-                   <category xml:id="bw"><catDesc>Printing using black ink only</catDesc></category>
+                   <category xml:id="black"><catDesc>Printing using black ink only</catDesc></category>
                    <category xml:id="oneColor"><catDesc>Printing using a single colored ink other than black</catDesc></category>
                    <category xml:id="twoColor"><catDesc>Printing combining two ink colors</catDesc></category>
                    <category xml:id="multiColor"><catDesc>Printing using three or more ink colors</catDesc></category>
@@ -244,7 +249,7 @@
      </profileDesc>   
   </teiHeader>
    <facsimile>
-      <surface xml:id="front1908_01">         
+      <surface xml:id="SAK_1908_01_a">         
          <figure>
             <label>Catalog front</label>
             <figDesc> A photograph of the front of a catalog from 1908. </figDesc>     
@@ -253,7 +258,7 @@
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
          </figure>
       </surface>  
-      <surface xml:id="back1908_01">      
+      <surface xml:id="SAK_1908_01_b">      
          <figure>
             <label>Catalog back</label>
             <figDesc> A photograph of the back of a catalog from 1908. </figDesc>           
@@ -265,7 +270,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1908_01">
+         <div type="page" facs="#SAK_1908_01_a">
             <div type="title" place="center" ana="#sansSerif">
                <l rend="color(black)">UTSTÄLLNING AF</l>                    
                <l rend="color(orange)">MÅLNING</l>                                   
@@ -277,7 +282,7 @@
                <metamark ana="#geometricGraphicElement"/>
                
             </div>
-            <div type="page" facs="#back1908_01">
+            <div type="page" facs="#SAK_1908_01_b">
                
                <div type="imprint" rend="center" ana="#sansSerif">
                   <figure ana="#emblem"><figDesc>Almqvist &amp; Wiksell's logotype</figDesc></figure>

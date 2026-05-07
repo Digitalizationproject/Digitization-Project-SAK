@@ -19,8 +19,13 @@
                <name>Miranda Rönngren</name>
             </respStmt>
          </titleStmt>
-         <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> <!-- ändra -->
+         <extent>											<!-- ändra -->
+            <measure type="master" unit="MiB" quantity="1">   <!-- jag la till 1:an här bara så att koden ska valideras -->
+               Master file (TIFF): ? MiB
+            </measure>    
+            <measure type="derivative" unit="MiB" quantity="1">
+               Derivative file (JPEG): ? MiB
+            </measure>  
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -35,7 +40,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1870_01</idno> <!-- ändra -->
+            <idno>SAK_1870_01</idno> 
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -75,7 +80,7 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1896_01</idno>                  
+                  <idno>SAK_1896_01</idno>                  
                </msIdentifier>         
                <msContents>
                   <msItem>
@@ -85,16 +90,16 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="#leaflet"> 
+                  <objectDesc form="leaflet"> 
                      <supportDesc>
                         <support ana="#uncoated #thick #redCover">  
                            <material>Paper</material>
                         </support>
                         <extent>
-                           <measure unit="pages" quantity="20">20</measure> 
-                           <dimensions scope="all" type="leaf" unit="centimeter"> 
+                           <dimensions scope="all" type="leaf"> 
                               <height unit="cm" quantity="16.5">16.5 cm</height> 
-                              <width unit="cm" quantity="11.5">11.5 cm</width>  
+                              <width unit="cm" quantity="11.5">11.5 cm</width>
+                              <depth unit="mm" quantity="2">2 mm</depth>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -122,7 +127,7 @@
       </fileDesc>
           <encodingDesc>
         <projectDesc>
-           <p>This project created digtizations of art exhibition catalogues for the
+           <p>This project created digitalisations of art exhibition catalogues for the
               preservation of cultural heritage.</p>
         </projectDesc>
         <samplingDecl>
@@ -154,7 +159,7 @@
                 
                 <!-- COLOR -->
                 <taxonomy xml:id="colorScheme">
-                   <category xml:id="bw"><catDesc>Printing using black ink only</catDesc></category>
+                   <category xml:id="black"><catDesc>Printing using black ink only</catDesc></category>
                    <category xml:id="oneColor"><catDesc>Printing using a single colored ink other than black</catDesc></category>
                    <category xml:id="twoColor"><catDesc>Printing combining two ink colors</catDesc></category>
                    <category xml:id="multiColor"><catDesc>Printing using three or more ink colors</catDesc></category>
@@ -242,7 +247,7 @@
      </profileDesc>   
   </teiHeader>
    <facsimile>
-      <surface xml:id="front1896_01">     
+      <surface xml:id="SAK_1896_01_a">     
          <figure>
             <label>Catalog front</label>
             <figDesc> A photograph of the front of a catalog from 1896. </figDesc>    
@@ -251,7 +256,7 @@
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
          </figure>
       </surface>  
-      <surface xml:id="back1896_01"> 
+      <surface xml:id="SAK_1896_01_b"> 
          <figure>
             <label>Catalog back</label>
             <figDesc> A photograph of the back of a catalog from 1896. </figDesc>       
@@ -263,7 +268,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1896_01">
+         <div type="page" facs="#SAK_1896_01_a">
             <figure ana="#emblem">
                <figDesc>Emblem of a crown, printed in gold ink.</figDesc>
             </figure>
@@ -272,7 +277,7 @@
                <note>Presumably written after the catalog was printed, in an archival context.</note></l>
          </div>
      
-         <div type="page" facs="#back1896_01"><gap reason="blank"/></div>
+         <div type="page" facs="#SAK_1896_01_b"><gap reason="blank"/></div>
       </body>
    </text>
 </TEI>

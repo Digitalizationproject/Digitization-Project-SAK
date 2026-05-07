@@ -19,9 +19,13 @@
                <name>Miranda Rönngren</name>
             </respStmt>
          </titleStmt>
-         <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure>
-            <!-- ändra -->
+         <extent>											<!-- ändra -->
+            <measure type="master" unit="MiB" quantity="1">   <!-- jag la till 1:an här bara så att koden ska valideras -->
+               Master file (TIFF): ? MiB
+            </measure>    
+            <measure type="derivative" unit="MiB" quantity="1">
+               Derivative file (JPEG): ? MiB
+            </measure>  
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -36,7 +40,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1891_01</idno>
+            <idno>SAK_1891_01</idno>
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -59,7 +63,7 @@
                <monogr>
                   <title>Den Gustavianska Utställingen</title>
                   <imprint>
-                     <publisher>Unknown </publisher>
+                     <publisher>Sveriges Allmänna Konstförening</publisher>
                      <note>Printed by <name>Gernandts Boktryckeri-Aktiebolag</name>.</note>
                      <pubPlace>Stockholm</pubPlace>
                      <date>1891</date>
@@ -76,7 +80,7 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1891_01</idno>
+                  <idno>SAK_1891_01</idno>
                </msIdentifier>
                <msContents>
                   <msItem>
@@ -86,16 +90,16 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="#leaflet">
+                  <objectDesc form="leaflet">
                      <supportDesc>
                         <support ana="#coated #thin #tealCover">
                            <material>Paper</material>
                         </support>
                         <extent>
-                           <measure unit="pages" quantity="28">28</measure>
-                           <dimensions scope="all" type="leaf" unit="centimeter">
+                           <dimensions scope="all" type="leaf">
                               <height unit="cm" quantity="18.8">18.8 cm</height>
                               <width unit="cm" quantity="12.5">12.5 cm</width>
+                              <depth unit="mm" quantity="2">2 mm></depth>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -105,7 +109,7 @@
                   </objectDesc>
 
                   <typeDesc>
-                     <typeNote ana="#transitionalSerif #sansSerif #mixedType #bw"> Contains both
+                     <typeNote ana="#transitionalSerif #sansSerif #mixedType #black"> Contains both
                         transitional serif and sans serif fonts. All text is printed in black ink.</typeNote>
                   </typeDesc>
                   <decoDesc>
@@ -131,7 +135,7 @@
       </fileDesc>
       <encodingDesc>
          <projectDesc>
-            <p>This project created digtizations of art exhibition catalogues for the preservation
+            <p>This project created digitalisations of art exhibition catalogues for the preservation
                of cultural heritage.</p>
          </projectDesc>
          <samplingDecl>
@@ -178,7 +182,7 @@
 
             <!-- COLOR -->
             <taxonomy xml:id="colorScheme">
-               <category xml:id="bw">
+               <category xml:id="black">
                   <catDesc>Printing using black ink only</catDesc>
                </category>
                <category xml:id="oneColor">
@@ -376,7 +380,7 @@
       </profileDesc>
    </teiHeader>
    <facsimile>
-      <surface xml:id="front1891_01">
+      <surface xml:id="SAK_1891_01_a">
          <figure>
             <label>Catalog front</label>
             <figDesc> A photograph of the front of a catalog from 1891. </figDesc>
@@ -387,7 +391,7 @@
             <!-- ändra -->
          </figure>
       </surface>
-      <surface xml:id="back1891_01">
+      <surface xml:id="SAK_1891_01_b">
          <figure>
             <label>Catalog back</label>
             <figDesc> A photograph of the back of a catalog from 1891. </figDesc>
@@ -402,7 +406,7 @@
    <text>
       <body>
 
-         <div type="page" facs="#front1891_01">
+         <div type="page" facs="#SAK_1891_01_a">
             
             <l>
                <add place="top margin, right of center" type="pencil" hand="#unknown1">dublett</add>
@@ -434,7 +438,7 @@
                </div>
             </div>
          </div>
-         <div type="page" facs="#back1891_01"><gap reason="blank"/></div>
+         <div type="page" facs="#SAK_1891_01_b"><gap reason="blank"/></div>
          
       </body>
    </text>

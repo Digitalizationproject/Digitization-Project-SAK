@@ -96,7 +96,7 @@
                            <material>Paper</material>
                         </support>
                         <extent>
-                           <dimensions scope="all" type="leaf" unit="centimeter"> 
+                           <dimensions scope="all" type="leaf"> 
                               <height unit="cm" quantity="19.5">19.5 cm</height>    <!-- ändra --> 
                               <width unit="cm" quantity="12.2">12.2 cm</width>      <!-- ändra --> 
                               <depth unit="mm" quantity="2">2 mm></depth>           <!-- ändra -->

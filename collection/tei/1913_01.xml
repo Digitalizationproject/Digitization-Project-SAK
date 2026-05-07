@@ -40,7 +40,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1870_01</idno> <!-- ändra -->
+            <idno>SAK_1913_01</idno> 
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -80,7 +80,7 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1870_01</idno>                                     <!-- ändra --> 
+                  <idno>SAK_1913_01</idno>                                  
                </msIdentifier>         
                <msContents>
                   <msItem>
@@ -92,7 +92,7 @@
                <physDesc>
                   <objectDesc form="leaflet"> 
                      <supportDesc>
-                        <support ana="#uncoated #thick #redCover">              <!-- ändra -->   
+                        <support ana="#uncoated #thick #redCover">          
                            <material>Paper</material>
                         </support>
                         <extent>
@@ -250,7 +250,7 @@
      </profileDesc>   
   </teiHeader>
    <facsimile>
-      <surface xml:id="front1870_01">              <!-- ändra -->
+      <surface xml:id="SAK_1913_01_a">           
          <figure>
             <label>Catalog front</label>
             <figDesc> A photograph of the front of a catalog from 1913. </figDesc>     
@@ -259,7 +259,7 @@
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
          </figure>
       </surface>  
-      <surface xml:id="back1870_01">         <!-- ändra -->
+      <surface xml:id="SAK_1913_01_b">       
          <figure>
             <label>Catalog back</label>
             <figDesc> A photograph of the back of a catalog from 1913. </figDesc>     
@@ -271,7 +271,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1913"> <!-- ändra -->
+         <div type="page" facs="#SAK_1913_01_a"> 
             <div type="title" place="center" ana="#decorative #sansSerif">
                
                <figure ana="#emblem"><figDesc>Typographic symbol for the artist collective De Frie</figDesc>
@@ -284,7 +284,7 @@
             </div>
             
             
-            <div type="page" facs="#back1913"> <!-- ändra -->
+            <div type="page" facs="#SAK_1913_01_b"> 
                
                <div type="imprint" rend="center" ana="#transitionalSerif">
                   <p>Zetterlunds Boktr., L. Nyg. 17, <placeName>Sthlm.</placeName></p>

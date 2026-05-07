@@ -19,8 +19,13 @@
                <name>Miranda Rönngren</name>
             </respStmt>
          </titleStmt>
-         <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> <!-- ändra -->
+         <extent>											<!-- ändra -->
+            <measure type="master" unit="MiB" quantity="1">   <!-- jag la till 1:an här bara så att koden ska valideras -->
+               Master file (TIFF): ? MiB
+            </measure>    
+            <measure type="derivative" unit="MiB" quantity="1">
+               Derivative file (JPEG): ? MiB
+            </measure>  
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -35,7 +40,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1906_02</idno> 
+            <idno>SAK_1906_02</idno> 
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -58,7 +63,7 @@
                <monogr>
                   <title>Hallström, Hullgren, Österlund, och Neujd</title> 
                   <imprint>
-                     <publisher>Unknown</publisher>	
+                     <publisher>Sveriges Allmänna Konstförening</publisher>	
                      <note>Printed by <name>Centraltryckeriet</name>.</note> 
                      <pubPlace>Stockholm</pubPlace>                     
                      <date>1906</date>                              
@@ -75,7 +80,7 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1906_02</idno>                             
+                  <idno>SAK_1906_02</idno>                             
                </msIdentifier>         
                <msContents>
                   <msItem>
@@ -90,11 +95,11 @@
                         <support ana="#uncoated #thick #whiteCover">        
                            <material>Paper</material>
                         </support>
-                        <extent>
-                           <measure unit="pages" quantity="10">10</measure>     
-                           <dimensions scope="all" type="leaf" unit="centimeter"> 
+                        <extent>     
+                           <dimensions scope="all" type="leaf"> 
                               <height unit="cm" quantity="21">21 cm</height>  
-                              <width unit="cm" quantity="15.5">15.5 cm</width>    
+                              <width unit="cm" quantity="15.5">15.5 cm</width> 
+                              <depth unit="mm" quantity="2">2 mm</depth>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -135,7 +140,7 @@
       </fileDesc>
           <encodingDesc>
         <projectDesc>
-           <p>This project created digtizations of art exhibition catalogues for the
+           <p>This project created digitalisations of art exhibition catalogues for the
               preservation of cultural heritage.</p>
         </projectDesc>
         <samplingDecl>
@@ -167,7 +172,7 @@
                 
                 <!-- COLOR -->
                 <taxonomy xml:id="colorScheme">
-                   <category xml:id="bw"><catDesc>Printing using black ink only</catDesc></category>
+                   <category xml:id="black"><catDesc>Printing using black ink only</catDesc></category>
                    <category xml:id="oneColor"><catDesc>Printing using a single colored ink other than black</catDesc></category>
                    <category xml:id="twoColor"><catDesc>Printing combining two ink colors</catDesc></category>
                    <category xml:id="multiColor"><catDesc>Printing using three or more ink colors</catDesc></category>
@@ -258,7 +263,7 @@
      </profileDesc>   
   </teiHeader>
    <facsimile>
-      <surface xml:id="front1906_02">            
+      <surface xml:id="SAK_1906_02_a">            
          <figure>
             <label>Catalog front</label>
             <figDesc> A photograph of the front of a catalog from 1906. </figDesc>      
@@ -267,7 +272,7 @@
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
          </figure>
       </surface>  
-      <surface xml:id="back1906_02">      
+      <surface xml:id="SAK_1906_02_b">      
          <figure>
             <label>Catalog back</label>
             <figDesc> A photograph of the back of a catalog from 1906. </figDesc>         
@@ -279,7 +284,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1906_02">
+         <div type="page" facs="#SAK_1906_02_a">
             
                <l><add place="top margin, right of center" type="pen" hand="unknown2">1047</add>
                <note>Possibly added in an archival context.</note></l>
@@ -313,7 +318,7 @@
             </div>
 
          </div> 
-         <div type="page" facs="#back1906_02"><gap reason="blank"/></div> 
+         <div type="page" facs="#SAK_1906_02_b"><gap reason="blank"/></div> 
        
       </body>
    </text>

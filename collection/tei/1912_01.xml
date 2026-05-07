@@ -96,7 +96,7 @@
                            <material>Paper</material>
                         </support>
                         <extent>
-                           <dimensions scope="all" type="leaf" unit="centimeter"> 
+                           <dimensions scope="all" type="leaf"> 
                               <height unit="cm" quantity="18.5">18.5 cm</height>   
                               <width unit="cm" quantity="14.5">14.5 cm</width>   
                               <depth unit="mm" quantity="1">1 mm></depth>        
@@ -273,7 +273,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1912">
+         <div type="page" facs="#SAK_1912_01_a">
             <div type="title" place="center" ana="#decorative #sansSerif">
                <p>KATALOG</p>
             </div>
@@ -291,7 +291,7 @@
                <l><date when="1912-04">APRIL 1912</date></l>
             </div>             
          
-            <div type="page" facs="#back1912" rend="center" ana="#unknownType">
+            <div type="page" facs="#SAK_1912_01_b" rend="center" ana="#unknownType">
                
                <l>54. Bygata						350</l>
                <l>55. En gård						300</l>

@@ -19,8 +19,13 @@
                <name>Miranda Rönngren</name>
             </respStmt>
          </titleStmt>
-         <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> <!-- ändra -->
+         <extent>											<!-- ändra -->
+            <measure type="master" unit="MiB" quantity="1">   <!-- jag la till 1:an här bara så att koden ska valideras -->
+               Master file (TIFF): ? MiB
+            </measure>    
+            <measure type="derivative" unit="MiB" quantity="1">
+               Derivative file (JPEG): ? MiB
+            </measure>  
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -35,7 +40,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1911_01</idno> 
+            <idno>SAK_1911_01</idno> 
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -58,7 +63,7 @@
                <monogr>
                   <title>David Edström Skulpturutställning</title> 
                   <imprint>
-                     <publisher>P. A. Norstedt &amp; Söner </publisher>		
+                     <publisher>Sveriges Allmänna Konstförening</publisher>		
                      <pubPlace>Stockholm</pubPlace>                           
                      <date>1911</date>                               
                      <biblScope unit="page" n="2">Two pages</biblScope>       
@@ -74,7 +79,7 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1911_01</idno>                          
+                  <idno>SAK_1911_01</idno>                          
                </msIdentifier>         
                <msContents>
                   <msItem>
@@ -84,16 +89,16 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="#leaflet"> 
+                  <objectDesc form="leaflet"> 
                      <supportDesc>
                         <support ana="#coated #thin #whiteCover">    
                            <material>Paper</material>
                         </support>
-                        <extent>
-                           <measure unit="pages" quantity="11">11</measure>        
-                           <dimensions scope="all" type="leaf" unit="centimeter"> 
+                        <extent>      
+                           <dimensions scope="all" type="leaf"> 
                               <height unit="cm" quantity="18.5">18.5 cm</height>    
-                              <width unit="cm" quantity="12">12 cm</width>   
+                              <width unit="cm" quantity="12">12 cm</width> 
+                              <depth unit="mm" quantity="1">1 mm</depth>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -105,7 +110,7 @@
                   </objectDesc>
                   
                   <typeDesc>
-                     <typeNote ana="#glyphic #transitionalSerif #oldStyleSerif #bw"> Front cover contains a glyphic font, and the 
+                     <typeNote ana="#glyphic #transitionalSerif #oldStyleSerif #mixedType #black"> Front cover contains a glyphic font, and the 
                         back contains a transitional serif font and an old style serif font. Catalog is printed with black ink.</typeNote>
                   </typeDesc>
                   <decoDesc>
@@ -131,7 +136,7 @@
       </fileDesc>
           <encodingDesc>
         <projectDesc>
-           <p>This project created digtizations of art exhibition catalogues for the
+           <p>This project created digitalisations of art exhibition catalogues for the
               preservation of cultural heritage.</p>
         </projectDesc>
         <samplingDecl>
@@ -163,7 +168,7 @@
                 
                 <!-- COLOR -->
                 <taxonomy xml:id="colorScheme">
-                   <category xml:id="bw"><catDesc>Printing using black ink only</catDesc></category>
+                   <category xml:id="black"><catDesc>Printing using black ink only</catDesc></category>
                    <category xml:id="oneColor"><catDesc>Printing using a single colored ink other than black</catDesc></category>
                    <category xml:id="twoColor"><catDesc>Printing combining two ink colors</catDesc></category>
                    <category xml:id="multiColor"><catDesc>Printing using three or more ink colors</catDesc></category>
@@ -246,7 +251,7 @@
      </profileDesc>   
   </teiHeader>
    <facsimile>
-      <surface xml:id="front1911_01">             
+      <surface xml:id="SAK_1911_01_a">             
          <figure>
             <label>Catalog front</label>
             <figDesc> A photograph of the front of a catalog from 1911. </figDesc>    
@@ -255,7 +260,7 @@
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
          </figure>
       </surface>  
-      <surface xml:id="back1911_01">         
+      <surface xml:id="SAK_1911_01_b">         
          <figure>
             <label>Catalog back</label>
             <figDesc> A photograph of the back of a catalog from 1911. </figDesc>         
@@ -267,7 +272,7 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1911_01">
+         <div type="page" facs="#SAK_1911_01_a">
             
             <figure ana="#photography"><figDesc>Photograph of a sculpture of a woman staring upwards, 
                in front of an ivy-covered brick wall.</figDesc></figure>
@@ -281,7 +286,7 @@
                <l rend="right italics"><date when="1911-04">APRIL 1911</date></l>
                   
             </div>
-            <div type="page" facs="#back1911_01" ana="#transitionalSerif">
+            <div type="page" facs="#SAK_1911_01_b" ana="#transitionalSerif">
                
                <figure ana="#photography"><figDesc>Photograph of a sculpture of a sphinx head, sitting on a pedastal.</figDesc></figure>
                <l rend="smallCaps">SPHINX</l>
