@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>    
+            <title>Katalog</title> 
+            <author>Unknown</author>
+            <principal>Carmen Gogan, D.H., Miranda Rönngren, Zoe Bauer</principal> 
+            <respStmt>
+               <resp>Encoding</resp>
+               <name>Zoe Bauer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Encoding</resp>
+               <name>Miranda Rönngren</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> 
+         </extent>
+         <publicationStmt>
+            <publisher>Högskolan i Borås</publisher>
+            <pubPlace>
+               <address>
+                  <orgName>HB IT services</orgName>
+                  <street>Allégatan 1</street>
+                  <settlement>Borås</settlement>
+                  <postCode>50190</postCode>
+                  <country>Sweden</country>
+               </address>
+            </pubPlace>
+            <distributor>IT services, Högskolan i Borås</distributor>
+            <date when="2026-05-27">27 May 2026</date>
+            <idno>1916_03</idno> 
+            <availability>
+               <p>This work is in the public domain.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Sveriges Allmänna Konstförening exhibition catalogs</title>
+            <respStmt>
+               <resp>catalogues chosen by</resp>
+               <name>Carmen Cogan, D.H., Miranda Rönngren and Zoe Bauer</name>
+            </respStmt>
+         </seriesStmt>
+         <notesStmt>
+            <note>Transcribed for a digitization project.</note>
+         </notesStmt>
+         <sourceDesc>
+            
+            <!-- biblStruct -->
+            
+            <biblStruct>
+               <monogr>
+                  <title>Katalog</title>
+                  <imprint>
+                     <publisher>Sveriges Allmänna Konstförening</publisher>	 
+                     <note>Printed by <name>Litogr. Accidens Tr.</name></note>  
+                     <pubPlace>Stockholm</pubPlace>                            
+                     <date>1916</date>                                         
+                     <biblScope unit="page" n="2">Two pages</biblScope>       
+                     <biblScope>Front and back covers.</biblScope>            
+                  </imprint>
+               </monogr>
+               <note>Front and back of an exhibition catalogue.</note>
+            </biblStruct>
+            
+            <!-- msDesc -->
+            
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Stockholm</settlement>
+                  <repository>Stadsarkivet Liljeholmskajen</repository>
+                  <idno>1916_03</idno>                                     
+               </msIdentifier>         
+               <msContents>
+                  <msItem>
+                     <author>unknown</author>
+                     <title xml:lang="sv">Katalog</title> 
+                     <textLang mainLang="sv">svenska</textLang>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="leaflet"> 
+                     <supportDesc>
+                        <support ana="#uncoated #thick #purpleCover #black">              
+                           <material>Paper</material>
+                        </support>
+                        <extent>         
+                           <dimensions scope="all" type="leaf"> 
+                              <height unit="cm" quantity="18.5">18.5 cm</height>    
+                              <width unit="cm" quantity="13.5">13.5 cm</width>
+                              <depth unit="mm" quantity="2">2 mm</depth>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout ana="#centered">Text on the cover is centered.     
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  
+                  <typeDesc>
+                     <typeNote ana="#sansSerif"> Title in sans serif. Mixed case.</typeNote>
+                  </typeDesc>
+                  <decoDesc>
+                     <decoNote>Minimal design, no decorative elements.</decoNote>		
+                  </decoDesc>
+                  
+                  <bindingDesc>
+                     <binding ana="#glued">        
+                        <p>Glued</p>               
+                        <condition>Generally good condition. Punch holes in left margin. Cover color slightly faded.</condition>		
+                     </binding>
+                  </bindingDesc>
+                  
+               </physDesc>
+               <history>
+                  <origin>
+                     <note>Physical production corresponds to publication event.</note>
+                  </origin>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project created digitizations of art exhibition catalogues for the
+               preservation of cultural heritage.</p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Catalogues were chosen both which exemplified common design choices for the time
+               period, as well as unique or artistic designs which provided contrast to those
+               standard designs.</p>
+         </samplingDecl>
+         <editorialDecl>
+            <hyphenation>
+               <p>Hyphens have been transcribed as they appear.</p>
+            </hyphenation>
+            <segmentation>
+               <p>Line breaks have been preserved.</p>
+            </segmentation>
+         </editorialDecl>
+         
+         <!-- CLASSDECL -->
+         
+         <classDecl>
+            
+            <!-- MATERIAL-->
+            <taxonomy xml:id="materialType">
+               <category xml:id="coated"><catDesc>Paper coated on one or both sides with a mixture of materials (e.g., binder and pigment) or a polymer (Source: Conservation and Art Materials Encyclopedia Online (CAMEO) <ref target="https://cameo.mfa.org/wiki/Coated_paper"></ref></catDesc></category>
+               <category xml:id="uncoated"><catDesc>No coating was added during manufacturing</catDesc></category>
+               <category xml:id="thin"><catDesc>Paper with low physical thickness, typically perceived as lightweight</catDesc></category>    
+               <category xml:id="thick"><catDesc> Paper with high physical thickness, typically perceived as rigid</catDesc></category>
+               <category xml:id="paperUnknown"><catDesc>Paper type not identified</catDesc></category>
+            </taxonomy>
+            
+            <!-- COLOR -->
+            <taxonomy xml:id="colorScheme">
+               <category xml:id="black"><catDesc>Printing using black ink only</catDesc></category>
+               <category xml:id="oneColor"><catDesc>Printing using a single colored ink other than black</catDesc></category>
+               <category xml:id="twoColor"><catDesc>Printing combining two ink colors</catDesc></category>
+               <category xml:id="multiColor"><catDesc>Printing using three or more ink colors</catDesc></category>
+            </taxonomy>
+            
+            
+            <!-- BINDING -->
+            <taxonomy xml:id="bindingType">
+               <category xml:id="unbound"><catDesc>Pages are folded but not bound</catDesc></category> 
+               <category xml:id="stapled"><catDesc>Pages are stapled through the spine using wire staples</catDesc></category>
+               <category xml:id="glued"><catDesc>Pages are glued together along the spine</catDesc></category>
+               <category xml:id="sewn"><catDesc>Pages are sewn together through the spine</catDesc></category>
+               <category xml:id="bindingOther"><catDesc>Binding technique not identified</catDesc></category>
+            </taxonomy>
+            
+            
+            <!--  TYPOGRAPHY  -->
+            <taxonomy xml:id="typeClass">
+               <category xml:id="oldStyleSerif"><catDesc>Typeface design from the early period of printing characterized by variations in stroke and width, bracketed serifs, and diagonal strokes,  e.g. Garamond and Caslon. <ref target="https://printwiki.org/Old_Style">PrintWiki</ref></catDesc></category> 
+               <category xml:id="sansSerif"><catDesc>Typeface without serifs, also called grotesk. <ref target="https://printwiki.org/Sans_Serif">PrintWiki</ref></catDesc></category>
+               <category xml:id="modernSerif"><catDesc>Early nineteenth century serif typeface with high contrast between thick and thin strokes and thin, straight serifs. Also called didone. <ref target="https://printwiki.org/Modern">PrintWiki</ref></catDesc></category>
+               <category xml:id="transitionalSerif"><catDesc>Typeface combining features of Old Style and Modern, e.g. Baskerville. <ref target="https://printwiki.org/Transitional">PrintWiki</ref></catDesc></category>
+               <category xml:id="slabSerif"><catDesc>Serif typeface with heavy, unbracheted serifs, also known as square serif. <ref target="https://printwiki.org/Square_Serif">PrintWiki</ref></catDesc></category>
+               <category xml:id="blackLetter"><catDesc>Typeface based on medieval script with dark, angular characters comprising thick and thin lines. <ref target="https://printwiki.org/Black_Letter">PrintWiki</ref></catDesc></category>
+               <category xml:id="script"><catDesc>Typeface with connecting characters imitating cursive handwriting. <ref target="https://printwiki.org/Script">PrintWiki</ref></catDesc></category>
+               <category xml:id="glyphic"><catDesc>Typefaces which are chiselled rather than calligraphic in form.<ref target="https://luc.devroye.org/britishstandards.html">British Standards for Type Classification</ref></catDesc></category>
+               <category xml:id="mixedType"><catDesc>More than one typeface category is used.</catDesc></category>
+               <category xml:id="typeUnknown"><catDesc>Typeface not identified.</catDesc></category>
+               <category xml:id="decorative"><catDesc>Handmade or decorative typeface with non-standard design characteristics.</catDesc></category>
+            </taxonomy>
+            
+            
+            <!--  LAYOUT  -->
+            <taxonomy xml:id="layoutType">
+               <category xml:id="centered"><catDesc>The text is aligned midway between the left and right margins. <ref target="https://printwiki.org/Centering">PrintWiki</ref></catDesc></category>
+               <category xml:id="justified"><catDesc>The text aligns on both the left and the right. <ref target="https://printwiki.org/Justified">PrintWiki</ref></catDesc></category>
+               <category xml:id="leftAligned"><catDesc>The text aligns on the left margin, also known as left justified or flush left. <ref target="https://printwiki.org/Left_Justified">PrintWiki</ref></catDesc></category>
+               <category xml:id="rightAligned"><catDesc>The text aligns on the right margin, also known as right justified or flush right. <ref target="https://printwiki.org/Right_Justified">PrintWiki</ref></catDesc></category>
+            </taxonomy>
+            
+            
+            <!--  IMAGES / ILLUSTRATIONS  -->
+            <taxonomy xml:id="pictureType">
+               <category xml:id="photography"><catDesc>Contains one or more photogarphic image (black &amp; white)</catDesc></category>
+               <category xml:id="illustration"><catDesc>Contains one or more non-photographic illustration, such as drawings and printed graphic images. </catDesc></category>
+            </taxonomy> 
+            
+            
+            <!--  GRAPHIC ELEMENTS  -->
+            <taxonomy xml:id="graphicElements">                   
+               <category xml:id="decoratedInitial"><catDesc>A typographically emphasized initial letter at the beginning of a word or paragraph, often larger or ornamented.</catDesc></category>                   
+               <category xml:id="line"><catDesc>Horizontal line used to separate or structure text, and/or for decorative purpose. May be decorated in different ways.</catDesc></category>
+               <category xml:id="fleuron"><catDesc>Any ornament used to mark the beginning of a paragraph, or for some other strictly decorative purpose. <ref target="https://printwiki.org/fleuron">PrintWiki</ref></catDesc></category>
+               <category xml:id="emblem"><catDesc>A logotype, symbol or mark representing an organization, company, group or individual.</catDesc></category>
+               <category xml:id="signature"><catDesc>A reproduced and printed handwritten signature.</catDesc></category>
+               <category xml:id="textFrame"><catDesc>A decorative or structural frame surrounding a block of text. May be decorated in different ways.</catDesc></category>
+               <category xml:id="figurativeGraphicElement"><catDesc>A graphic element depicting recognizable objects or figures.</catDesc></category>
+               <category xml:id="geometricGraphicElement"><catDesc>A graphic element composed of geometric shapes such as circles, squares, or triangles.</catDesc></category>
+               <category xml:id="otherGraphicElement"><catDesc>Graphic element not identified.</catDesc></category>
+            </taxonomy>
+            
+            
+            <!--  COVER COLOR  -->
+            <taxonomy xml:id="coverColor">
+               <category xml:id="redCover"><catDesc>Cover made of red colored paper</catDesc></category>
+               <category xml:id="tealCover"><catDesc>Cover made of teal colored paper</catDesc></category>
+               <category xml:id="whiteCover"><catDesc>Cover made of white colored paper</catDesc></category>
+               <category xml:id="beigeCover"><catDesc>Cover made of beige colored paper</catDesc></category>
+               <category xml:id="greyCover"><catDesc>Cover made of grey colored paper</catDesc></category>
+               <category xml:id="purpleCover"><catDesc>Cover made of purple colored paper</catDesc></category>
+            </taxonomy>
+            
+         </classDecl>
+         
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="sv">Swedish</language>
+         </langUsage>
+      </profileDesc>   
+   </teiHeader>
+   <facsimile>
+      <surface xml:id="front1916_03">              
+         <figure>
+            <label>Catalog front</label>
+            <figDesc> A photograph of the front of a catalog from 1916. </figDesc>        
+            <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
+            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>              <!-- ändra -->
+            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
+         </figure>
+      </surface>  
+      <surface xml:id="back1916_03">       
+         <figure>
+            <label>Catalog back</label>
+            <figDesc> A photograph of the back of a catalog from 1916. </figDesc>               
+            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>           <!-- ändra -->
+            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>    <!-- ändra -->
+         </figure>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="page" facs="#front1916_03">
+            <div type="title" place="center" ana="#sansSerif">
+               <head rend="bold">Katalog</head>
+            </div>
+            </div> 
+            
+            <div type="page" facs="#back1916_03">
+            <gap reason="blank"/>
+            </div>        
+                   
+      </body> 
+  </text>
+</TEI>
