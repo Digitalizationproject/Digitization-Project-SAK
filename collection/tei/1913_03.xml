@@ -97,7 +97,7 @@
                            <material>Paper</material>
                         </support>
                         <extent>                                                       
-                           <dimensions scope="all" type="leaf" unit="centimeter">    
+                           <dimensions scope="all" type="leaf">    
                               <height unit="cm" quantity="19.5">19.5 cm</height>   
                               <width unit="cm" quantity="12.5">12.5 cm</width>
                               <depth unit="mm" quantity="2">2</depth>          
@@ -287,7 +287,7 @@
             
             <figure ana="#illustration" rend="center">
                <figDesc>
-                  Monochrome ink or charcoal-style drawing of a tulip in bloom by A.L. Koster.
+                  Monochrome ink or charcoal-style drawing of a tulip by A.L. Koster.
                </figDesc>
             </figure>
             
