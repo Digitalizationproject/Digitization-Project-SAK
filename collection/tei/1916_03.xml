@@ -7,7 +7,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>    
-            <title>Katalog</title> 
+            <title>Katalog 1916</title> 
             <author>Unknown</author>
             <principal>Carmen Gogan, D.H., Miranda Rönngren, Zoe Bauer</principal> 
             <respStmt>
@@ -56,7 +56,7 @@
             
             <biblStruct>
                <monogr>
-                  <title>Katalog</title>
+                  <title>Katalog 1916</title>
                   <imprint>
                      <publisher>Sveriges Allmänna Konstförening</publisher>	 
                      <note>Printed by <name>Litogr. Accidens Tr.</name></note>  
@@ -80,7 +80,7 @@
                <msContents>
                   <msItem>
                      <author>unknown</author>
-                     <title xml:lang="sv">Katalog</title> 
+                     <title xml:lang="sv">Katalog 1916</title> 
                      <textLang mainLang="sv">svenska</textLang>
                   </msItem>
                </msContents>
