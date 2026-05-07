@@ -164,9 +164,7 @@
 
             <div type="page" facs="#front1870" rend="center; serif">
                 <div type="title">
-                    <p>FÖRTECKNING</p>
-                    <p rend="case(small caps)">Å</p>
-                    <p>I KONSTFÖRENINGEN</p>
+                    <lb>FÖRTECKNING <lb/>I KONSTFÖRENINGEN</lb>
                     <l>UTSTÄLLDA MÅLNINGAR</l>
                     <l rend="case(small caps)">AF</l>
                     <l>ÄLDRE SVENSKA MÄSTARE.</l>
@@ -176,6 +174,7 @@
                     <l>(<date when="1770">1770</date> &#8212; <date when="1809">1809</date>).</l>
                     <l>FÖRSTA SERIEN.</l>
                     <l>&#8213;</l>
+                    <p rend="case(small caps)">Å</p>
                 </div>
 
                 <!-- Ska vi katagorisera 1870 här som datum för utställningen, eller för när katalogen trycktes? I så fall skulle allt under här vara tillsammans som biblStruct -->

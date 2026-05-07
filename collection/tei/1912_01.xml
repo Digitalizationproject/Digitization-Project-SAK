@@ -7,7 +7,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>    
-            <title>Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+            <title>Katalog</title> 
             <author>Unknown</author>
             <principal>Carmen Gogan, D.H., Miranda Rönngren, Zoe Bauer</principal> 
             <respStmt>
@@ -19,8 +19,13 @@
                <name>Miranda Rönngren</name>
             </respStmt>
          </titleStmt>
-         <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> <!-- ändra -->
+        <extent>											<!-- ändra -->
+           <measure type="master" unit="MiB" quantity="1">   <!-- jag la till 1:an här bara så att koden ska valideras -->
+               Master file (TIFF): ? MiB
+            </measure>    
+            <measure type="derivative" unit="MiB" quantity="1">
+               Derivative file (JPEG): ? MiB
+            </measure>  
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -35,7 +40,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1870_01</idno> <!-- ändra -->
+            <idno>SAK_1912_01</idno> 
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -56,12 +61,12 @@
             
             <biblStruct>
                <monogr>
-                  <title>Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+                  <title>Katalog</title> 
                   <imprint>
-                     <publisher>P. A. Norstedt &amp; Söner </publisher>		  <!-- ändra --> 
-                     <note>Printed by <name>Kongl. Boktryckare</name>.</note>  <!-- ändra --> 
-                     <pubPlace>Stockholm</pubPlace>                            <!-- ändra -->
-                     <date>1870</date>                                         <!-- ändra -->
+                     <publisher>Sveriges Allmänna Konstförening</publisher>		  
+                     <note>Printed by <name>Centraltryckeriet</name>.</note> 
+                     <pubPlace>Stockholm</pubPlace>                          
+                     <date>1912</date>                                   
                      <biblScope unit="page" n="2">Two pages</biblScope>       
                      <biblScope>Front and back covers.</biblScope>            
 				  </imprint>
@@ -75,48 +80,49 @@
                <msIdentifier>
                   <settlement>Stockholm</settlement>
                   <repository>Stadsarkivet Liljeholmskajen</repository>
-                  <idno>1870_01</idno>                                     <!-- ändra --> 
+                  <idno>SAK_1912_01</idno>                               
                </msIdentifier>         
                <msContents>
                   <msItem>
                      <author>unknown</author>
-                     <title xml:lang="sv">Utställda Målningar af Äldre Svenska Mästare</title> <!-- ändra -->
+                     <title xml:lang="sv">Katalog</title> 
                      <textLang mainLang="sv">svenska</textLang>
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="#leaflet"> 
+                  <objectDesc form="leaflet"> 
                      <supportDesc>
-                        <support ana="#uncoated #thin #whiteCover">              <!-- ändra -->   
+                        <support ana="#uncoated #thick #beigeCover">         
                            <material>Paper</material>
                         </support>
                         <extent>
-                           <measure unit="pages" quantity="12">12</measure>         <!-- ändra --> 
                            <dimensions scope="all" type="leaf" unit="centimeter"> 
-                              <height unit="cm" quantity="19.5">19.5 cm</height>    <!-- ändra --> 
-                              <width unit="cm" quantity="12.2">12.2 cm</width>      <!-- ändra --> 
+                              <height unit="cm" quantity="18.5">18.5 cm</height>   
+                              <width unit="cm" quantity="14.5">14.5 cm</width>   
+                              <depth unit="mm" quantity="1">1 mm></depth>        
                            </dimensions>
                         </extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout ana="#centered">Text on the cover is centered.      <!-- ändra --> 
+                        <layout ana="#centered #leftAligned">Text on the front cover is centered. Titles on the back cover are centered, 
+                           and body text is left aligned. 
                         </layout>
                      </layoutDesc>
                   </objectDesc>
                   
                   <typeDesc>
-                     <typeNote ana="#oldStyleSerif #sansSerif #bw"> Contains both old style serif and sans serif fonts. Front cover contains        <!-- ändra -->
-                        only uppercase letters, while the back cover is mixed.</typeNote>
+                     <typeNote ana="#decorative #sansSerif #slabSerif #typeUnknown #mixedType #oneColor"> Front cover contains a decorative sans serif font 
+                        and a regular sans serif font. The back cover contains an unknown font and a slab serif font, all printed with orange ink. </typeNote>
                   </typeDesc>
                   <decoDesc>
-                     <decoNote ana="#line">[beskrivning av dekoration här]</decoNote>		<!-- ändra/radera från denna dokument innan publicering!!!-->
+                     <decoNote ana="#textFrame #geometricGraphicElement">Front cover has a decorative text frame in the form of a wreath, 
+                        surrounding the names of the exhibition's artists. The back cover has a line consisting of three sets of four squares. </decoNote>		
                   </decoDesc>
                         
                   <bindingDesc>
-                     <binding ana="#glued">        <!-- ändra -->
-                        <p>Glued</p>               <!-- ändra -->
-                        <decoNote>Binding is reinforced by a strip of blue paper glued to the outside of the spine.</decoNote>      <!-- ändra -->
-                        <condition>Good condition.</condition>		<!-- ändra -->
+                     <binding ana="#folded">       
+                        <p>Folded</p>            
+                        <condition>Four holes punched in the left margin, otherwise good condition.</condition>	
                      </binding>
                   </bindingDesc>
 
@@ -131,7 +137,7 @@
       </fileDesc>
           <encodingDesc>
         <projectDesc>
-           <p>This project created digtizations of art exhibition catalogues for the
+           <p>This project created digitalisation of art exhibition catalogues for the
               preservation of cultural heritage.</p>
         </projectDesc>
         <samplingDecl>
@@ -163,7 +169,7 @@
                 
                 <!-- COLOR -->
                 <taxonomy xml:id="colorScheme">
-                   <category xml:id="bw"><catDesc>Printing using black ink only</catDesc></category>
+                   <category xml:id="black"><catDesc>Printing using black ink only</catDesc></category>
                    <category xml:id="oneColor"><catDesc>Printing using a single colored ink other than black</catDesc></category>
                    <category xml:id="twoColor"><catDesc>Printing combining two ink colors</catDesc></category>
                    <category xml:id="multiColor"><catDesc>Printing using three or more ink colors</catDesc></category>
@@ -246,19 +252,19 @@
      </profileDesc>   
   </teiHeader>
    <facsimile>
-      <surface xml:id="front1870_01">              <!-- ändra -->
+      <surface xml:id="SAK_1912_01_a">          
          <figure>
             <label>Catalog front</label>
-            <figDesc> A photograph of the front of a catalog from 1870. </figDesc>        <!-- ändra -->
+            <figDesc> A photograph of the front of a catalog from 1912. </figDesc>     
             <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
             <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>              <!-- ändra -->
             <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
          </figure>
       </surface>  
-      <surface xml:id="back1870_01">         <!-- ändra -->
+      <surface xml:id="SAK_1912_01_b">        
          <figure>
             <label>Catalog back</label>
-            <figDesc> A photograph of the back of a catalog from 1870. </figDesc>               <!-- ändra -->
+            <figDesc> A photograph of the back of a catalog from 1912. </figDesc>       
             <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>           <!-- ändra -->
             <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>    <!-- ändra -->
          </figure>
@@ -267,53 +273,62 @@
    <text>
       <body>
          
-         <div type="page" facs="#front1870">
-            <div type="title" place="center">
-               <div ana="#oldStyleSerif"> 
-               <l>FÖRTECKNING</l>      
-               <l rend="smallCaps">Å</l>                    
-               <l>I KONSTFÖRENINGEN</l>                     
-               <l>UTSTÄLLDA MÅLNINGAR</l>
-               <l rend="smallCaps">AF</l>
-               <l>ÄLDRE SVENSKA MÄSTARE.</l>
+         <div type="page" facs="#front1912">
+            <div type="title" place="center" ana="#decorative #sansSerif">
+               <p>KATALOG</p>
+            </div>
+            
+            <div type="page" ana="#textFrame #decorative #sansSerif" rend="smallCaps">
+               <p>ERNST&#183;KÜSEL</p>
+               <l>ESTER&#183;ALMQVIST</l>
+               <l>K&#183;STRANGENBERG</l>
+               <l>ENOCH&#183;RINGNÉR</l>
+               <l>HILDING&#183;NYMAN</l>
                
-               <metamark function="divider" ana="#line"/>      
+            </div>
+            <div ana="#sansSerif">
                
-               <l>ANDRA AFDELNINGEN.</l>
-               </div>
-               <div>
-               <l ana="#sansSerif">GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</l>           
-               <l ana="#oldStyleSerif">(<date when="1770">1770</date> &#8212; <date when="1809">1809</date>).</l>
-               <l ana="#oldStyleSerif">FÖRSTA SERIEN.</l>
-               </div>
-               <metamark function="divider" ana="#line"/>
+               <l><date when="1912-04">APRIL 1912</date></l>
+            </div>             
+         
+            <div type="page" facs="#back1912" rend="center" ana="#unknownType">
+               
+               <l>54. Bygata						350</l>
+               <l>55. En gård						300</l>
+               <l>56. Sädesskyltar					300</l>
+               <l>57. Töväder						250</l>
+               <l>58. Stugor						225</l>
+               <l>59. Björkstammar					225</l>
+               <l>60. Septemberkväll					200</l>
+               <l>61. Diket						175</l>
+               <l>62. Potatisplockare					175</l>
+               <l>63. Regnmoln					150</l>
+               <l>64. En stockholmskaj				150</l>
+               <l>65. Vårstudie					125</l>
+               <l>66.	D:o						125</l>
+               
+               <l rend="center" ana="#slabSerif">KNUT STRANGENBERG</l>
+               <l rend="center-right smallCaps" ana="#slabSerif">SALTSJÖ-DUFNÄS</l>
+               
+               <l>67. Julräfven, pennteckn., tillh. konstnären Fjæstad</l>
+               <l>68. Det lider mot juletid					250</l>
+               <l>69. Villabyggnad					250</l>
+               <l>70. Hushållerskor					250</l>
+               <l>71. Julharen						150</l>
+               <l>72. God jul						  75</l>
+               <l>73–79. Storfolk, 7 teckningar			  pr st.   150</l>
+               <l>80–82.3 omslagsteckningar till Kurre 		  pr st.   150</l>
+               <l>Karikatyrteckningar,</l>
+               <l>&#125; Prislista tillgänglig i lokalen</l>
+               <l>&#187;Teatergubbar&#187;</l>
+               
+               <figure ana="#geometricGraphicElement"> <figDesc>Three squares in a row, each consisting of four squares</figDesc> </figure>	
+            </div>         
+            <div type="imprint" rend="right" ana="#typsnitt">
+               <l rend="smallCaps">CENTRALTRYCKERIET <placeName>STOCKHOLM</placeName><date when="1912">1912</date></l>
+               
             </div>
          </div>
-     
-   
-            <div type="imprint" rend="center" ana="#oldStyleSerif">
-               <l><placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date></l>
-               <l rend="smallCaps expandedTracking">P.A. NORSTEDT &amp; SÖNER</l>
-               <l ana="#kongligaBoktryckare" rend="smallCaps">KONGL. BOKTRYCKARE.</l> 
-            </div>
-       
-         
-         <div type="page" facs="#back1870" rend="left" ana="#oldStyleSerif">
-            
-               <metamark function="pagenumber" place="top-left"><num>12</num></metamark>
-            
-            <l><name><surname rend="bold">Åkerström</surname>, <forename rend="italics">Jonas</forename></name>, f. 1759, Dekorationsmålare, reste </l>
-            <l>ut till Italien, &#10013; i Rom 1795. Elev af Desprez</l> 
-            <l>och Masreliez.</l>
-            <l>N:o 59. Meleager, vägrande att gå till striden, be-</l> 
-            <l>vekes af sin makas tårar; komposition</l> 
-            <l>med många figurer. Receptionsstycke</l> 
-            <l>1794.</l>
-            <l>Tillhör Konst-Akademien.</l>
-			 
-			 <metamark function="divider" ana="#line"/> 
-         </div>          
-       
       </body>
    </text>
 </TEI>

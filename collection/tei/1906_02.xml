@@ -85,7 +85,7 @@
                   </msItem>
                </msContents>
                <physDesc>
-                  <objectDesc form="#leaflet"> 
+                  <objectDesc form="leaflet"> 
                      <supportDesc>
                         <support ana="#uncoated #thick #whiteCover">        
                            <material>Paper</material>
