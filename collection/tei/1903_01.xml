@@ -279,13 +279,14 @@
          
          <div type="page" facs="#SAK_1903_01_a">
             
-            <l><add place="top margin, right of center" type="pencil" hand="#unknown1">1903</add>
-               <note>Presumably written after the catalog was printed, in an archival context.</note></l>
+            <p><add place="top margin, right of center" type="pencil" hand="#unknown1">1903</add>
+               <note>Presumably written after the catalog was printed, in an archival context.</note></p>
             
             
             <div type="title" place="left" ana="#blackletter">
-               
-               <l>”De frie”</l>                    
+               <head>
+               ”De frie” 
+               </head>
             </div>
             
             <figure ana="#geometricGraphicElement">
@@ -293,8 +294,8 @@
             </figure>
             
             <div rend="right" ana="#blackletter">
-               <l>Utställning af Målning,</l>
-               <l>Teckning och Skulptur</l>
+               <p>Utställning af Målning,<lb/>
+               Teckning och Skulptur</p>
                
                <figure ana="#line">
                   <figDesc>Three squiggly horizontal lines</figDesc>

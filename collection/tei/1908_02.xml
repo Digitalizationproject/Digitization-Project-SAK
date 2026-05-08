@@ -272,9 +272,10 @@
          
          <div type="page" facs="#SAK_1908_02_a" rend="color(orange)">
             <div type="title" place="left" ana="#sansSerif">
-               <l>MARINMÅLAREN</l>                
-               <l><name>ARVID JOHANSON</name></l>
-               
+               <head>
+               MARINMÅLAREN<lb/>                
+               <name>ARVID JOHANSON</name>
+               </head>
                <figure ana="#fleuron"><figDesc>Fleur-de-lis</figDesc></figure>	
             </div>
          </div>

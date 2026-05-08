@@ -275,22 +275,22 @@
          <div type="page" facs="#SAK_1906_01_a">
             <div type="title" place="center" ana="#decorative #sansSerif">
                
-               <l ana="#signature">C.L..</l>
+               <p ana="#signature">C.L..</p>
                <note>The initials C.L. are enclosed in a circle, with the bottom line of the 
                   L continuing outside the circle, over the date 1906. The top half of the 1 of 1906 
                   reaches into the circle. </note>
-               <l><date when="1906">1906</date></l>
+               <p><date when="1906">1906</date></p>
             </div>
             
          </div>
      
          <div type="page" facs="SAK_1906_01_b" rend="center" ana="#typeUnknown">
-            <l ana="#textFrame">Pris: <measure quantity="0.25" unit="SEK">25 öre</measure></l>
+            <p ana="#textFrame">Pris: <measure quantity="0.25" unit="SEK">25 öre</measure></p>
          </div>
          
          <div type="imprint" rend="center" ana="#transitionalSerif">
-            <l rend="smallCaps"><placeName>STOCKHOLM</placeName><date when="1906">1906</date></l>
-            <l>Justus Cederquists Boktryckeri</l>
+            <p rend="smallCaps"><placeName>STOCKHOLM</placeName><date when="1906">1906</date><lb/>
+            Justus Cederquists Boktryckeri</p>
          </div>
          
       </body>

@@ -278,23 +278,24 @@
                in front of an ivy-covered brick wall.</figDesc></figure>
             
             <div type="title" place="center" ana="#glyphic">
-               
-               <l><name>DAVID EDSTRÖM</name></l>                    
-               <l>SKULPTURUTSTÄLLNING</l>                                   
-               <l>KONSTFÖRENINGENS LOKAL</l>                     
-               <l>V. TRÄDGÅRDSGATAN 10</l>
-               <l rend="right italics"><date when="1911-04">APRIL 1911</date></l>
+               <head>
+               <name>DAVID EDSTRÖM</name><lb/>                    
+               SKULPTURUTSTÄLLNING       
+               </head>
+               <p>KONSTFÖRENINGENS LOKAL<lb/>                     
+               V. TRÄDGÅRDSGATAN 10<lb/>
+               <hi rend="right italics"><date when="1911-04">APRIL 1911</date></hi></p>
                   
             </div>
             <div type="page" facs="#SAK_1911_01_b" ana="#transitionalSerif">
                
                <figure ana="#photography"><figDesc>Photograph of a sculpture of a sphinx head, sitting on a pedastal.</figDesc></figure>
-               <l rend="smallCaps">SPHINX</l>
+               <p rend="smallCaps">SPHINX</p>
                   
                   
                   <div type="imprint" rend="center" ana="#oldStyleSerif">
-                     <l><placeName>Stockholm</placeName>. P.A. Norstedt &amp; Söner <date when="1911">1911</date>.
-                        [I <damage agent="hole"></damage><gap/> ]</l>
+                     <p><placeName>Stockholm</placeName>. P.A. Norstedt &amp; Söner <date when="1911">1911</date>.
+                        [I <damage agent="hole"></damage><gap/> ]</p>
                   </div>
             </div>
          </div>

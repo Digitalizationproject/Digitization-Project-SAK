@@ -286,35 +286,41 @@
          
          <div type="page" facs="#SAK_1906_02_a">
             
-               <l><add place="top margin, right of center" type="pen" hand="unknown2">1047</add>
-               <note>Possibly added in an archival context.</note></l>
+               <p><add place="top margin, right of center" type="pen" hand="unknown2">1047</add>
+               <note>Possibly added in an archival context.</note></p>
             
-            <div ana="#decorative #sansSerif">
-               <l>&#183;<forename>GUNNAR</forename>&#183;<surname>HALLSTRÖM</surname>&#183; <space></space>
-                  &#183;<forename>OSKAR</forename>&#183;<surname>HULLGREN</surname>&#183;</l> 
-               <l>&#183;<forename>JOHN</forename>&#183;<surname>E.&#183;ÖSTERLUND</surname>&#183; <space></space>
-                  &#183;<forename>HERMAN</forename>&#183;<surname>NEUJD</surname>&#183; </l>
-   
-               <l rend="center">&#183;<date when="1906">1906</date>&#183; </l>
+            <div rend="center" ana="#decorative #sansSerif">
+               <div type="title">
+                  <head>
+               &#183;<forename>GUNNAR</forename>&#183;<surname>HALLSTRÖM</surname>&#183; <space></space>
+                  &#183;<forename>OSKAR</forename>&#183;<surname>HULLGREN</surname>&#183;<lb/> 
+               &#183;<forename>JOHN</forename>&#183;<surname>E.&#183;ÖSTERLUND</surname>&#183; <space></space>
+                  &#183;<forename>HERMAN</forename>&#183;<surname>NEUJD</surname>&#183; 
+                  </head>
+               </div>
+               
+               <div>
+               <p rend="center">&#183;<date when="1906">1906</date>&#183; </p>
+               </div>
             </div>
             
             <div>
-               <l><add type="pen" hand="unknown2">Frankel Ö. 3412 <space></space>mar 1093</add>
-                  <note>Possibly added in an archival context.</note></l>
+               <p><add type="pen" hand="unknown2">Frankel Ö. 3412 <space></space>mar 1093</add>
+                  <note>Possibly added in an archival context.</note><lb/>
                
                <figure ana="#illustration"><figDesc>red heart with tendrils 
                      that expand outwards and around itself, filled in with a 
                      blue background and white stars</figDesc></figure>
                
-               <l><add type="pencil" hand="unknown3"><gap reason="illegible" quantity="1" unit="word"></gap>2
+               <add type="pencil" hand="unknown3"><gap reason="illegible" quantity="1" unit="word"></gap>2
                      <gap reason="illegible" quantity="1" unit="word"></gap>29.</add>
-                  <note>Possibly added in an archival context.</note></l>
+                  <note>Possibly added in an archival context.</note><lb/>
                
-               <l><add type="pencil" hand="unknown1" place="margin" rend="rotate(90)">178<lb/>85</add>
-                  <note>Possibly added in an archival context.</note></l>
+               <add type="pencil" hand="unknown1" place="margin" rend="rotate(90)">178<lb/>85</add>
+                  <note>Possibly added in an archival context.</note><lb/>
                
-               <l><add type="pencil" hand="unknown3"><gap reason="illegible" quantity="1" unit="word"></gap></add>
-                  <note>Possibly added in an archival context.</note></l>
+               <add type="pencil" hand="unknown3"><gap reason="illegible" quantity="1" unit="word"></gap></add>
+                  <note>Possibly added in an archival context.</note></p>
             </div>
 
          </div> 

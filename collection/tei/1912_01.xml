@@ -275,60 +275,59 @@
          
          <div type="page" facs="#SAK_1912_01_a">
             <div type="title" place="center" ana="#decorative #sansSerif">
-               <p>KATALOG</p>
+               <head>KATALOG</head>
             </div>
             
             <div type="page" ana="#textFrame #decorative #sansSerif" rend="smallCaps">
-               <p>ERNST&#183;KÜSEL</p>
-               <l>ESTER&#183;ALMQVIST</l>
-               <l>K&#183;STRANGENBERG</l>
-               <l>ENOCH&#183;RINGNÉR</l>
-               <l>HILDING&#183;NYMAN</l>
+               <p>ERNST&#183;KÜSEL<lb/>
+                  ESTER&#183;ALMQVIST<lb/>
+                  K&#183;STRANGENBERG<lb/>
+                  ENOCH&#183;RINGNÉR<lb/>
+                  HILDING&#183;NYMAN</p>
                
             </div>
             <div ana="#sansSerif">
                
-               <l><date when="1912-04">APRIL 1912</date></l>
+               <p><date when="1912-04">APRIL 1912</date></p>
             </div>             
-         
+         </div>
             <div type="page" facs="#SAK_1912_01_b" rend="center" ana="#unknownType">
                
-               <l>54. Bygata						350</l>
-               <l>55. En gård						300</l>
-               <l>56. Sädesskyltar					300</l>
-               <l>57. Töväder						250</l>
-               <l>58. Stugor						225</l>
-               <l>59. Björkstammar					225</l>
-               <l>60. Septemberkväll					200</l>
-               <l>61. Diket						175</l>
-               <l>62. Potatisplockare					175</l>
-               <l>63. Regnmoln					150</l>
-               <l>64. En stockholmskaj				150</l>
-               <l>65. Vårstudie					125</l>
-               <l>66.	D:o						125</l>
+               <p>54. Bygata						350<lb/>
+                  55. En gård						300<lb/>
+                  56. Sädesskyltar					300<lb/>
+                  57. Töväder						250<lb/>
+                  58. Stugor						225<lb/>
+                  59. Björkstammar					225<lb/>
+                  60. Septemberkväll					200<lb/>
+                  61. Diket						175<lb/>
+                  62. Potatisplockare					175<lb/>
+                  63. Regnmoln					150<lb/>
+                  64. En stockholmskaj				150<lb/>
+                  65. Vårstudie					125<lb/>
+                  66.	D:o						125<lb/>
                
-               <l rend="center" ana="#slabSerif">KNUT STRANGENBERG</l>
-               <l rend="center-right smallCaps" ana="#slabSerif">SALTSJÖ-DUFNÄS</l>
+                  <hi rend="center" ana="#slabSerif">KNUT STRANGENBERG</hi><lb/>
+                  <hi rend="center-right smallCaps" ana="#slabSerif">SALTSJÖ-DUFNÄS</hi><lb/>
                
-               <l>67. Julräfven, pennteckn., tillh. konstnären Fjæstad</l>
-               <l>68. Det lider mot juletid					250</l>
-               <l>69. Villabyggnad					250</l>
-               <l>70. Hushållerskor					250</l>
-               <l>71. Julharen						150</l>
-               <l>72. God jul						  75</l>
-               <l>73–79. Storfolk, 7 teckningar			  pr st.   150</l>
-               <l>80–82.3 omslagsteckningar till Kurre 		  pr st.   150</l>
-               <l>Karikatyrteckningar,</l>
-               <l>&#125; Prislista tillgänglig i lokalen</l>
-               <l>&#187;Teatergubbar&#187;</l>
+                  67. Julräfven, pennteckn., tillh. konstnären Fjæstad<lb/>
+                  68. Det lider mot juletid					250<lb/>
+                  69. Villabyggnad					250<lb/>
+                  70. Hushållerskor					250<lb/>
+                  71. Julharen						150<lb/>
+                  72. God jul						  75<lb/>
+                  73–79. Storfolk, 7 teckningar			  pr st.   150<lb/>
+                  80–82.3 omslagsteckningar till Kurre 		  pr st.   150<lb/>
+                  Karikatyrteckningar,<lb/>
+                  &#125; Prislista tillgänglig i lokalen<lb/>
+                  &#187;Teatergubbar&#187;</p>
                
                <figure ana="#geometricGraphicElement"> <figDesc>Three squares in a row, each consisting of four squares</figDesc> </figure>	
             </div>         
             <div type="imprint" rend="right" ana="#typsnitt">
-               <l rend="smallCaps">CENTRALTRYCKERIET <placeName>STOCKHOLM</placeName><date when="1912">1912</date></l>
+               <p rend="smallCaps">CENTRALTRYCKERIET <placeName>STOCKHOLM</placeName><date when="1912">1912</date></p>
                
             </div>
-         </div>
       </body>
    </text>
 </TEI>

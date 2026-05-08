@@ -272,12 +272,13 @@
          
          <div type="page" facs="#SAK_1908_01_a">
             <div type="title" place="center" ana="#sansSerif">
-               <l rend="color(black)">UTSTÄLLNING AF</l>                    
-               <l rend="color(orange)">MÅLNING</l>                                   
-               <l rend="color(orange)">TECKNING</l>                     
-               <l rend="color(orange)">SKULPTUR</l>
-               
-               <l rend="smallCaps color(black)"><date when="1908-05">MAJ 1908</date></l>
+               <head>
+               <hi rend="color(black)">UTSTÄLLNING AF</hi>                    
+               <hi rend="color(orange)">MÅLNING</hi>                                   
+               <hi rend="color(orange)">TECKNING</hi>                     
+               <hi rend="color(orange)">SKULPTUR</hi>
+               </head>
+               <p rend="smallCaps color(black)"><date when="1908-05">MAJ 1908</date></p>
                
                <metamark ana="#geometricGraphicElement"/>
                
@@ -286,9 +287,9 @@
                
                <div type="imprint" rend="center" ana="#sansSerif">
                   <figure ana="#emblem"><figDesc>Almqvist &amp; Wiksell's logotype</figDesc></figure>
-                  <l rend="smallCaps"><placeName rend="expandedTracking">UPPSALA</placeName>
-                     <date when="1908">1908</date></l>
-                  <l>ALMQVIST &amp; WIKSELLS BOKTRYCKERI&#183;A.&#183;B.</l>
+                  <p rend="smallCaps"><placeName rend="expandedTracking">UPPSALA</placeName>
+                     <date when="1908">1908</date><lb/>
+                  ALMQVIST &amp; WIKSELLS BOKTRYCKERI&#183;A.&#183;B.</p>
                </div>
             </div>
          </div>

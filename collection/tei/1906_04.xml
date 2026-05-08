@@ -276,31 +276,31 @@
          
          <div type="page" facs="#SAK_1906_04_a">
             <div type="title" place="center" ana="#blackletter">
-               
-               <l><name>Harald Sörensen-Ringi</name></l>                    
-               <l><name>Ragnar Salwén</name></l>
+               <head>
+               <name>Harald Sörensen-Ringi</name><lb/>                    
+                  <name>Ragnar Salwén</name><lb/>
                
                <metamark function="divider" ana="#line"/> 
                <metamark function="divider" ana="#line"/>
                
-               <l>Separat-Utställning</l>                     
-               <l><placeName>Stockholm</placeName>
+               Separat-Utställning<lb/>                    
+               <placeName>Stockholm</placeName>
                   <metamark function="divider" ana="#otherGraphicElement"/>
-                  <date when="1906-02">februari 1906</date></l>
-               
+                  <date when="1906-02">februari 1906</date>
+               </head>
                <metamark function="divider" ana="#line"/>              
                <metamark function="divider" ana="#line"/> 
-               <l><seg rend="align(left)">Skulptur</seg><seg rend="align(right)">Målning</seg></l>  
+               <p><seg rend="align(left)">Skulptur</seg><seg rend="align(right)">Målning</seg></p>  
            </div>
          </div>
          
          
          <div type="page" facs="#SAK_1906_04_b" ana="#oldStyleSerif">
             
-            <figure ana="#emblem" rend="center"><figDesc>Zetterlund &amp; Thelander's logotype</figDesc>
+            <figure type="imprint" ana="#emblem" rend="center"><figDesc>Zetterlund &amp; Thelander's logotype</figDesc>
                   <ab type="inscription">Z &amp; T</ab></figure>	
                      
-             <l rend="align(left)">Pris <measure quantity="0.15" unit="SEK">15 öre</measure></l>
+             <p rend="align(left)">Pris <measure quantity="0.15" unit="SEK">15 öre</measure></p>
                      
          </div>   
          

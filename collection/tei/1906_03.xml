@@ -273,15 +273,17 @@
          <div type="page" facs="#SAK_1906_03_a">
             <div type="title" place="right"  ana="#decorative #sansSerif #textFrame">
                
-               <l>KATALOG</l> 
-               <l><name>E&#183;ALMQVIST</name></l>                   
-               <l><name>G&#183;A&#183;FJÆSTAD</name></l>
-               <l><name>E&#183;KÜSEL</name></l>                   
-               <l><name>B&#183;LINDH</name></l>                   
-               <l><name>H&#183;NYMAN</name></l>
-               <l><name>E&#183;RINGNÉR</name></l>   
+               <head>
+               KATALOG<lb/> 
+                  <name>E&#183;ALMQVIST</name><lb/>                   
+                  <name>G&#183;A&#183;FJÆSTAD</name><lb/> 
+                  <name>E&#183;KÜSEL</name><lb/>                  
+                  <name>B&#183;LINDH</name><lb/>                
+                  <name>H&#183;NYMAN</name><lb/> 
+                  <name>E&#183;RINGNÉR</name><lb/>   
+               </head>
                
-               <l><date when="1906-05">MAJ 1906</date></l>
+               <p><date when="1906-05">MAJ 1906</date></p>
                
             </div>
          </div>
@@ -290,21 +292,21 @@
             <head rend="bold">Hilding Nyman.</head>
                
                <div>
-                  <l>84. Porträtt.</l>
-                  <l>85. Två pojkar.</l>
-                  <l>86. I skymningen.</l>
-                  <l>87. Vid lampan.</l>
-                  <l>88. Islossning..</l>
-                  <l>89. Månsken</l>
-                  <l rend="indent">Tilh. Enkefru E. Küsel.</l>
-                  <l>90. Sommarskymning.</l>
-                  <l>91. Se’n solen gått ned.</l>
-                  <l>92. &#187;Vintingfar&#187;.</l>
-                  <l>94. Teckning.</l>
-                  <l>95. <space type="indent"></space>D:o.</l>
-                  <l>96. Karikatyr af en bondgumma.</l>
-                  <l>97–98. Teckn. till Strindbergs romaner</l> 
-                  <l rend="indent"> Hemsöborna och Skärkarlslif.</l>
+                  <p>84. Porträtt.<lb/> 
+                     85. Två pojkar.<lb/> 
+                     86. I skymningen.<lb/> 
+                     87. Vid lampan.<lb/> 
+                     88. Islossning..<lb/> 
+                     89. Månsken<lb/> 
+                     <hi rend="indent">Tilh. Enkefru E. Küsel.</hi><lb/> 
+                     90. Sommarskymning.<lb/> 
+                     91. Se’n solen gått ned.<lb/> 
+                     92. &#187;Vintingfar&#187;.<lb/> 
+                     94. Teckning.<lb/> 
+                     95. <space type="indent"></space>D:o.<lb/> 
+                     96. Karikatyr af en bondgumma.<lb/> 
+                     97–98. Teckn. till Strindbergs romaner<lb/> 
+                     <hi rend="indent"> Hemsöborna och Skärkarlslif.</hi></p>
                    
                   <metamark function="pagenumber" place="bottom-center"><num>– 10 –</num></metamark>
               

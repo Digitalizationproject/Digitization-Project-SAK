@@ -275,12 +275,12 @@
             <div type="title" place="center" ana="#decorative #sansSerif">
                
                <figure ana="#emblem"><figDesc>Typographic symbol for the artist collective De Frie</figDesc>
-                  <ab type="inscription" rend="bold">DE FRiE</ab></figure>
+                  <head type="inscription" rend="bold">DE FRiE</head></figure>
                         
             </div>
             <div place="center" ana="#decorative #sansSerif">
                
-               <head rend="bold"><date when="1913-10">OKTOBER 1913</date></head>
+               <p rend="bold"><date when="1913-10">OKTOBER 1913</date></p>
             </div>
             
             
