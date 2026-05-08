@@ -149,11 +149,11 @@
             </segmentation>
          </editorialDecl>
          
-         <!-- CLASSDECL -->
+         <!-- classDecl -->
          
          <classDecl>
             
-            <!-- MATERIAL-->
+            <!-- material-->
             <taxonomy xml:id="materialType">
                <category xml:id="coated"><catDesc>Paper coated on one or both sides with a mixture of materials (e.g., binder and pigment) or a polymer (Source: Conservation and Art Materials Encyclopedia Online (CAMEO) <ref target="https://cameo.mfa.org/wiki/Coated_paper"></ref></catDesc></category>
                <category xml:id="uncoated"><catDesc>No coating was added during manufacturing</catDesc></category>
@@ -162,7 +162,7 @@
                <category xml:id="paperUnknown"><catDesc>Paper type not identified</catDesc></category>
             </taxonomy>
             
-            <!-- COLOR -->
+            <!-- color -->
             <taxonomy xml:id="colorScheme">
                <category xml:id="black"><catDesc>Printing using black ink only</catDesc></category>
                <category xml:id="oneColor"><catDesc>Printing using a single colored ink other than black</catDesc></category>
@@ -171,7 +171,7 @@
             </taxonomy>
             
             
-            <!-- BINDING -->
+            <!-- binding -->
             <taxonomy xml:id="bindingType">
                <category xml:id="unbound"><catDesc>Pages are folded but not bound</catDesc></category> 
                <category xml:id="stapled"><catDesc>Pages are stapled through the spine using wire staples</catDesc></category>
@@ -181,7 +181,7 @@
             </taxonomy>
             
             
-            <!--  TYPOGRAPHY  -->
+            <!--  typography  -->
             <taxonomy xml:id="typeClass">
                <category xml:id="oldStyleSerif"><catDesc>Typeface design from the early period of printing characterized by variations in stroke and width, bracketed serifs, and diagonal strokes,  e.g. Garamond and Caslon. <ref target="https://printwiki.org/Old_Style">PrintWiki</ref></catDesc></category> 
                <category xml:id="sansSerif"><catDesc>Typeface without serifs, also called grotesk. <ref target="https://printwiki.org/Sans_Serif">PrintWiki</ref></catDesc></category>
@@ -193,11 +193,11 @@
                <category xml:id="glyphic"><catDesc>Typefaces which are chiselled rather than calligraphic in form.<ref target="https://luc.devroye.org/britishstandards.html">British Standards for Type Classification</ref></catDesc></category>
                <category xml:id="mixedType"><catDesc>More than one typeface category is used.</catDesc></category>
                <category xml:id="typeUnknown"><catDesc>Typeface not identified.</catDesc></category>
-               <category xml:id="decorative"><catDesc>Handmade or decorative typeface with non-standard design characteristics.</catDesc></category>
+               <category xml:id="decorative"><catDesc>Handmade or decorative typeface with non-standard design.</catDesc></category>
             </taxonomy>
             
             
-            <!--  LAYOUT  -->
+            <!--  layout  -->
             <taxonomy xml:id="layoutType">
                <category xml:id="centered"><catDesc>The text is aligned midway between the left and right margins. <ref target="https://printwiki.org/Centering">PrintWiki</ref></catDesc></category>
                <category xml:id="justified"><catDesc>The text aligns on both the left and the right. <ref target="https://printwiki.org/Justified">PrintWiki</ref></catDesc></category>
@@ -206,14 +206,14 @@
             </taxonomy>
             
             
-            <!--  IMAGES / ILLUSTRATIONS  -->
+            <!--  images/illustrations  -->
             <taxonomy xml:id="pictureType">
                <category xml:id="photography"><catDesc>Contains one or more photogarphic image (black &amp; white)</catDesc></category>
                <category xml:id="illustration"><catDesc>Contains one or more non-photographic illustration, such as drawings and printed graphic images. </catDesc></category>
             </taxonomy> 
             
             
-            <!--  GRAPHIC ELEMENTS  -->
+            <!--  graphic elements  -->
             <taxonomy xml:id="graphicElements">                   
                <category xml:id="decoratedInitial"><catDesc>A typographically emphasized initial letter at the beginning of a word or paragraph, often larger or ornamented.</catDesc></category>                   
                <category xml:id="line"><catDesc>Horizontal line used to separate or structure text, and/or for decorative purpose. May be decorated in different ways.</catDesc></category>
@@ -227,7 +227,7 @@
             </taxonomy>
             
             
-            <!--  COVER COLOR  -->
+            <!--  cover color  -->
             <taxonomy xml:id="coverColor">
                <category xml:id="redCover"><catDesc>Cover made of red colored paper</catDesc></category>
                <category xml:id="tealCover"><catDesc>Cover made of teal colored paper</catDesc></category>
