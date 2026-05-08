@@ -401,24 +401,30 @@
       <body>
 
          <div type="page" facs="#SAK_1870_01_a">
-            <div type="title" place="center">
+            <div place="center">
                <div ana="#oldStyleSerif">
-                  <l>FÖRTECKNING</l>
-                  <l rend="smallCaps">Å</l>
-                  <l>I KONSTFÖRENINGEN</l>
-                  <l>UTSTÄLLDA MÅLNINGAR</l>
-                  <l rend="smallCaps">AF</l>
-                  <l>ÄLDRE SVENSKA MÄSTARE.</l>
-
+                  <p>FÖRTECKNING<lb/>
+                  <hi rend="smallCaps">Å</hi><lb/>
+                  I KONSTFÖRENINGEN</p>
+                  <div type="title" >
+                     <head>
+                        UTSTÄLLDA MÅLNINGAR <lb/>
+                        <hi rend="smallCaps">AF</hi><lb/>
+                        ÄLDRE SVENSKA MÄSTARE.
+                     </head>
+                  </div>
+                  
                   <metamark function="divider" ana="#line"/>
-
-                  <l>ANDRA AFDELNINGEN.</l>
+                  
+                  <div>
+                     <p>ANDRA AFDELNINGEN.</p>
+                  </div>
                </div>
                <div>
-                  <l ana="#sansSerif">GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</l>
-                  <l ana="#oldStyleSerif">(<date when="1770">1770</date> &#8212; <date when="1809"
-                        >1809</date>).</l>
-                  <l ana="#oldStyleSerif">FÖRSTA SERIEN.</l>
+                  <p ana="#sansSerif">GUSTAVIANSKA TIDEHVARFVETS MÄSTARE</p><lb/>
+                  <p ana="#oldStyleSerif">(<date when="1770">1770</date> &#8212; <date when="1809"
+                        >1809</date>).</p><lb/>
+                  <p ana="#oldStyleSerif">FÖRSTA SERIEN.</p>
                </div>
                <metamark function="divider" ana="#line"/>
             </div>
@@ -426,9 +432,9 @@
 
 
          <div type="imprint" rend="center" ana="#oldStyleSerif">
-            <l><placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date></l>
-            <l rend="smallCaps expandedTracking">P.A. NORSTEDT &amp; SÖNER</l>
-            <l rend="smallCaps">KONGL. BOKTRYCKARE.</l>
+            <p><placeName>STOCKHOLM</placeName>, <date when="1870">1870.</date><lb/>
+            <hi rend="smallCaps expandedTracking">P.A. NORSTEDT &amp; SÖNER</hi><lb/>
+            <hi rend="smallCaps">KONGL. BOKTRYCKARE.</hi></p>
          </div>
 
 
@@ -436,15 +442,15 @@
 
             <metamark function="pagenumber" place="top-left"><num>12</num></metamark>
 
-            <l><name><surname rend="bold">Åkerström</surname>, <forename rend="italics"
-                     >Jonas</forename></name>, f. 1759, Dekorationsmålare, reste </l>
-            <l>ut till Italien, &#10013; i Rom 1795. Elev af Desprez</l>
-            <l>och Masreliez.</l>
-            <l>N:o 59. Meleager, vägrande att gå till striden, be-</l>
-            <l>vekes af sin makas tårar; komposition</l>
-            <l>med många figurer. Receptionsstycke</l>
-            <l>1794.</l>
-            <l>Tillhör Konst-Akademien.</l>
+            <p><name><surname rend="bold">Åkerström</surname>, <forename rend="italics"
+                     >Jonas</forename></name>, f. 1759, Dekorationsmålare, reste <lb/>
+            ut till Italien, &#10013; i Rom 1795. Elev af Desprez<lb/>
+            och Masreliez.<lb/>
+            N:o 59. Meleager, vägrande att gå till striden, be-<lb/>
+            vekes af sin makas tårar; komposition<lb/>
+            med många figurer. Receptionsstycke<lb/>
+            1794.<lb/>
+            Tillhör Konst-Akademien.</p>
 
             <metamark function="divider" ana="#line"/>
          </div>

@@ -271,21 +271,28 @@
       <body>
          
          <div type="page" facs="#SAK_1897_01_a">
-            <div type="title" rend="center" ana="#mixedType">
+            <div rend="center" ana="#mixedType">
                
-               <l>Sveriges Allm. Konstförening</l>
-               <l><placeName>Stockholm</placeName></l>
+               <p>Sveriges Allm. Konstförening<lb/>
+                  <placeName>Stockholm</placeName></p><lb/>
+               
                <metamark function="divider" ana="#line"/>
-               <l ana="decoratedInitial" rend="bold hi underline"><name>BLAIR BRUCE</name></l>
-                     <l rend="bold">UTSTÄLLNINGEN</l>
-                        <l>&#42;<date when="1897">1897</date>&#42;</l>
-               <div rend="left">
-                  <l>Målningar</l>
-                  <l>och</l>
-                  <l>Skizzer</l>
+               
+               <div type="title">
+               <head ana="#decoratedInitial" rend="bold underline"><name>BLAIR BRUCE</name><lb/>
+                     <hi rend="bold">UTSTÄLLNINGEN</hi>
+               </head>
                </div>
                
-               <div type="decoration" rend="bottom" ana="#figurativeGraphicElement">
+               <div><p>&#42;<date when="1897">1897</date>&#42;</p></div>    
+            </div>
+               <div rend="left">
+                  <p>Målningar<lb/>
+                     och<lb/>
+                  Skizzer</p>
+               </div>
+               
+               <div type="decoration" rend="bottom right" ana="#figurativeGraphicElement">
                   <figure>
                      <figDesc>
                         Decorative graphic element depicting a paint palette and paintbrushes.
@@ -294,7 +301,6 @@
                   
                </div>
             </div>
-         </div>
        
          <div type="page" facs="#SAK_1897_01_b"><gap reason="blank"/></div>
       </body>

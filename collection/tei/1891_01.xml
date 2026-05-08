@@ -408,33 +408,35 @@
 
          <div type="page" facs="#SAK_1891_01_a">
             
-            <l>
+            <p>
                <add place="top margin, right of center" type="pencil" hand="#unknown1">dublett</add>
                <note>Presumably written after the catalog was printed, in an archival context.</note>
-            </l>
+            </p>
             
             <div type="title" place="center" ana="mixedType">
-                  
-                  <l ana="#oldStyleSerif">VÄGLEDNING</l>
-                  <l ana="#oldStyleSerif" rend="smallCaps">I</l>
-                  <l ana="sansSerif">DEN GUSTAVIANSKA UTSTÄLLNINGEN</l>
+                  <head>
+                  <hi ana="#oldStyleSerif">VÄGLEDNING</hi><lb/>
+                  <hi ana="#oldStyleSerif" rend="smallCaps">I</hi><lb/>
+                  <hi ana="sansSerif">DEN GUSTAVIANSKA UTSTÄLLNINGEN</hi>
+                  </head>
                <div ana="#oldStyleSerif">
-                  <l rend="smallCaps">I</l>
-                  <l ana="#oldStyleSerif">KONSTFÖRENINGENS FÖRRA LOKAL</l>
-                  <l rend="smallCaps">I KUNGSTRÄDGÅRDEN</l>
+                  <p>
+                  <hi rend="smallCaps">I</hi><lb/>
+                     KONSTFÖRENINGENS FÖRRA LOKAL<lb/>
+                     <hi rend="smallCaps">I KUNGSTRÄDGÅRDEN</hi><lb/>
                   
                   <metamark function="divider" ana="#line"/>
                   
-                  <l rend="smallCaps">MED ETT PORTRÄTT AF KONUNG GUSTAF III</l>
+                     <hi rend="smallCaps">MED ETT PORTRÄTT AF KONUNG GUSTAF III</hi><lb/>
                   
                   <metamark function="divider" ana="#line"/>
                   
-                  <l rend="smallCaps"><placeName>STOCKHOLM</placeName><date when="1891"
-                     >1891</date></l>
+                  <hi rend="smallCaps"><placeName>STOCKHOLM</placeName><date when="1891"
+                        >1891</date></hi><lb/>
+                  </p>
+                  <metamark function="divider" ana="#line"/>
 
-                  <metamark function="divider" ana="#line"/>
-
-                  <l>Pris: <measure quantity="0.40" unit="SEK">40 öre.</measure></l>
+                  <p>Pris: <measure quantity="0.40" unit="SEK">40 öre.</measure></p>
                </div>
             </div>
          </div>

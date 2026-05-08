@@ -408,8 +408,8 @@
       <body>
 
          <div type="page" facs="#SAK_1887_01_a">
-            <l><add place="top, right of center" type="pencil" hand="#unknown1">dublett</add>
-               <note>Presumably written after the catalog was printed in an archival context.</note></l>
+            <p><add place="top, right of center" type="pencil" hand="#unknown1">dublett</add>
+               <note>Presumably written after the catalog was printed in an archival context.</note></p>
             
             <figure ana="#illustration">
                <figDesc>Illustration of a banner containing the title of the exhibtion and a portrait of the artist 
@@ -417,28 +417,29 @@
                   skull wearing a headdress adorned with peacock feathers above the portrait, and a lute
                   and palm fronts below the portrait.</figDesc>
             </figure>
-            <div type="title" place="withinIllustration">
-               <l ana="#typeUnknown"><seg rend="diagonal" n="rotated 45 degrees clockwise">
-                     <name>VERESCHAGIN</name></seg>-</l>
-               <l ana="#typeUnknown">>UTSTÄLLNINGEN</l>
-               <l ana="#typeUnknown">>I</l>
-               <l ana="#typeUnknown">><placeName>STOCKHOLM</placeName></l>
-               <l ana="#typeUnknown"><date when="1887">1887</date>.</l>
+            <div type="title" place="withinIllustration" ana="#typeUnknown">
+               <head ana="#typeUnknown"><seg rend="diagonal" n="rotated 45 degrees clockwise">
+                     <name>VERESCHAGIN</name></seg>-<lb/>
+               UTSTÄLLNINGEN<lb/>
+               I<lb/>
+               <placeName>STOCKHOLM</placeName><lb/>
+               <date when="1887">1887</date>.
+               </head>
             </div>
             <div rend="center" ana="#sansSerif">
-               <l>Pris <measure quantity="0.40" unit="SEK">40 öre.</measure></l>
+               <p>Pris <measure quantity="0.40" unit="SEK">40 öre.</measure></p>
             </div>
          </div>
 
          <div type="page" facs="#SAK_1887_01_b" rend="center">
-            <l ana="#typeUnknown">Vereschagin-Uställningen</l>
-            <l ana="#typeUnknown">i</l>
-            <l ana="#sansSerif">Sveriges Allmänna Konstförenings lokal</l>
-            <l ana="#script">hålles öppen</l>
-            <l rend="#italics" ana="#typeUnknown"> hvardagar kl. 10 f. m. – 6 e. m.</l>
-            <l rend="#italics" ana="#typeUnknown">sön- och helgedagar kl. 1 – 5 e. m.</l>
-            <l ana="#typeUnknown">Inträdesafgift <measure quantity="1.0" unit="SEK">1
-                  krona.</measure></l>
+            <p ana="#typeUnknown decoratedInitial">Vereschagin-Uställningen</p><lb/>
+            <p ana="#typeUnknown">i</p><lb/>
+            <p ana="#sansSerif">Sveriges Allmänna Konstförenings lokal</p><lb/>
+            <p ana="#script">hålles öppen</p><lb/>
+            <p ana="#typeUnknown"><hi rend="italic">hvardagar kl. 10 f. m. – 6 e. m.</hi></p><lb/>
+            <p ana="#typeUnknown"><hi rend="italic">sön- och helgedagar kl. 1 – 5 e. m.</hi></p><lb/>
+            <p ana="#typeUnknown">Inträdesafgift <measure quantity="1.0" unit="SEK">1
+                  krona.</measure></p><lb/>
 
             <metamark function="divider" ana="#line"/>
 

@@ -272,22 +272,23 @@
          
          <div type="page" facs="#SAK_1894_01_a">
             <div type="title" place="center" ana="#typeUnknown #mixedType">
-               
-               <l>katalog</l>  
+               <head>
+               Katalog<lb/>  
                <metamark function="divider" ana="#line"/>
-               <l>Konstnärsförbundets</l>  
-               <l>Åttonde Utställning</l>  
-               <l><date when="1894">1894</date></l>
+               Konstnärsförbundets<lb/>  
+               Åttonde Utställning  
+               </head>
+               <p><date when="1894">1894</date></p>
                
                <metamark function="divider" ana="#line"/>
-               <l>Pris: <measure quantity="0.15" unit="SEK">15 öre</measure></l>
+               <p>Pris: <measure quantity="0.15" unit="SEK">15 öre</measure></p>
                <metamark function="divider" ana="#line"/>
                
                
                <div type="imprint" rend="center" ana="#oldStyleSerif">
-                  <l rend="smallCaps"><placeName>STOCKHOLM</placeName>, </l>
-                     <l rend="smallCaps expandedTracking">TRYCKT I CENTRAL-TRYCKERIET</l>
-                     <l><date when="1894">1894</date></l>
+                  <p rend="smallCaps"><placeName>STOCKHOLM</placeName>, <lb/>
+                     <hi rend="smallCaps expandedTracking">TRYCKT I CENTRAL-TRYCKERIET</hi><lb/>
+                     <date when="1894">1894</date></p>
                </div>
             </div>
          </div>
