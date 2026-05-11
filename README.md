@@ -18,9 +18,11 @@ Projektet är skapat av: Carmen Gogan, Daniel, Miranda Rönngren och Zoe Bauer.
 
 I vårt projekt ingår:
 
-60 TIFF filer med tillhörande metadata
+62 TIFF filer med tillhörande metadata
 
-60 JPG filer
+62 JPG filer med tillhörande metadata
+
+62 TEI filer
 
 1 rapport på engelska 
 
@@ -29,6 +31,8 @@ I vårt projekt ingår:
 Fyra html filer som utgör projektets hemsida
 
 En Css fil
+
+1 excel fil med layout och typografiska metadata
 
  
 
