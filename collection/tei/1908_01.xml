@@ -151,219 +151,94 @@
            </segmentation>
         </editorialDecl>
              
-                   <!-- classDecl -->
-
+               <!-- classDecl -->
+         
          <classDecl>
-
+            
             <!-- material-->
             <taxonomy xml:id="materialType">
-               <category xml:id="coated">
-                  <catDesc>Paper coated on one or both sides with a mixture of materials (e.g.,
-                     binder and pigment) or a polymer (Source: Conservation and Art Materials
-                     Encyclopedia Online (CAMEO) <ref
-                        target="https://cameo.mfa.org/wiki/Coated_paper"> </ref></catDesc>
-               </category>
-               <category xml:id="uncoated">
-                  <catDesc>No coating was added during manufacturing</catDesc>
-               </category>
-               <category xml:id="thin">
-                  <catDesc>Paper with low physical thickness, typically perceived as
-                     lightweight</catDesc>
-               </category>
-               <category xml:id="thick">
-                  <catDesc> Paper with high physical thickness, typically perceived as
-                     rigid</catDesc>
-               </category>
-               <category xml:id="paperUnknown">
-                  <catDesc>Paper type not identified</catDesc>
-               </category>
+               <category xml:id="coated"><catDesc>Paper coated on one or both sides with a mixture of materials (e.g., binder and pigment) or a polymer (Source: Conservation and Art Materials Encyclopedia Online (CAMEO) <ref target="https://cameo.mfa.org/wiki/Coated_paper"></ref></catDesc></category>
+               <category xml:id="uncoated"><catDesc>No coating was added during manufacturing</catDesc></category>
+               <category xml:id="thin"><catDesc>Paper with low physical thickness, typically perceived as lightweight</catDesc></category>    
+               <category xml:id="thick"><catDesc> Paper with high physical thickness, typically perceived as rigid</catDesc></category>
+               <category xml:id="paperUnknown"><catDesc>Paper type not identified</catDesc></category>
             </taxonomy>
-
+            
             <!-- color -->
             <taxonomy xml:id="colorScheme">
-               <category xml:id="black">
-                  <catDesc>Printing using black ink only</catDesc>
-               </category>
-               <category xml:id="oneColor">
-                  <catDesc>Printing using a single colored ink other than black</catDesc>
-               </category>
-               <category xml:id="twoColor">
-                  <catDesc>Printing combining two ink colors</catDesc>
-               </category>
-               <category xml:id="multiColor">
-                  <catDesc>Printing using three or more ink colors</catDesc>
-               </category>
+               <category xml:id="black"><catDesc>Printing using black ink only</catDesc></category>
+               <category xml:id="oneColor"><catDesc>Printing using a single colored ink other than black</catDesc></category>
+               <category xml:id="twoColor"><catDesc>Printing combining two ink colors</catDesc></category>
+               <category xml:id="multiColor"><catDesc>Printing using three or more ink colors</catDesc></category>
             </taxonomy>
-
-
+            
+            
             <!-- binding -->
             <taxonomy xml:id="bindingType">
-               <category xml:id="unbound">
-                  <catDesc>Pages are folded but not bound</catDesc>
-               </category>
-               <category xml:id="stapled">
-                  <catDesc>Pages are stapled through the spine using wire staples</catDesc>
-               </category>
-               <category xml:id="glued">
-                  <catDesc>Pages are glued together along the spine</catDesc>
-               </category>
-               <category xml:id="sewn">
-                  <catDesc>Pages are sewn together through the spine</catDesc>
-               </category>
-               <category xml:id="bindingOther">
-                  <catDesc>Binding technique not identified</catDesc>
-               </category>
+               <category xml:id="unbound"><catDesc>Pages are folded but not bound</catDesc></category> 
+               <category xml:id="stapled"><catDesc>Pages are stapled through the spine using wire staples</catDesc></category>
+               <category xml:id="glued"><catDesc>Pages are glued together along the spine</catDesc></category>
+               <category xml:id="sewn"><catDesc>Pages are sewn together through the spine</catDesc></category>
+               <category xml:id="bindingOther"><catDesc>Binding technique not identified</catDesc></category>
             </taxonomy>
-
-
+            
+            
             <!--  typography  -->
             <taxonomy xml:id="typeClass">
-               <category xml:id="oldStyleSerif">
-                  <catDesc>Typeface design from the early period of printing characterized by
-                     variations in stroke and width, bracketed serifs, and diagonal strokes, e.g.
-                     Garamond and Caslon. <ref target="https://printwiki.org/Old_Style"
-                        >PrintWiki</ref></catDesc>
-               </category>
-               <category xml:id="sansSerif">
-                  <catDesc>Typeface without serifs, also called grotesk. <ref
-                        target="https://printwiki.org/Sans_Serif">PrintWiki</ref></catDesc>
-               </category>
-               <category xml:id="modernSerif">
-                  <catDesc>Early nineteenth century serif typeface with high contrast between thick
-                     and thin strokes and thin, straight serifs. Also called didone. <ref
-                        target="https://printwiki.org/Modern">PrintWiki</ref></catDesc>
-               </category>
-               <category xml:id="transitionalSerif">
-                  <catDesc>Typeface combining features of Old Style and Modern, e.g. Baskerville.
-                        <ref target="https://printwiki.org/Transitional">PrintWiki</ref></catDesc>
-               </category>
-               <category xml:id="slabSerif">
-                  <catDesc>Serif typeface with heavy, unbracheted serifs, also known as square
-                     serif. <ref target="https://printwiki.org/Square_Serif"
-                     >PrintWiki</ref></catDesc>
-               </category>
-               <category xml:id="blackLetter">
-                  <catDesc>Typeface based on medieval script with dark, angular characters
-                     comprising thick and thin lines. <ref
-                        target="https://printwiki.org/Black_Letter">PrintWiki</ref></catDesc>
-               </category>
-               <category xml:id="script">
-                  <catDesc>Typeface with connecting characters imitating cursive handwriting. <ref
-                        target="https://printwiki.org/Script">PrintWiki</ref></catDesc>
-               </category>
-               <category xml:id="glyphic">
-                  <catDesc>Typefaces which are chiselled rather than calligraphic in form.<ref
-                        target="https://luc.devroye.org/britishstandards.html">British Standards for
-                        Type Classification</ref></catDesc>
-               </category>
-               <category xml:id="mixedType">
-                  <catDesc>More than one typeface category is used.</catDesc>
-               </category>
-               <category xml:id="typeUnknown">
-                  <catDesc>Typeface not identified.</catDesc>
-               </category>
-               <category xml:id="decorative">
-				   <catDesc>Handmade or decorative typeface with non-standard design.</catDesc></category>
-               </category>
+               <category xml:id="oldStyleSerif"><catDesc>Typeface design from the early period of printing characterized by variations in stroke and width, bracketed serifs, and diagonal strokes,  e.g. Garamond and Caslon. <ref target="https://printwiki.org/Old_Style">PrintWiki</ref></catDesc></category> 
+               <category xml:id="sansSerif"><catDesc>Typeface without serifs, also called grotesk. <ref target="https://printwiki.org/Sans_Serif">PrintWiki</ref></catDesc></category>
+               <category xml:id="modernSerif"><catDesc>Early nineteenth century serif typeface with high contrast between thick and thin strokes and thin, straight serifs. Also called didone. <ref target="https://printwiki.org/Modern">PrintWiki</ref></catDesc></category>
+               <category xml:id="transitionalSerif"><catDesc>Typeface combining features of Old Style and Modern, e.g. Baskerville. <ref target="https://printwiki.org/Transitional">PrintWiki</ref></catDesc></category>
+               <category xml:id="slabSerif"><catDesc>Serif typeface with heavy, unbracheted serifs, also known as square serif. <ref target="https://printwiki.org/Square_Serif">PrintWiki</ref></catDesc></category>
+               <category xml:id="blackLetter"><catDesc>Typeface based on medieval script with dark, angular characters comprising thick and thin lines. <ref target="https://printwiki.org/Black_Letter">PrintWiki</ref></catDesc></category>
+               <category xml:id="script"><catDesc>Typeface with connecting characters imitating cursive handwriting. <ref target="https://printwiki.org/Script">PrintWiki</ref></catDesc></category>
+               <category xml:id="glyphic"><catDesc>Typefaces which are chiselled rather than calligraphic in form.<ref target="https://luc.devroye.org/britishstandards.html">British Standards for Type Classification</ref></catDesc></category>
+               <category xml:id="mixedType"><catDesc>More than one typeface category is used.</catDesc></category>
+               <category xml:id="typeUnknown"><catDesc>Typeface not identified.</catDesc></category>
+               <category xml:id="decorative"><catDesc>Handmade or decorative typeface with non-standard design characteristics.</catDesc></category>
             </taxonomy>
-
-
+            
+            
             <!--  layout  -->
             <taxonomy xml:id="layoutType">
-               <category xml:id="centered">
-                  <catDesc>The text is aligned midway between the left and right margins. <ref
-                        target="https://printwiki.org/Centering">PrintWiki</ref></catDesc>
-               </category>
-               <category xml:id="justified">
-                  <catDesc>The text aligns on both the left and the right. <ref
-                        target="https://printwiki.org/Justified">PrintWiki</ref></catDesc>
-               </category>
-               <category xml:id="leftAligned">
-                  <catDesc>The text aligns on the left margin, also known as left justified or flush
-                     left. <ref target="https://printwiki.org/Left_Justified"
-                     >PrintWiki</ref></catDesc>
-               </category>
-               <category xml:id="rightAligned">
-                  <catDesc>The text aligns on the right margin, also known as right justified or
-                     flush right. <ref target="https://printwiki.org/Right_Justified"
-                        >PrintWiki</ref></catDesc>
-               </category>
+               <category xml:id="centered"><catDesc>The text is aligned midway between the left and right margins. <ref target="https://printwiki.org/Centering">PrintWiki</ref></catDesc></category>
+               <category xml:id="justified"><catDesc>The text aligns on both the left and the right. <ref target="https://printwiki.org/Justified">PrintWiki</ref></catDesc></category>
+               <category xml:id="leftAligned"><catDesc>The text aligns on the left margin, also known as left justified or flush left. <ref target="https://printwiki.org/Left_Justified">PrintWiki</ref></catDesc></category>
+               <category xml:id="rightAligned"><catDesc>The text aligns on the right margin, also known as right justified or flush right. <ref target="https://printwiki.org/Right_Justified">PrintWiki</ref></catDesc></category>
             </taxonomy>
-
-
-            <!--  images/illustrations  -->
+            
+            
+            <!--  images  -->
             <taxonomy xml:id="pictureType">
-               <category xml:id="photography">
-                  <catDesc>Contains one or more photogarphic image (black &amp; white)</catDesc>
-               </category>
-               <category xml:id="illustration">
-                  <catDesc>Contains one or more non-photographic illustration, such as drawings and
-                     printed graphic images. </catDesc>
-               </category>
-            </taxonomy>
-
-
+               <category xml:id="photography"><catDesc>Contains one or more photogarphic image (black &amp; white)</catDesc></category>
+               <category xml:id="illustration"><catDesc>Contains one or more non-photographic illustration, such as drawings and printed graphic images. </catDesc></category>
+            </taxonomy> 
+            
+            
             <!--  graphic elements  -->
-            <taxonomy xml:id="graphicElements">
-               <category xml:id="decoratedInitial">
-                  <catDesc>A typographically emphasized initial letter at the beginning of a word or
-                     paragraph, often larger or ornamented.</catDesc>
-               </category>
-               <category xml:id="line">
-                  <catDesc>Horizontal line used to separate or structure text, and/or for decorative
-                     purpose. May be decorated in different ways.</catDesc>
-               </category>
-               <category xml:id="fleuron">
-                  <catDesc>Any ornament used to mark the beginning of a paragraph, or for some other
-                     strictly decorative purpose. <ref target="https://printwiki.org/fleuron"
-                        >PrintWiki</ref></catDesc>
-               </category>
-               <category xml:id="emblem">
-                  <catDesc>A logotype, symbol or mark representing an organization, company, group
-                     or individual.</catDesc>
-               </category>
-               <category xml:id="signature">
-                  <catDesc>A reproduced and printed handwritten signature.</catDesc>
-               </category>
-               <category xml:id="textFrame">
-                  <catDesc>A decorative or structural frame surrounding a block of text. May be
-                     decorated in different ways.</catDesc>
-               </category>
-               <category xml:id="figurativeGraphicElement">
-                  <catDesc>A graphic element depicting recognizable objects or figures.</catDesc>
-               </category>
-               <category xml:id="geometricGraphicElement">
-                  <catDesc>A graphic element composed of geometric shapes such as circles, squares,
-                     or triangles.</catDesc>
-               </category>
-               <category xml:id="otherGraphicElement">
-                  <catDesc>Graphic element not identified.</catDesc>
-               </category>
+            <taxonomy xml:id="graphicElements">                   
+               <category xml:id="decoratedInitial"><catDesc>A typographically emphasized initial letter at the beginning of a word or paragraph, often larger or ornamented.</catDesc></category>                   
+               <category xml:id="line"><catDesc>Horizontal line used to separate or structure text, and/or for decorative purpose. May be decorated in different ways.</catDesc></category>
+               <category xml:id="fleuron"><catDesc>Any ornament used to mark the beginning of a paragraph, or for some other strictly decorative purpose. <ref target="https://printwiki.org/fleuron">PrintWiki</ref></catDesc></category>
+               <category xml:id="emblem"><catDesc>A logotype, symbol or mark representing an organization, company, group or individual.</catDesc></category>
+               <category xml:id="signature"><catDesc>A reproduced and printed handwritten signature.</catDesc></category>
+               <category xml:id="textFrame"><catDesc>A decorative or structural frame surrounding a block of text. May be decorated in different ways.</catDesc></category>
+               <category xml:id="figurativeGraphicElement"><catDesc>A graphic element depicting recognizable objects or figures.</catDesc></category>
+               <category xml:id="geometricGraphicElement"><catDesc>A graphic element composed of geometric shapes such as circles, squares, or triangles.</catDesc></category>
+               <category xml:id="otherGraphicElement"><catDesc>Graphic element not identified.</catDesc></category>
             </taxonomy>
-
-
+            
+            
             <!--  cover color  -->
             <taxonomy xml:id="coverColor">
-               <category xml:id="redCover">
-                  <catDesc>Cover made of red colored paper</catDesc>
-               </category>
-               <category xml:id="tealCover">
-                  <catDesc>Cover made of teal colored paper</catDesc>
-               </category>
-               <category xml:id="whiteCover">
-                  <catDesc>Cover made of white colored paper</catDesc>
-               </category>
-               <category xml:id="beigeCover">
-                  <catDesc>Cover made of beige colored paper</catDesc>
-               </category>
-               <category xml:id="greyCover">
-                  <catDesc>Cover made of grey colored paper</catDesc>
-               </category>
-               <category xml:id="purpleCover">
-                  <catDesc>Cover made of purple colored paper</catDesc>
-               </category>
+               <category xml:id="redCover"><catDesc>Cover made of red colored paper</catDesc></category>
+               <category xml:id="tealCover"><catDesc>Cover made of teal colored paper</catDesc></category>
+               <category xml:id="whiteCover"><catDesc>Cover made of white colored paper</catDesc></category>
+               <category xml:id="beigeCover"><catDesc>Cover made of beige colored paper</catDesc></category>
+               <category xml:id="greyCover"><catDesc>Cover made of grey colored paper</catDesc></category>
+               <category xml:id="purpleCover"><catDesc>Cover made of purple colored paper</catDesc></category>
             </taxonomy>
-
+            
          </classDecl>
              
      </encodingDesc>
