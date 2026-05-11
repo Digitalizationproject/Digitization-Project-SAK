@@ -154,7 +154,7 @@
             </segmentation>
          </editorialDecl>
          
-         <!-- classDecl -->
+                 <!-- classDecl -->
          
          <classDecl>
             
@@ -198,7 +198,7 @@
                <category xml:id="glyphic"><catDesc>Typefaces which are chiselled rather than calligraphic in form.<ref target="https://luc.devroye.org/britishstandards.html">British Standards for Type Classification</ref></catDesc></category>
                <category xml:id="mixedType"><catDesc>More than one typeface category is used.</catDesc></category>
                <category xml:id="typeUnknown"><catDesc>Typeface not identified.</catDesc></category>
-               <category xml:id="decorative"><catDesc>Handmade or decorative typeface with non-standard design.</catDesc></category>
+               <category xml:id="decorative"><catDesc>Handmade or decorative typeface with non-standard design characteristics.</catDesc></category>
             </taxonomy>
             
             
@@ -211,7 +211,7 @@
             </taxonomy>
             
             
-            <!--  images/illustrations  -->
+            <!--  images  -->
             <taxonomy xml:id="pictureType">
                <category xml:id="photography"><catDesc>Contains one or more photogarphic image (black &amp; white)</catDesc></category>
                <category xml:id="illustration"><catDesc>Contains one or more non-photographic illustration, such as drawings and printed graphic images. </catDesc></category>
