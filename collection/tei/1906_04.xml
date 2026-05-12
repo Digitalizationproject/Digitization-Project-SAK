@@ -19,12 +19,12 @@
                <name>Miranda Rönngren</name>
             </respStmt>
          </titleStmt>
-         <extent>											<!-- ändra -->
-            <measure type="master" unit="MiB" quantity="1">   <!-- jag la till 1:an här bara så att koden ska valideras -->
-               Master file (TIFF): ? MiB
+         <extent>									
+            <measure type="master" unit="MiB" quantity="20">   
+               Master file (TIFF): 20 MiB
             </measure>    
-            <measure type="derivative" unit="MiB" quantity="1">
-               Derivative file (JPEG): ? MiB
+            <measure type="derivative" unit="MiB" quantity="4.6">
+               Derivative file (JPEG): 4.6 MiB
             </measure>  
          </extent>
          <publicationStmt>

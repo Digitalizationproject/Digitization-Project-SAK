@@ -23,8 +23,8 @@
             <measure type="master" unit="MiB" quantity="1">   <!-- jag la till 1:an här bara så att koden ska valideras -->
                Master file (TIFF): ? MiB
             </measure>    
-            <measure type="derivative" unit="MiB" quantity="1">
-               Derivative file (JPEG): ? MiB
+            <measure type="derivative" unit="MiB" quantity="5.2">
+               Derivative file (JPEG): 5.2 MiB
             </measure>  
          </extent>
          <publicationStmt>
