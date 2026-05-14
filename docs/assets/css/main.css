@@ -99,3 +99,79 @@ footer {
   height: 100%;
   backface-visibility: hidden;
 }
+
+
+
+
+
+
+
+
+
+
+/* Objektsida */
+
+.object-page {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  gap: 3rem;
+  align-items: start;
+  padding: 2rem;
+}
+
+.object-metadata {
+  padding: 1.5rem;
+  background: white;
+  margin-top: 3rem;
+}
+
+.object-metadata h1 {
+  text-align: left;
+  margin-top: 0;
+}
+
+.object-metadata p {
+  margin-bottom: 0.8rem;
+}
+
+/* Flipfunktion på objektsida */
+
+.object-page .flip-box {
+  width: 500px;
+  height: 700px;
+  perspective: 1000px;
+}
+
+.object-page .flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.object-page .flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.object-page .flip-box-front,
+.object-page .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.object-page .flip-box-front img,
+.object-page .flip-box-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background: white;
+}
+
+.object-page .flip-box-back {
+  transform: rotateY(180deg);
+}
+
+
