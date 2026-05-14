@@ -18,7 +18,7 @@ Projektet är skapat av: Carmen Gogan, Daniel, Miranda Rönngren och Zoe Bauer.
 
 I vårt projekt ingår:
 
-62 TIFF filer med tillhörande metadata
+en länk till Drive med våra TIFF filer med tillhörande metadata
 
 62 JPG filer med tillhörande metadata
 
