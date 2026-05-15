@@ -20,7 +20,21 @@
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="MiB" quantity="14.9">About fifteen megabytes</measure> <!-- ändra -->
+            <measure type="master" unit="MiB" quantity="20">
+			Master file front (TIFF): 20 MiB
+			</measure>
+
+			<measure type="master" unit="MiB" quantity="20">
+			Master file back (TIFF): 20 MiB
+			</measure>
+
+			<measure type="derivative" unit="MiB" quantity="2.4">
+			Derivative file front (JPEG): 2.4 MiB
+			</measure>
+
+			<measure type="derivative" unit="MiB" quantity="2.4">
+			Derivative file back (JPEG): 2.4 MiB
+			</measure>
          </extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
@@ -251,17 +265,14 @@
          <figure>
             <label>Catalog front</label>
             <figDesc> A photograph of the front of a catalog from 1919. </figDesc>        
-            <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>              <!-- ändra -->
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
+			 <graphic xml:id="SAK_1919_01_a" url="assets/img/documents/SAK_1919_01_a.jpg"/>         
          </figure>
       </surface>  
       <surface xml:id="back1919_01">         
          <figure>
             <label>Catalog back</label>
             <figDesc> A photograph of the back of a catalog from 1919. </figDesc>             
-            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>           <!-- ändra -->
-            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>    <!-- ändra -->
+			 <graphic xml:id="SAK_1919_01_b" url="assets/img/documents/SAK_1919_01_b.jpg"/>         
          </figure>
       </surface>
    </facsimile>
