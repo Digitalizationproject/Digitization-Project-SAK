@@ -104,7 +104,7 @@
                         </extent>
                      </supportDesc>
                      <layoutDesc>
-                        <layout ana="#line #centered">Cover contains text and two horizontal lines.
+                        <layout ana="#line #centered #black">Cover contains text and two horizontal lines.
                            Text is centered. No other decoration. </layout>
                      </layoutDesc>
                   </objectDesc>
