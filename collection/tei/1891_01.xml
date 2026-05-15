@@ -99,7 +99,7 @@
                            <dimensions scope="all" type="leaf">
                               <height unit="cm" quantity="18.8">18.8 cm</height>
                               <width unit="cm" quantity="12.5">12.5 cm</width>
-                              <depth unit="mm" quantity="2">2 mm></depth>
+                              <depth unit="mm" quantity="2">2 mm</depth>
                            </dimensions>
                         </extent>
                      </supportDesc>
