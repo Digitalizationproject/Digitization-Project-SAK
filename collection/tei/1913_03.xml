@@ -19,14 +19,23 @@
                <name>Miranda Rönngren</name>
             </respStmt>
          </titleStmt>
-         <extent>
-            <measure type="master" unit="MiB" quantity="0">     <!-- ändra --> 
-               Master file (TIFF): 0 MiB
-            </measure>    
-            <measure type="derivative" unit="MiB" quantity="0">
-               Derivative file (JPEG): 0 MiB
-            </measure> 
-         </extent>
+<extent>
+   <measure type="master" unit="MiB" quantity="20">
+      Master file front (TIFF): 20 MiB
+   </measure>
+
+   <measure type="master" unit="MiB" quantity="20">
+      Master file back (TIFF): 20 MiB
+   </measure>
+
+   <measure type="derivative" unit="MiB" quantity="2.5">
+      Derivative file front (JPEG): 2.5 MiB
+   </measure>
+
+   <measure type="derivative" unit="MiB" quantity="2.3">
+      Derivative file back (JPEG): 2.3 MiB
+   </measure>
+</extent>
          <publicationStmt>
             <publisher>Högskolan i Borås</publisher>
             <pubPlace>
@@ -40,7 +49,7 @@
             </pubPlace>
             <distributor>IT services, Högskolan i Borås</distributor>
             <date when="2026-05-27">27 May 2026</date>
-            <idno>1913_03</idno>                               <!-- Ändra? -->
+            <idno>1913_03</idno>                               
             <availability>
                <p>This work is in the public domain.</p>
             </availability>
@@ -256,17 +265,14 @@
          <figure>
             <label>Catalog front</label>
             <figDesc> A photograph of the front of a catalog from 1913.</figDesc>       
-            <!-- De här namn under är från Wouts exempel, jag ska ersätta med våra bilder när vi har dem i GitHub -->
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>              <!-- ändra -->
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>       <!-- ändra -->
+            <graphic xml:id="SAK_1913_03_a" url="assets/img/documents/SAK_1913_03_a.jpg"/>              
          </figure>
       </surface>  
       <surface xml:id="back1913_03">       
          <figure>
             <label>Catalog back</label>
             <figDesc> A photograph of the back of a catalog from 1913. </figDesc>               
-            <graphic xml:id="postit02_full" url="assets/img/documents/postit02.png"/>           <!-- ändra -->
-            <graphic xml:id="postit02_thumb" url="assets/img/documents/postit02_thumb.png"/>    <!-- ändra -->
+            <graphic xml:id="SAK_1913_03_b" url="assets/img/documents/SAK_1913_03_b.jpg"/>              
          </figure>
       </surface>
    </facsimile>
